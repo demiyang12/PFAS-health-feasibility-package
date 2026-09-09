@@ -1,0 +1,15 @@
+"covariate","smd_unadjusted","smd_ipw"
+"median_hh_income",0.312,0.054
+"poverty_rate",-0.144,0.058
+"pct_bachelors_plus",0.48,0.095
+"unemployment_rate",-0.007,0.28
+"pct_hispanic",0.204,0.07
+"pct_nh_black",0.062,0.035
+"pct_nh_white",-0.293,-0.108
+"pct_65_plus",-0.536,-0.02
+"pct_under_18",0.059,-0.066
+"pct_renter_occ",0.381,0.117
+"pct_mobile_home",-0.521,-0.173
+"log_pop_density",0.665,0.198
+"urban_flag",0.479,0.115
+"frac_pws_surface_water",0.871,0.467

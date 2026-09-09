@@ -1,0 +1,278 @@
+[21:48:59] ======== running 01_read_ucmr5.R ========
+[21:48:59] reading UCMR5_All.txt ...
+[21:49:01]   1,992,002 rows, 10313 PWS, 30 analytes
+[21:49:04]   PFAS analyte rows: 1,925,327 across 29 compounds
+[21:49:07] saved ucmr5_results_long (1925327 rows) -> .rds (csv skipped: large)
+[21:49:07]   UCMR5 ZIP file: 10318 PWS, 31429 PWS-ZIP pairs, 20768 distinct ZIPs
+[21:49:08] saved ucmr5_pws_zip (31429 rows) -> .rds/.csv
+[21:49:08] saved ucmr5_pfas_flags (10218 rows) -> .rds/.csv
+[21:49:08] 01_read_ucmr5.R done
+[21:49:08] ======== running 02_build_pfas_exposure.R ========
+[21:49:13] saved ucmr5_pws_analyte (298911 rows) -> .rds (csv skipped: large)
+[21:49:14] PWS exposure table: 10312 systems; 3595 (34.9%) with any PFAS detection; 698 with an MCL/HI exceedance
+[21:49:14] saved ucmr5_pws_exposure (10312 rows) -> .rds/.csv
+[21:49:14] 02_build_pfas_exposure.R done
+[21:49:14] ======== running 03_geography.R ========
+[21:49:14] reading ZCTA cartographic boundaries ...
+[21:49:15] Texas ZCTA universe: 1989 polygons (689 had parts in >1 county)
+[21:49:15] saved zcta_geo_tx (1989 rows) -> .rds/.gpkg/.csv
+        scope n_pws_zip_pairs n_matched pct_matched n_distinct_zip
+       <char>           <int>     <int>       <num>          <int>
+1:  Texas PWS            2627      2502        95.2           1436
+2: All US PWS           31429     29515        93.9          20768
+   n_distinct_zcta
+             <int>
+1:            1322
+2:           18965
+[21:49:15] saved zip_zcta_xwalk (31429 rows) -> .rds/.csv
+[21:49:15] 03_geography.R done
+[21:49:15] ======== running 04_read_sdwis.R ========
+[21:49:15] SDWIS WATER_SYSTEM (TX): 16594 systems
+[21:49:15] UCMR5 Texas PWS with SDWIS match: 1154 / 1154 (100.0%); population-served present for 1154
+[21:49:15]   system type: CWS=1136  NTNCWS=18
+[21:49:15] saved pws_tx_characteristics (1154 rows) -> .rds/.csv
+[21:49:15] 04_read_sdwis.R done
+[21:49:15] ======== running 05_read_places.R ========
+[21:49:15] PLACES rows: 89,949 | measures: BPHIGH, DIABETES, OBESITY | ZCTAs: 29983 | brfss year(s): 2023
+[21:49:15] PLACES wide: 29983 ZCTA; complete on all 3 outcomes: 29983
+[21:49:15] saved places_zcta_wide (29983 rows) -> .rds/.csv
+[21:49:15] 05_read_places.R done
+[21:49:15] ======== running 06_read_acs.R ========
+[21:49:16] ACS covariates: 33772 ZCTA; complete on core set: 30593; median HH income present: 30618
+[21:49:17] saved acs_zcta_covariates (33772 rows) -> .rds/.csv
+[21:49:17] 06_read_acs.R done
+[21:49:17] ======== running 07_assemble_zcta_dataset.R ========
+[21:49:17] Texas UCMR5 PWS: 1154 | with >=1 PFAS detection: 622 | MCL/HI exceedance: 19
+[21:49:17] PWS-ZCTA edges: 2502 | distinct ZCTA reached: 1322 | distinct PWS with a ZCTA: 1150
+[21:49:17] saved texas_zcta_pfas_only (1322 rows) -> .rds/.csv
+[21:49:17] ---- Texas ZCTA integration funnel ----
+[21:49:17]   TX ZCTA universe ................. 1989
+[21:49:17]   with PFAS exposure linked ....... 1321
+[21:49:17]   + PLACES health complete ........ 1304
+[21:49:17]   + ACS covariates complete ....... 1264
+[21:49:17]   + population screen (>=500) ...... 1223  <- primary analytic sample
+[21:49:17]   Bexar County ZCTA in primary .... 68
+[21:49:17] saved texas_zcta_analytical (1989 rows) -> .rds/.gpkg/.csv
+[21:49:17] saved bexar_zcta_analytical (70 rows) -> .rds/.gpkg/.csv
+[21:49:17] 07_assemble_zcta_dataset.R done
+[21:49:17] ======== running 08_linkage_summary.R ========
+
+===== DELIVERABLE C: TEXAS DATA-LINKAGE SUMMARY =====
+                                                             step     n
+                                                           <char> <int>
+1:                            UCMR5 public water systems in Texas  1154
+2:                           ... with at least one PFAS detection   622
+3:                  ... with an EPA MCL / Hazard-Index exceedance    19
+4:                     Distinct ZIP codes served by these systems  1436
+5:                    ... ZIP codes matched to a 2020 Census ZCTA  1322
+6:               Distinct Texas ZCTAs reached by >=1 UCMR5 system  1321
+7:                     ... also with complete CDC PLACES outcomes  1304
+8:                          ... also with complete ACS covariates  1264
+9:   ... also passing population screen (>=500)  [PRIMARY SAMPLE]  1223
+
+----- Bexar County -----
+                                                             step     n
+                                                           <char> <int>
+1:                            UCMR5 public water systems in Texas    26
+2:                           ... with at least one PFAS detection     4
+3:                  ... with an EPA MCL / Hazard-Index exceedance     0
+4:                     Distinct ZIP codes served by these systems    89
+5:                    ... ZIP codes matched to a 2020 Census ZCTA    85
+6:               Distinct Texas ZCTAs reached by >=1 UCMR5 system    69
+7:                     ... also with complete CDC PLACES outcomes    68
+8:                          ... also with complete ACS covariates    68
+9:   ... also passing population screen (>=500)  [PRIMARY SAMPLE]    68
+
+----- Additional linkage facts -----
+                                   metric  value
+                                   <char>  <num>
+1:                     PWS-ZIP pairs (TX) 2627.0
+2:     ZIP->ZCTA exact match rate (TX, %)   95.2
+3: TX ZCTAs served by exactly 1 UCMR5 PWS  758.0
+4:        TX ZCTAs served by >1 UCMR5 PWS  563.0
+5: Max UCMR5 PWS serving a single TX ZCTA   19.0
+6:                TX ZCTA universe (2020) 1989.0
+7:       Mean ZIP codes served per TX PWS    2.3
+8:            TX ZCTAs spanning >1 county  689.0
+[21:49:17] 08_linkage_summary.R done
+[21:49:17] ======== running 09_descriptives.R ========
+[21:49:17] descriptives on primary analytic sample: n = 1223
+
+--- PFAS exposure x outcome correlations (primary sample) ---
+                exposure      outcome pearson spearman partial_ses_adj
+1        pfas_any_detect  obesity_pct  -0.114   -0.128           0.013
+2  pfas_n_detected_popwt  obesity_pct  -0.177   -0.181          -0.030
+3               pfoa_ugL  obesity_pct  -0.088   -0.113          -0.043
+4               pfos_ugL  obesity_pct  -0.070   -0.176          -0.019
+5           pfas_sum_ugL  obesity_pct  -0.122   -0.134          -0.018
+6      pfas_hazard_index  obesity_pct  -0.107   -0.245          -0.020
+7       pfas_detect_freq  obesity_pct  -0.153   -0.159           0.001
+8     any_mcl_exceedance  obesity_pct   0.005    0.006          -0.009
+9        pfas_any_detect diabetes_pct  -0.168   -0.200          -0.013
+10 pfas_n_detected_popwt diabetes_pct  -0.253   -0.287          -0.062
+11              pfoa_ugL diabetes_pct  -0.135   -0.164          -0.037
+12              pfos_ugL diabetes_pct  -0.119   -0.260          -0.035
+13          pfas_sum_ugL diabetes_pct  -0.177   -0.279          -0.034
+14     pfas_hazard_index diabetes_pct  -0.169   -0.344          -0.041
+15      pfas_detect_freq diabetes_pct  -0.272   -0.312          -0.061
+16    any_mcl_exceedance diabetes_pct  -0.026   -0.025          -0.022
+17       pfas_any_detect   bphigh_pct  -0.327   -0.345          -0.020
+18 pfas_n_detected_popwt   bphigh_pct  -0.451   -0.489          -0.082
+19              pfoa_ugL   bphigh_pct  -0.179   -0.256          -0.044
+20              pfos_ugL   bphigh_pct  -0.150   -0.376          -0.052
+21          pfas_sum_ugL   bphigh_pct  -0.205   -0.388          -0.025
+22     pfas_hazard_index   bphigh_pct  -0.216   -0.465          -0.066
+23      pfas_detect_freq   bphigh_pct  -0.351   -0.435          -0.067
+24    any_mcl_exceedance   bphigh_pct  -0.041   -0.042          -0.027
+
+--- PFAS exposure & outcomes by SES-vulnerability tertile ---
+           svi_tertile   n pct_any_detect mean_pfas_sum_ugL mean_hazard_index
+Low vuln.    Low vuln. 381           79.3            0.0091             0.070
+Mid vuln.    Mid vuln. 381           76.6            0.0080             0.038
+High vuln.  High vuln. 381           77.7            0.0092             0.043
+           pct_mcl_exceed mean_obesity mean_diabetes mean_bphigh
+Low vuln.             2.4         36.4          13.4        34.8
+Mid vuln.             1.8         36.5          13.5        35.9
+High vuln.            2.1         36.7          13.8        35.4
+`geom_smooth()` using formula = 'y ~ x'
+[21:49:18] 09_descriptives.R done
+[21:49:18] ======== running 10_maps.R ========
+[21:49:20] 10_maps.R done -- 13 PNG files in figures/
+[21:49:20] ======== running 11_spatial_autocorr.R ========
+[21:49:20] spatial weights on n = 1223 ZCTA polygons
+[21:49:20]   spatial weights: k=6 NN (primary); queen contiguity (sensitivity)
+
+===== GLOBAL MORAN'S I (Texas primary sample) =====
+                     label morans_I_knn6 z_knn6    p_knn6 morans_I_queen
+1                  Obesity        0.5836 39.490  0.00e+00         0.6311
+2                 Diabetes        0.5472 37.040 1.21e-300         0.6010
+3             Hypertension        0.5644 38.200 1.25e-319         0.6143
+4        PFAS Hazard Index        0.6885 47.300  0.00e+00         0.8107
+5                 Sum PFAS        0.6212 42.330  0.00e+00         0.7021
+6          N PFAS detected        0.7447 50.360  0.00e+00         0.7895
+7      PFAS detection freq        0.8101 54.810  0.00e+00         0.8418
+8  SES-vulnerability index        0.1446  9.832  4.11e-23         0.1409
+9         Median HH income        0.4830 32.740 1.90e-235         0.5272
+10              % Hispanic        0.7291 49.320  0.00e+00         0.7581
+
+OLS(obesity) residual Moran's I = 0.493  (p = 1.82e-252)
+
+===== LISA CLUSTER COUNTS =====
+          variable         cluster Freq
+ PFAS Hazard Index       High-High  105
+ PFAS Hazard Index         Low-Low    0
+ PFAS Hazard Index        High-Low    0
+ PFAS Hazard Index        Low-High   15
+ PFAS Hazard Index Not significant 1103
+           Obesity       High-High  165
+           Obesity         Low-Low  191
+           Obesity        High-Low    9
+           Obesity        Low-High    6
+           Obesity Not significant  852
+          Diabetes       High-High  160
+          Diabetes         Low-Low  204
+          Diabetes        High-Low    4
+          Diabetes        Low-High   16
+          Diabetes Not significant  839
+      Hypertension       High-High  201
+      Hypertension         Low-Low  218
+      Hypertension        High-Low    5
+      Hypertension        Low-High   14
+      Hypertension Not significant  785
+ SES vulnerability       High-High   81
+ SES vulnerability         Low-Low   45
+ SES vulnerability        High-Low   12
+ SES vulnerability        Low-High   28
+ SES vulnerability Not significant 1057
+PFAS hot-spot & Obesity hot-spot overlap: 3 ZCTA
+PFAS hot-spot & Diabetes hot-spot overlap: 0 ZCTA
+PFAS hot-spot & Hypertension hot-spot overlap: 0 ZCTA
+Triple-burden ZCTA (PFAS + >=1 disease + SES vulnerability, all High-High): 0
+[21:49:21] saved texas_zcta_lisa (1223 rows) -> .rds/.gpkg/.csv
+[21:49:21] 11_spatial_autocorr.R done
+[21:49:21] ======== running 12_models.R ========
+[21:49:21] modelling sample: n = 1223
+
+===== BASELINE OLS: PFAS coefficient by outcome x exposure def =====
+        outcome              exposure     beta  se_hc1 std_beta      p_value
+1   obesity_pct       pfas_any_detect  0.13830 0.15640  0.01228 0.3766000000
+2   obesity_pct           pfas_hi_log -0.61610 0.41790 -0.01772 0.1404000000
+3   obesity_pct          pfas_sum_log -5.08200 4.64400 -0.01508 0.2738000000
+4   obesity_pct pfas_n_detected_popwt -0.05256 0.03079 -0.02804 0.0878200000
+5  diabetes_pct       pfas_any_detect -0.12040 0.10860 -0.01383 0.2675000000
+6  diabetes_pct           pfas_hi_log -1.13300 0.28240 -0.04210 0.0000605700
+7  diabetes_pct          pfas_sum_log -7.55500 3.70400 -0.02898 0.0414100000
+8  diabetes_pct pfas_n_detected_popwt -0.08121 0.02086 -0.05601 0.0000987100
+9    bphigh_pct       pfas_any_detect -0.29630 0.17650 -0.02173 0.0932000000
+10   bphigh_pct           pfas_hi_log -2.89200 0.54620 -0.06868 0.0000001194
+11   bphigh_pct          pfas_sum_log -7.39700 5.46200 -0.01813 0.1756000000
+12   bphigh_pct pfas_n_detected_popwt -0.16750 0.03316 -0.07380 0.0000004409
+   partial_r2 max_vif
+1   0.0001192   5.588
+2   0.0002974   5.587
+3   0.0002043   5.598
+4   0.0005119   5.595
+5   0.0001511   5.588
+6   0.0016790   5.587
+7   0.0007543   5.598
+8   0.0020420   5.595
+9   0.0003733   5.588
+10  0.0044680   5.587
+11  0.0002952   5.598
+12  0.0035450   5.595
+
+===== SPATIAL REGRESSION (exposure = log(1+Hazard Index)) =====
+                  outcome ols_beta_pfas ols_resid_moranI lm_err_p lm_lag_p
+pfas_hi_log   obesity_pct       -0.6161            0.495        0        0
+pfas_hi_log1 diabetes_pct       -1.1330            0.160        0        0
+pfas_hi_log2   bphigh_pct       -2.8920            0.143        0        0
+             sem_beta_pfas sem_lambda sar_beta_pfas sar_rho
+pfas_hi_log         0.5868      0.789        0.2999   0.413
+pfas_hi_log1       -0.7876      0.473       -0.5546   0.244
+pfas_hi_log2       -2.1550      0.431       -1.7710   0.261
+             sar_total_impact_pfas aic_ols aic_sem aic_sar
+pfas_hi_log                 0.5113 5408.52 4742.97 5085.55
+pfas_hi_log1               -0.7336 4512.78 4412.98 4411.97
+pfas_hi_log2               -2.3960 5642.96 5563.08 5545.53
+
+===== PROPENSITY-SCORE FEASIBILITY =====
+                                                        metric       value
+                                   N treated (top-quartile HI)         306
+                                                     N control         917
+                                      N covariates in PS model          14
+                                              PS range treated 0.045-0.719
+                                              PS range control 0.002-0.736
+ Common-support overlap coefficient (share in shared PS range)       0.814
+                                          Max |SMD| unadjusted       0.871
+                                           Max |SMD| after IPW       0.467
+                         Mean |SMD| after 1:1 caliper matching        0.04
+                                 N matched pairs (caliper 0.2)         300
+          ATT on obesity after matching (pp; descriptive only)      -0.599
+[21:49:35] saved texas_zcta_gwr (1223 rows) -> .rds/.gpkg/.csv
+
+===== GWR FEASIBILITY =====
+                                      metric                      value
+                              N observations                       1223
+      Median nearest-neighbour distance (km)                        8.3
+          Adaptive bandwidth (fraction of N)                     0.0118
+                                    GWR AICc                     4239.8
+                                     OLS AIC                    5408.52
+               Global (OLS) PFAS coefficient                     -0.616
+           GWR PFAS coef: min / median / max -176.070 / 0.575 / 251.037
+                           GWR PFAS coef IQR                       7.17
+ Share of ZCTA with positive local PFAS coef                       0.57
+[21:49:35] 12_models.R done
+[21:49:35] ======== running 13_build_report.R ========
+[21:49:35] 13_build_report.R done -- docs/feasibility_report.html (7.5 MB)
+Warning messages:
+1: In spdep::poly2nb(sf_obj, queen = TRUE) :
+  some observations have no neighbours;
+if this seems unexpected, try increasing the snap argument.
+2: In spdep::poly2nb(sf_obj, queen = TRUE) :
+  neighbour object has 28 sub-graphs;
+if this sub-graph count seems unexpected, try increasing the snap argument.
+3: In spdep::knn2nb(spdep::knearneigh(ctr, k = 1)) :
+  neighbour object has 295 sub-graphs
+4: In knn2nb(knearneigh(sf::st_centroid(sf::st_geometry(d)), 1)) :
+  neighbour object has 295 sub-graphs
+[21:49:35] ALL DONE in 0.6 min.  See outputs/ , figures/ , docs/

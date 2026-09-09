@@ -1,0 +1,10 @@
+step,n,scope
+UCMR5 public water systems in Texas,1154,Texas
+  ... with at least one PFAS detection,622,Texas
+  ... with an EPA MCL / Hazard-Index exceedance,19,Texas
+Distinct ZIP codes served by these systems,1436,Texas
+  ... ZIP codes matched to a 2020 Census ZCTA,1322,Texas
+Distinct Texas ZCTAs reached by >=1 UCMR5 system,1321,Texas
+  ... also with complete CDC PLACES outcomes,1304,Texas
+  ... also with complete ACS covariates,1264,Texas
+  ... also passing population screen (>=500)  [PRIMARY SAMPLE],1223,Texas

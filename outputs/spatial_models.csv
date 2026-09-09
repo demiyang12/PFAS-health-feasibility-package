@@ -1,0 +1,4 @@
+"outcome","ols_beta_pfas","ols_resid_moranI","lm_err_p","lm_lag_p","sem_beta_pfas","sem_lambda","sar_beta_pfas","sar_rho","sar_total_impact_pfas","aic_ols","aic_sem","aic_sar"
+"obesity_pct",-0.6161,0.495,0,0,0.5868,0.789,0.2999,0.413,0.5113,5408.52,4742.97,5085.55
+"diabetes_pct",-1.133,0.16,0,0,-0.7876,0.473,-0.5546,0.244,-0.7336,4512.78,4412.98,4411.97
+"bphigh_pct",-2.892,0.143,0,0,-2.155,0.431,-1.771,0.261,-2.396,5642.96,5563.08,5545.53

@@ -1,0 +1,9 @@
+metric,value
+PWS-ZIP pairs (TX),2627
+"ZIP->ZCTA exact match rate (TX, %)",95.2
+TX ZCTAs served by exactly 1 UCMR5 PWS,758
+TX ZCTAs served by >1 UCMR5 PWS,563
+Max UCMR5 PWS serving a single TX ZCTA,19
+TX ZCTA universe (2020),1989
+Mean ZIP codes served per TX PWS,2.3
+TX ZCTAs spanning >1 county,689

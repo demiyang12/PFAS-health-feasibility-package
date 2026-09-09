@@ -1,0 +1,10 @@
+step,n,scope
+UCMR5 public water systems in Texas,26,Bexar County / San Antonio
+  ... with at least one PFAS detection,4,Bexar County / San Antonio
+  ... with an EPA MCL / Hazard-Index exceedance,0,Bexar County / San Antonio
+Distinct ZIP codes served by these systems,89,Bexar County / San Antonio
+  ... ZIP codes matched to a 2020 Census ZCTA,85,Bexar County / San Antonio
+Distinct Texas ZCTAs reached by >=1 UCMR5 system,69,Bexar County / San Antonio
+  ... also with complete CDC PLACES outcomes,68,Bexar County / San Antonio
+  ... also with complete ACS covariates,68,Bexar County / San Antonio
+  ... also passing population screen (>=500)  [PRIMARY SAMPLE],68,Bexar County / San Antonio

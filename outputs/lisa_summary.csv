@@ -1,0 +1,26 @@
+"variable","cluster","Freq"
+"PFAS Hazard Index","High-High",105
+"PFAS Hazard Index","Low-Low",0
+"PFAS Hazard Index","High-Low",0
+"PFAS Hazard Index","Low-High",15
+"PFAS Hazard Index","Not significant",1103
+"Obesity","High-High",165
+"Obesity","Low-Low",191
+"Obesity","High-Low",9
+"Obesity","Low-High",6
+"Obesity","Not significant",852
+"Diabetes","High-High",160
+"Diabetes","Low-Low",204
+"Diabetes","High-Low",4
+"Diabetes","Low-High",16
+"Diabetes","Not significant",839
+"Hypertension","High-High",201
+"Hypertension","Low-Low",218
+"Hypertension","High-Low",5
+"Hypertension","Low-High",14
+"Hypertension","Not significant",785
+"SES vulnerability","High-High",81
+"SES vulnerability","Low-Low",45
+"SES vulnerability","High-Low",12
+"SES vulnerability","Low-High",28
+"SES vulnerability","Not significant",1057

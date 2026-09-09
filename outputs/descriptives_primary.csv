@@ -1,0 +1,31 @@
+"variable","label","n","mean","sd","min","p25","median","p75","max","pct_missing"
+"obesity_pct","Obesity prevalence (%)",1223,36.555,4.665,22.6,33.7,36.5,39.4,51.6,0
+"diabetes_pct","Diabetes prevalence (%)",1223,13.649,3.609,2,11.1,13.6,15.8,30.4,0
+"bphigh_pct","High blood pressure prevalence (%)",1223,35.314,5.649,12.4,31.6,35.4,39.3,51.3,0
+"pfas_any_detect","Any PFAS detected (0/1)",1223,0.78,0.414,0,1,1,1,1,0
+"pfas_n_detected_popwt","N PFAS compounds detected (pop-wt)",1223,2.884,2.489,0,0.498,3,4.015,9,0
+"pfoa_ugL","PFOA (ug/L)",1223,0,0.001,0,0,0,0,0.005,0
+"pfos_ugL","PFOS (ug/L)",1223,0,0.001,0,0,0,0,0.017,0
+"pfhxs_ugL","PFHxS (ug/L)",1223,0.001,0.002,0,0,0,0,0.019,0
+"pfna_ugL","PFNA (ug/L)",1223,0,0,0,0,0,0,0.002,0
+"pfas_sum_ugL","Sum PFAS (ug/L, ND=0)",1223,0.009,0.014,0,0,0.003,0.012,0.146,0
+"pfas_hazard_index","EPA Hazard Index",1223,0.065,0.191,0,0,0,0.013,1.882,0
+"pfas_detect_freq","PFAS detection frequency",1223,0.043,0.054,0,0.002,0.017,0.063,0.267,0
+"any_mcl_exceedance","MCL/HI exceedance (0/1)",1223,0.029,0.167,0,0,0,0,1,0
+"median_hh_income","Median household income ($)",1223,76277.92,30150.568,13984,56033,69986,89106.5,250001,0
+"poverty_rate","Poverty rate (%)",1223,14.456,8.741,0,8.004,12.894,18.725,68.961,0
+"pct_bachelors_plus","Bachelor's degree or higher (%)",1223,27.986,17.346,0,15.252,22.869,36.753,88.069,0
+"pct_less_than_hs","Less than high school (%)",1223,15.063,10.519,0,7.294,12.74,20.907,73.146,0
+"unemployment_rate","Unemployment rate (%)",1223,5.041,3.196,0,3.233,4.565,6.433,59.111,0
+"pct_hispanic","Hispanic (%)",1223,34.953,25.019,0,15.697,27.83,49.276,100,0
+"pct_nh_black","Non-Hispanic Black (%)",1223,10.408,12.148,0,2.004,6.084,14.74,77.288,0
+"pct_nh_white","Non-Hispanic White (%)",1223,47.956,25.796,0,26.514,50.688,69.385,100,0
+"pct_minority","Minority (%)",1223,52.044,25.796,0,30.615,49.312,73.486,100,0
+"pct_under_18","Under 18 (%)",1223,24.168,5.977,0.051,21.018,24.559,27.888,50.938,0
+"pct_65_plus","65 and older (%)",1223,15.494,6.403,0,11.183,14.436,18.79,56.332,0
+"pct_renter_occ","Renter-occupied (%)",1223,33.154,18.94,0,19.677,29.08,43.057,100,0
+"pct_mobile_home","Mobile homes (%)",1223,11.006,11.874,0,1.163,7.004,17.653,65.993,0
+"median_home_value","Median home value ($)",1198,253708.347,164796.584,37900,148400,213350,306525,1518600,2
+"median_gross_rent","Median gross rent ($)",1181,1257.428,409.404,369,961,1176,1478,3501,3.4
+"pop_density_km2","Population density (/km2)",1223,625.077,842.519,0.515,21.791,167.491,1122.867,6751.666,0
+"svi_index","SES-vulnerability index (z)",1143,-0.024,0.653,-1.805,-0.484,-0.1,0.336,4.188,6.5

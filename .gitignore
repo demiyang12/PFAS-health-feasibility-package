@@ -1,0 +1,33 @@
+# =====================================================================
+# Data is NOT stored in git.
+#   data/raw/       - large public downloads (~605 MB). Rebuild with
+#                     `bash scripts/download_raw.sh`; verify byte-for-byte
+#                     against data/raw/CHECKSUMS.sha256.
+#   data/processed/ - regenerated in ~40 s by `Rscript scripts/run_all.R`.
+# Tracked instead: scripts, outputs/ (small result tables), figures/,
+# docs/ (inventory, dictionary, memo, HTML report), and the manifests
+# below so the pipeline is fully reproducible from public sources.
+# =====================================================================
+
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+!data/raw/CHECKSUMS.sha256
+
+data/processed/*
+!data/processed/.gitkeep
+
+# OS / editor / R cruft
+.DS_Store
+**/.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Renviron
+*~
+*.swp
+
+# never commit secrets
+.env
+census_api_key*

@@ -1,0 +1,4 @@
+"svi_tertile","n","pct_any_detect","mean_pfas_sum_ugL","mean_hazard_index","pct_mcl_exceed","mean_obesity","mean_diabetes","mean_bphigh"
+"Low vuln.",381,79.3,0.0091,0.07,2.4,36.4,13.4,34.8
+"Mid vuln.",381,76.6,0.008,0.038,1.8,36.5,13.5,35.9
+"High vuln.",381,77.7,0.0092,0.043,2.1,36.7,13.8,35.4
