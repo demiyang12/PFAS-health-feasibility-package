@@ -14,6 +14,32 @@ does that relationship vary across communities and geography once socioeconomic 
 
 ---
 
+## Live report
+
+The full Phase 1 report — every map, table, the proposed modelling framework and the
+complete methodological memo, in one page — is published via GitHub Pages at:
+
+**https://demiyang12.github.io/PFAS-health-feasibility-package/**
+
+If that 404s, Pages hasn't been switched on for this repo yet — it's a one-time, one-screen
+setting (nothing to build or push beyond what's already here):
+
+1. Push this repo to GitHub if you haven't (`git push -u origin main`).
+2. On GitHub: **Settings → Pages → Source: Deploy from a branch → Branch: `main`, folder:
+   `/docs` → Save.**
+3. GitHub serves `docs/index.html` at the URL above. It's an exact copy of
+   `docs/feasibility_report.html`, written by `scripts/13_build_report.R` on every rebuild —
+   nothing extra to maintain. `docs/.nojekyll` is included so GitHub serves the folder as
+   plain static files instead of running it through Jekyll.
+
+Every link inside the report (data inventory, tables, figures, the memo, this README) points
+at this GitHub repository, so they resolve the same way whether the page is opened as a local
+file, emailed as an attachment, or viewed live at the Pages URL. The two exceptions are
+`data/raw/` and `data/processed/` — not stored in git (see *Data availability* below) — which
+the report shows as plain paths instead of dead links.
+
+---
+
 ## How to reproduce
 
 ```bash
@@ -101,11 +127,15 @@ PFAS-health-feasibility package/
     ├── methodological_note_spatial_bayesian.md  proposed Phase 2/3 modelling
     │                            framework (spatial Bayesian confounding-sensitivity
     │                            analysis); summarised in report §H
-    └── feasibility_report.html  SELF-CONTAINED complete Phase-1 record: what data exist
-                                 and how they were obtained, the 14-script pipeline, every
-                                 Phase-1 decision, deliverables A-F, all figures embedded,
-                                 the full memo folded in, links to every file in the
-                                 package, and a phase log for later phases
+    ├── feasibility_report.html  SELF-CONTAINED complete Phase-1 record: what data exist
+    │                            and how they were obtained, the 14-script pipeline, every
+    │                            Phase-1 decision, deliverables A-F, all figures embedded,
+    │                            the full memo folded in, links to every file in the
+    │                            package, and a phase log for later phases
+    ├── index.html               identical copy of feasibility_report.html -- the GitHub
+    │                            Pages entry point (see "Live report" above)
+    ├── phase1_summary_presentation.pptx  15-slide Phase-1 summary deck
+    └── .nojekyll                tells GitHub Pages to skip Jekyll processing
 ```
 
 ---

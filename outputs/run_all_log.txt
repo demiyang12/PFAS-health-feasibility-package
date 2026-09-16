@@ -1,21 +1,21 @@
-[21:48:59] ======== running 01_read_ucmr5.R ========
-[21:48:59] reading UCMR5_All.txt ...
-[21:49:01]   1,992,002 rows, 10313 PWS, 30 analytes
-[21:49:04]   PFAS analyte rows: 1,925,327 across 29 compounds
-[21:49:07] saved ucmr5_results_long (1925327 rows) -> .rds (csv skipped: large)
-[21:49:07]   UCMR5 ZIP file: 10318 PWS, 31429 PWS-ZIP pairs, 20768 distinct ZIPs
-[21:49:08] saved ucmr5_pws_zip (31429 rows) -> .rds/.csv
-[21:49:08] saved ucmr5_pfas_flags (10218 rows) -> .rds/.csv
-[21:49:08] 01_read_ucmr5.R done
-[21:49:08] ======== running 02_build_pfas_exposure.R ========
-[21:49:13] saved ucmr5_pws_analyte (298911 rows) -> .rds (csv skipped: large)
-[21:49:14] PWS exposure table: 10312 systems; 3595 (34.9%) with any PFAS detection; 698 with an MCL/HI exceedance
-[21:49:14] saved ucmr5_pws_exposure (10312 rows) -> .rds/.csv
-[21:49:14] 02_build_pfas_exposure.R done
-[21:49:14] ======== running 03_geography.R ========
-[21:49:14] reading ZCTA cartographic boundaries ...
-[21:49:15] Texas ZCTA universe: 1989 polygons (689 had parts in >1 county)
-[21:49:15] saved zcta_geo_tx (1989 rows) -> .rds/.gpkg/.csv
+[15:52:29] ======== running 01_read_ucmr5.R ========
+[15:52:29] reading UCMR5_All.txt ...
+[15:52:32]   1,992,002 rows, 10313 PWS, 30 analytes
+[15:52:39]   PFAS analyte rows: 1,925,327 across 29 compounds
+[15:52:46] saved ucmr5_results_long (1925327 rows) -> .rds (csv skipped: large)
+[15:52:47]   UCMR5 ZIP file: 10318 PWS, 31429 PWS-ZIP pairs, 20768 distinct ZIPs
+[15:52:47] saved ucmr5_pws_zip (31429 rows) -> .rds/.csv
+[15:52:48] saved ucmr5_pfas_flags (10218 rows) -> .rds/.csv
+[15:52:48] 01_read_ucmr5.R done
+[15:52:48] ======== running 02_build_pfas_exposure.R ========
+[15:53:00] saved ucmr5_pws_analyte (298911 rows) -> .rds (csv skipped: large)
+[15:53:01] PWS exposure table: 10312 systems; 3595 (34.9%) with any PFAS detection; 698 with an MCL/HI exceedance
+[15:53:01] saved ucmr5_pws_exposure (10312 rows) -> .rds/.csv
+[15:53:01] 02_build_pfas_exposure.R done
+[15:53:01] ======== running 03_geography.R ========
+[15:53:01] reading ZCTA cartographic boundaries ...
+[15:53:03] Texas ZCTA universe: 1989 polygons (689 had parts in >1 county)
+[15:53:04] saved zcta_geo_tx (1989 rows) -> .rds/.gpkg/.csv
         scope n_pws_zip_pairs n_matched pct_matched n_distinct_zip
        <char>           <int>     <int>       <num>          <int>
 1:  Texas PWS            2627      2502        95.2           1436
@@ -24,38 +24,38 @@
              <int>
 1:            1322
 2:           18965
-[21:49:15] saved zip_zcta_xwalk (31429 rows) -> .rds/.csv
-[21:49:15] 03_geography.R done
-[21:49:15] ======== running 04_read_sdwis.R ========
-[21:49:15] SDWIS WATER_SYSTEM (TX): 16594 systems
-[21:49:15] UCMR5 Texas PWS with SDWIS match: 1154 / 1154 (100.0%); population-served present for 1154
-[21:49:15]   system type: CWS=1136  NTNCWS=18
-[21:49:15] saved pws_tx_characteristics (1154 rows) -> .rds/.csv
-[21:49:15] 04_read_sdwis.R done
-[21:49:15] ======== running 05_read_places.R ========
-[21:49:15] PLACES rows: 89,949 | measures: BPHIGH, DIABETES, OBESITY | ZCTAs: 29983 | brfss year(s): 2023
-[21:49:15] PLACES wide: 29983 ZCTA; complete on all 3 outcomes: 29983
-[21:49:15] saved places_zcta_wide (29983 rows) -> .rds/.csv
-[21:49:15] 05_read_places.R done
-[21:49:15] ======== running 06_read_acs.R ========
-[21:49:16] ACS covariates: 33772 ZCTA; complete on core set: 30593; median HH income present: 30618
-[21:49:17] saved acs_zcta_covariates (33772 rows) -> .rds/.csv
-[21:49:17] 06_read_acs.R done
-[21:49:17] ======== running 07_assemble_zcta_dataset.R ========
-[21:49:17] Texas UCMR5 PWS: 1154 | with >=1 PFAS detection: 622 | MCL/HI exceedance: 19
-[21:49:17] PWS-ZCTA edges: 2502 | distinct ZCTA reached: 1322 | distinct PWS with a ZCTA: 1150
-[21:49:17] saved texas_zcta_pfas_only (1322 rows) -> .rds/.csv
-[21:49:17] ---- Texas ZCTA integration funnel ----
-[21:49:17]   TX ZCTA universe ................. 1989
-[21:49:17]   with PFAS exposure linked ....... 1321
-[21:49:17]   + PLACES health complete ........ 1304
-[21:49:17]   + ACS covariates complete ....... 1264
-[21:49:17]   + population screen (>=500) ...... 1223  <- primary analytic sample
-[21:49:17]   Bexar County ZCTA in primary .... 68
-[21:49:17] saved texas_zcta_analytical (1989 rows) -> .rds/.gpkg/.csv
-[21:49:17] saved bexar_zcta_analytical (70 rows) -> .rds/.gpkg/.csv
-[21:49:17] 07_assemble_zcta_dataset.R done
-[21:49:17] ======== running 08_linkage_summary.R ========
+[15:53:04] saved zip_zcta_xwalk (31429 rows) -> .rds/.csv
+[15:53:04] 03_geography.R done
+[15:53:04] ======== running 04_read_sdwis.R ========
+[15:53:04] SDWIS WATER_SYSTEM (TX): 16594 systems
+[15:53:05] UCMR5 Texas PWS with SDWIS match: 1154 / 1154 (100.0%); population-served present for 1154
+[15:53:05]   system type: CWS=1136  NTNCWS=18
+[15:53:05] saved pws_tx_characteristics (1154 rows) -> .rds/.csv
+[15:53:05] 04_read_sdwis.R done
+[15:53:05] ======== running 05_read_places.R ========
+[15:53:05] PLACES rows: 89,949 | measures: BPHIGH, DIABETES, OBESITY | ZCTAs: 29983 | brfss year(s): 2023
+[15:53:05] PLACES wide: 29983 ZCTA; complete on all 3 outcomes: 29983
+[15:53:06] saved places_zcta_wide (29983 rows) -> .rds/.csv
+[15:53:06] 05_read_places.R done
+[15:53:06] ======== running 06_read_acs.R ========
+[15:53:08] ACS covariates: 33772 ZCTA; complete on core set: 30593; median HH income present: 30618
+[15:53:09] saved acs_zcta_covariates (33772 rows) -> .rds/.csv
+[15:53:09] 06_read_acs.R done
+[15:53:09] ======== running 07_assemble_zcta_dataset.R ========
+[15:53:09] Texas UCMR5 PWS: 1154 | with >=1 PFAS detection: 622 | MCL/HI exceedance: 19
+[15:53:09] PWS-ZCTA edges: 2502 | distinct ZCTA reached: 1322 | distinct PWS with a ZCTA: 1150
+[15:53:09] saved texas_zcta_pfas_only (1322 rows) -> .rds/.csv
+[15:53:09] ---- Texas ZCTA integration funnel ----
+[15:53:09]   TX ZCTA universe ................. 1989
+[15:53:09]   with PFAS exposure linked ....... 1321
+[15:53:09]   + PLACES health complete ........ 1304
+[15:53:09]   + ACS covariates complete ....... 1264
+[15:53:09]   + population screen (>=500) ...... 1223  <- primary analytic sample
+[15:53:09]   Bexar County ZCTA in primary .... 68
+[15:53:10] saved texas_zcta_analytical (1989 rows) -> .rds/.gpkg/.csv
+[15:53:10] saved bexar_zcta_analytical (70 rows) -> .rds/.gpkg/.csv
+[15:53:10] 07_assemble_zcta_dataset.R done
+[15:53:10] ======== running 08_linkage_summary.R ========
 
 ===== DELIVERABLE C: TEXAS DATA-LINKAGE SUMMARY =====
                                                              step     n
@@ -94,9 +94,9 @@
 6:                TX ZCTA universe (2020) 1989.0
 7:       Mean ZIP codes served per TX PWS    2.3
 8:            TX ZCTAs spanning >1 county  689.0
-[21:49:17] 08_linkage_summary.R done
-[21:49:17] ======== running 09_descriptives.R ========
-[21:49:17] descriptives on primary analytic sample: n = 1223
+[15:53:10] 08_linkage_summary.R done
+[15:53:10] ======== running 09_descriptives.R ========
+[15:53:10] descriptives on primary analytic sample: n = 1223
 
 --- PFAS exposure x outcome correlations (primary sample) ---
                 exposure      outcome pearson spearman partial_ses_adj
@@ -135,12 +135,12 @@ Low vuln.             2.4         36.4          13.4        34.8
 Mid vuln.             1.8         36.5          13.5        35.9
 High vuln.            2.1         36.7          13.8        35.4
 `geom_smooth()` using formula = 'y ~ x'
-[21:49:18] 09_descriptives.R done
-[21:49:18] ======== running 10_maps.R ========
-[21:49:20] 10_maps.R done -- 13 PNG files in figures/
-[21:49:20] ======== running 11_spatial_autocorr.R ========
-[21:49:20] spatial weights on n = 1223 ZCTA polygons
-[21:49:20]   spatial weights: k=6 NN (primary); queen contiguity (sensitivity)
+[15:53:11] 09_descriptives.R done
+[15:53:11] ======== running 10_maps.R ========
+[15:53:16] 10_maps.R done -- 13 PNG files in figures/
+[15:53:16] ======== running 11_spatial_autocorr.R ========
+[15:53:16] spatial weights on n = 1223 ZCTA polygons
+[15:53:17]   spatial weights: k=6 NN (primary); queen contiguity (sensitivity)
 
 ===== GLOBAL MORAN'S I (Texas primary sample) =====
                      label morans_I_knn6 z_knn6    p_knn6 morans_I_queen
@@ -188,10 +188,10 @@ PFAS hot-spot & Obesity hot-spot overlap: 3 ZCTA
 PFAS hot-spot & Diabetes hot-spot overlap: 0 ZCTA
 PFAS hot-spot & Hypertension hot-spot overlap: 0 ZCTA
 Triple-burden ZCTA (PFAS + >=1 disease + SES vulnerability, all High-High): 0
-[21:49:21] saved texas_zcta_lisa (1223 rows) -> .rds/.gpkg/.csv
-[21:49:21] 11_spatial_autocorr.R done
-[21:49:21] ======== running 12_models.R ========
-[21:49:21] modelling sample: n = 1223
+[15:53:21] saved texas_zcta_lisa (1223 rows) -> .rds/.gpkg/.csv
+[15:53:21] 11_spatial_autocorr.R done
+[15:53:21] ======== running 12_models.R ========
+[15:53:21] modelling sample: n = 1223
 
 ===== BASELINE OLS: PFAS coefficient by outcome x exposure def =====
         outcome              exposure     beta  se_hc1 std_beta      p_value
@@ -248,7 +248,7 @@ pfas_hi_log2               -2.3960 5642.96 5563.08 5545.53
                          Mean |SMD| after 1:1 caliper matching        0.04
                                  N matched pairs (caliper 0.2)         300
           ATT on obesity after matching (pp; descriptive only)      -0.599
-[21:49:35] saved texas_zcta_gwr (1223 rows) -> .rds/.gpkg/.csv
+[15:53:52] saved texas_zcta_gwr (1223 rows) -> .rds/.gpkg/.csv
 
 ===== GWR FEASIBILITY =====
                                       metric                      value
@@ -261,9 +261,9 @@ pfas_hi_log2               -2.3960 5642.96 5563.08 5545.53
            GWR PFAS coef: min / median / max -176.070 / 0.575 / 251.037
                            GWR PFAS coef IQR                       7.17
  Share of ZCTA with positive local PFAS coef                       0.57
-[21:49:35] 12_models.R done
-[21:49:35] ======== running 13_build_report.R ========
-[21:49:35] 13_build_report.R done -- docs/feasibility_report.html (7.5 MB)
+[15:53:52] 12_models.R done
+[15:53:52] ======== running 13_build_report.R ========
+[15:53:52] 13_build_report.R done -- docs/feasibility_report.html + docs/index.html (7.5 MB each)
 Warning messages:
 1: In spdep::poly2nb(sf_obj, queen = TRUE) :
   some observations have no neighbours;
@@ -275,4 +275,4 @@ if this sub-graph count seems unexpected, try increasing the snap argument.
   neighbour object has 295 sub-graphs
 4: In knn2nb(knearneigh(sf::st_centroid(sf::st_geometry(d)), 1)) :
   neighbour object has 295 sub-graphs
-[21:49:35] ALL DONE in 0.6 min.  See outputs/ , figures/ , docs/
+[15:53:52] ALL DONE in 1.4 min.  See outputs/ , figures/ , docs/

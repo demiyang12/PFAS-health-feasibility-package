@@ -48,12 +48,40 @@ md_to_html <- function(path) {
   html
 }
 
-# deliverable link: clickable when the html is opened from inside the package
-# (docs/feasibility_report.html), informative path label otherwise
+# repo info for absolute GitHub links -- these resolve identically whether
+# this page is opened as a local file, emailed as an attachment, or served
+# live via GitHub Pages (a relative "../" link only works in the first case)
+repo_slug <- tryCatch({
+  u <- system("git config --get remote.origin.url", intern = TRUE, ignore.stderr = TRUE)
+  m <- regmatches(u, regexec("github\\.com[:/]+([^/]+)/([^/]+?)(\\.git)?$", u))[[1]]
+  if (length(m) >= 3) paste0(m[2], "/", m[3]) else NA_character_
+}, error = function(e) NA_character_)
+if (!length(repo_slug) || is.na(repo_slug) || !nzchar(repo_slug))
+  repo_slug <- "demiyang12/PFAS-health-feasibility-package"
+repo_branch <- tryCatch({
+  b <- system("git rev-parse --abbrev-ref HEAD", intern = TRUE, ignore.stderr = TRUE)
+  if (length(b) == 1 && nzchar(b) && b != "HEAD") b else "main"
+}, error = function(e) "main")
+GH_OWNER <- strsplit(repo_slug, "/")[[1]][1]
+GH_REPO  <- strsplit(repo_slug, "/")[[1]][2]
+GH       <- paste0("https://github.com/", repo_slug)
+GH_PAGES <- paste0("https://", GH_OWNER, ".github.io/", GH_REPO, "/")
+
+# deliverable link: an absolute GitHub URL for anything tracked in git (the
+# live report itself links to the GitHub Pages URL instead of its own
+# source); data/raw and data/processed are git-ignored (large public
+# downloads / regenerated files -- see .gitignore) and shown as plain paths
 dl <- function(path, label = NULL) {
   is_dir <- !grepl("\\.", basename(path))
   if (is.null(label)) label <- if (is_dir) paste0(path, "/") else basename(path)
-  a <- paste0('<a href="../', esc(path), '">', esc(label), '</a>')
+  if (identical(path, "docs/feasibility_report.html"))
+    return(paste0('<a href="', GH_PAGES, '" target="_blank" rel="noopener">', esc(label),
+                  '</a> <span class="path">', esc(GH_PAGES), '</span>'))
+  if (grepl("^data/(raw|processed)/", path))
+    return(paste0('<code>', esc(path), '</code> <span class="path">git-ignored &mdash; rebuild with ',
+                  '<code>scripts/run_all.R</code></span>'))
+  href <- paste0(GH, if (is_dir) "/tree/" else "/blob/", repo_branch, "/", path)
+  a <- paste0('<a href="', href, '" target="_blank" rel="noopener">', esc(label), '</a>')
   if (is_dir) a else paste0(a, ' <span class="path">', esc(path), '</span>')
 }
 
@@ -229,9 +257,11 @@ add('<div class="kpis">',
     '</div>')
 
 add('<h2>Deliverables in this package</h2>',
-    '<p>Links resolve when this file is opened from inside the package folder ',
-    '(<code>docs/feasibility_report.html</code>); the grey path is shown either way. ',
-    'Everything below is also reproducible from raw data with ',
+    '<p>Links point to the GitHub repository and work the same way whether this page is opened ',
+    'locally, emailed, or viewed live &mdash; the grey path is shown either way. ',
+    '<code>data/raw/</code> and <code>data/processed/</code> are not stored in git (large public ',
+    'downloads and regenerated files &mdash; see <code>.gitignore</code>), so those two are shown ',
+    'as plain paths. Everything is reproducible from raw data with ',
     '<code>bash scripts/download_raw.sh &amp;&amp; Rscript scripts/run_all.R</code>.</p>',
     '<table class="manifest"><tr><th>Deliverable (email &sect;12)</th><th>File(s)</th></tr>',
     '<tr><td><strong>A.</strong> Data inventory</td><td>', dl("docs/data_inventory.csv"), '</td></tr>',
@@ -536,7 +566,7 @@ add('<p class="foot">Phase&nbsp;1 feasibility record &mdash; built ', format(Sys
     ' from public data only (EPA UCMR&nbsp;5 &amp; SDWIS, CDC PLACES, US Census ACS &amp; TIGER). ',
     'Rebuild from scratch: <code>bash scripts/download_raw.sh</code> then <code>Rscript scripts/run_all.R</code>. ',
     'Raw downloads in <code>data/raw/</code> are never modified. This HTML is self-contained &mdash; every ',
-    'figure and the full memo are embedded; the deliverable links resolve against the package folder. ',
+    'figure and the full memo are embedded; the deliverable links point to the GitHub repository. ',
     'Ecological, cross-sectional analysis &mdash; no causal claim.</p>')
 add('</div>')
 
@@ -546,10 +576,22 @@ TITLE <- "<title>PFAS &amp; Health Feasibility, Texas</title>"
 wr_utf8 <- function(text, path)
   writeBin(charToRaw(enc2utf8(text)), path)
 
-wr_utf8(paste0('<!doctype html><html lang="en"><head><meta charset="utf-8">',
+FULL_HTML <- paste0('<!doctype html><html lang="en"><head><meta charset="utf-8">',
   '<meta name="viewport" content="width=device-width,initial-scale=1">', TITLE, FONTS,
-  '<style>', CSS, '</style></head><body>', BODY, '</body></html>'),
-  file.path(PATHS$docs, "feasibility_report.html"))
+  '<style>', CSS, '</style></head><body>', BODY, '</body></html>')
+
+wr_utf8(FULL_HTML, file.path(PATHS$docs, "feasibility_report.html"))
+
+# identical copy at docs/index.html -- the GitHub Pages entry point when Pages
+# is configured to serve from main /docs (Settings -> Pages -> Deploy from a
+# branch -> main / docs). feasibility_report.html stays the canonical name
+# used everywhere else in this package / its documentation.
+wr_utf8(FULL_HTML, file.path(PATHS$docs, "index.html"))
+
+# tell GitHub Pages not to run this folder through Jekyll (we ship a plain
+# hand-built static site; Jekyll would otherwise try to process the .md files
+# and could choke on filenames/content it doesn't expect)
+writeBin(raw(0), file.path(PATHS$docs, ".nojekyll"))
 
 # body-only variant (no doctype/html/head/body) for publishing as a Claude Artifact;
 # written next to the standalone file only when BUILD_ARTIFACT_HTML=1
@@ -558,5 +600,5 @@ if (nzchar(Sys.getenv("BUILD_ARTIFACT_HTML"))) {
           file.path(PATHS$docs, "feasibility_report_artifact.html"))
 }
 
-msg("13_build_report.R done -- docs/feasibility_report.html (%.1f MB)",
+msg("13_build_report.R done -- docs/feasibility_report.html + docs/index.html (%.1f MB each)",
     file.size(file.path(PATHS$docs, "feasibility_report.html")) / 1e6)
