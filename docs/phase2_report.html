@@ -1,0 +1,344 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PFAS Phase 2 &mdash; Exposure &amp; Outcome Scoping</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,420;6..72,560&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"><style>
+:root{
+  --bg:#f6f7f8; --surface:#ffffff; --ink:#17212b; --ink-soft:#51606c;
+  --rule:#dde2e6; --rule-soft:#e9edf0;
+  --accent:#0d6b6b; --accent-ink:#0a4f4f;
+  --band:#eef1f2;
+  --warn-bg:#fbf3e6; --warn-line:#e6cfa6; --warn-ink:#7a4d05;
+  --crit-bg:#fbe9e9; --crit-ink:#9a2222;
+  --ok-bg:#e4f1ec; --ok-ink:#0c5f4e;
+  --shadow:0 1px 2px rgba(20,30,40,.05),0 8px 24px rgba(20,30,40,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#12171c; --surface:#1a2128; --ink:#e6ebef; --ink-soft:#9aa7b1;
+    --rule:#2b343d; --rule-soft:#242c34;
+    --accent:#5bc6bd; --accent-ink:#8ad6cd;
+    --band:#20272e;
+    --warn-bg:#2c2413; --warn-line:#5a4a26; --warn-ink:#e2bd7d;
+    --crit-bg:#301a1a; --crit-ink:#f0a6a6;
+    --ok-bg:#16302a; --ok-ink:#7fd8c5;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#12171c; --surface:#1a2128; --ink:#e6ebef; --ink-soft:#9aa7b1;
+  --rule:#2b343d; --rule-soft:#242c34;
+  --accent:#5bc6bd; --accent-ink:#8ad6cd;
+  --band:#20272e;
+  --warn-bg:#2c2413; --warn-line:#5a4a26; --warn-ink:#e2bd7d;
+  --crit-bg:#301a1a; --crit-ink:#f0a6a6;
+  --ok-bg:#16302a; --ok-ink:#7fd8c5;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1060px;margin:0 auto;padding:52px 24px 96px}
+h1{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-weight:560;
+  font-size:32px;line-height:1.18;letter-spacing:-.01em;margin:0 0 10px;text-wrap:balance}
+h2{font-family:"Newsreader",Georgia,serif;font-weight:560;font-size:22px;letter-spacing:-.005em;
+  margin:52px 0 14px;padding-top:16px;border-top:1px solid var(--rule);text-wrap:balance}
+h3{font-family:"IBM Plex Mono","SF Mono",ui-monospace,Menlo,monospace;font-weight:500;
+  font-size:12px;margin:26px 0 8px;color:var(--accent-ink);text-transform:uppercase;letter-spacing:.09em}
+p{margin:10px 0;max-width:74ch}
+.sub{color:var(--ink-soft);margin:0 0 26px;font-size:14px;max-width:none}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:12px;overflow:hidden;margin:26px 0}
+.kpi{background:var(--surface);padding:16px 16px 14px}
+.kpi .n{font-family:"Newsreader",Georgia,serif;font-size:26px;font-weight:560;color:var(--accent-ink);
+  font-variant-numeric:tabular-nums;line-height:1}
+.kpi .l{font-size:11.5px;color:var(--ink-soft);margin-top:6px;line-height:1.4}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:12.5px;
+  font-variant-numeric:tabular-nums;background:var(--surface);
+  border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+th,td{border-bottom:1px solid var(--rule-soft);border-right:1px solid var(--rule-soft);
+  padding:7px 10px;text-align:left;vertical-align:top}
+tr td:last-child,tr th:last-child{border-right:0}
+tbody tr:last-child td{border-bottom:0}
+th{background:var(--band);font-weight:600;font-size:11.5px;letter-spacing:.02em;
+  color:var(--ink-soft);text-transform:uppercase}
+.grid2{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;align-items:start}
+@media(max-width:860px){.grid2{grid-template-columns:1fr}}
+.grid2-item{background:var(--surface);border:1px solid var(--rule);border-radius:12px;
+  padding:16px 18px;box-shadow:var(--shadow)}
+.callout{background:var(--warn-bg);border:1px solid var(--warn-line);
+  border-left:3px solid var(--warn-ink);padding:14px 18px;border-radius:10px;
+  margin:18px 0;font-size:13.5px;color:var(--ink)}
+.callout strong{color:var(--warn-ink)}
+.verdict{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  font-weight:500;padding:3px 9px;border-radius:5px;margin-left:0;vertical-align:2px;
+  text-transform:uppercase;letter-spacing:.06em}
+.ok{background:var(--ok-bg);color:var(--ok-ink)}
+.warnb{background:var(--warn-bg);color:var(--warn-ink)}
+.no{background:var(--crit-bg);color:var(--crit-ink)}
+.neutral{background:var(--band);color:var(--ink-soft)}
+code{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;background:var(--band);
+  padding:1.5px 5px;border-radius:4px;font-size:12px}
+ul,ol{margin:10px 0;padding-left:22px;max-width:74ch}li{margin:5px 0}
+.foot{color:var(--ink-soft);font-size:12px;margin-top:56px;border-top:1px solid var(--rule);
+  padding-top:16px;line-height:1.7}
+a{color:var(--accent-ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+a:hover{border-bottom-color:var(--accent)}
+.manifest td:first-child{white-space:normal;min-width:150px}
+.manifest code{font-size:11px;white-space:nowrap}
+.manifest .path{color:var(--ink-soft);font-size:11px}
+.memo{background:var(--surface);border:1px solid var(--rule);border-radius:12px;
+  padding:26px 30px;margin-top:16px;box-shadow:var(--shadow)}
+.memo h1{font-size:20px;margin:0 0 6px}
+.memo h2{font-size:16px;margin:26px 0 8px;padding-top:14px;border-top:1px solid var(--rule-soft)}
+.memo h2:first-of-type{border-top:0;padding-top:0}
+.memo h3{font-family:"Newsreader",Georgia,serif;text-transform:none;letter-spacing:0;
+  font-size:14px;font-weight:560;color:var(--ink);margin:16px 0 6px}
+.memo p,.memo li{font-size:13.5px}
+.memo blockquote{margin:14px 0;padding:10px 16px;border-left:3px solid var(--accent);
+  background:var(--band);border-radius:0 8px 8px 0;color:var(--ink)}
+.memo blockquote p{margin:4px 0}
+.memo pre{background:var(--band);padding:12px 14px;border-radius:8px;overflow-x:auto;
+  font-size:12px;line-height:1.5}
+.memo table{font-size:12px;margin:12px 0}
+.memo hr{border:0;border-top:1px solid var(--rule);margin:22px 0}
+.memo code{font-size:11.5px}
+</style></head><body><div class="wrap">
+<h1>PFAS Exposure &amp; Outcome Scoping<br>Phase 2 Feasibility Assessment</h1>
+<p class="sub">Status: scoping only &mdash; no new health-regression model has been run &nbsp;|&nbsp; unit of analysis for Phase 1 remains ZCTA; nothing here changes it &nbsp;|&nbsp; built 2026-09-30</p>
+<p class="sub">This is the systematic answer to one question: given Phase 1&rsquo;s own finding that <strong>exposure characterization &mdash; not sample size or model complexity &mdash; is the binding constraint</strong>, what would actually improve it? It inventories 17 candidate PFAS exposure/source-pressure datasets and 12 candidate health outcomes, scores three possible research directions against them, and recommends one. Phase 1 (<a href="https://demiyang12.github.io/PFAS-health-feasibility-package/" target="_blank" rel="noopener">full report</a> <span class="path">https://demiyang12.github.io/PFAS-health-feasibility-package/</span>) is preserved unchanged throughout.</p>
+<div class="callout"><strong>Interpretation guard-rail.</strong> Every exposure dataset below is either a <strong>measured environmental concentration</strong> (drinking water, groundwater, tapwater) or a <strong>source-pressure indicator</strong> (a facility&rsquo;s existence, type, or self-reported release volume &mdash; not a measured concentration). These are not interchangeable, and neither is an individual exposure or dose. All associations remain <strong>ecological and cross-sectional</strong>; no causal claim is made anywhere in this report.</div>
+<div class="kpis"><div class="kpi"><div class="n">17</div><div class="l">candidate exposure / source-pressure datasets reviewed</div></div><div class="kpi"><div class="n">12</div><div class="l">candidate health outcomes reviewed</div></div><div class="kpi"><div class="n">4+7</div><div class="l">exposure datasets retained (primary + secondary)</div></div><div class="kpi"><div class="n">3</div><div class="l">zero-cost CDC PLACES outcome additions found (cholesterol, CHD, stroke)</div></div><div class="kpi"><div class="n">0</div><div class="l">new regression models run this phase</div></div><div class="kpi"><div class="n">C</div><div class="l">recommended primary Phase 2 direction</div></div></div>
+<h2>Deliverables in this package</h2><p>Links point to the GitHub repository, same as the Phase 1 report.</p><table class="manifest"><tr><th>Deliverable</th><th>File</th></tr><tr><td>Exposure data inventory (17 datasets)</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/exposure_data_inventory.csv" target="_blank" rel="noopener">exposure_data_inventory.csv</a> <span class="path">phase2/docs/exposure_data_inventory.csv</span></td></tr><tr><td>Outcome data inventory (12 outcomes)</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/outcome_data_inventory.csv" target="_blank" rel="noopener">outcome_data_inventory.csv</a> <span class="path">phase2/docs/outcome_data_inventory.csv</span></td></tr><tr><td>Decision matrix (Directions A/B/C)</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/decision_matrix.csv" target="_blank" rel="noopener">decision_matrix.csv</a> <span class="path">phase2/docs/decision_matrix.csv</span></td></tr><tr><td>Decision log</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/decision_log.md" target="_blank" rel="noopener">decision_log.md</a> <span class="path">phase2/docs/decision_log.md</span></td></tr><tr><td>Full Phase 2 memo</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/phase2_methodological_memo.md" target="_blank" rel="noopener">phase2_methodological_memo.md</a> <span class="path">phase2/docs/phase2_methodological_memo.md</span> &mdash; also embedded verbatim in &sect;E below</td></tr><tr><td>Phase 2 folder README</td><td><a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/README.md" target="_blank" rel="noopener">README.md</a> <span class="path">phase2/README.md</span></td></tr><tr><td>Phase 1 report (for context)</td><td><a href="https://demiyang12.github.io/PFAS-health-feasibility-package/" target="_blank" rel="noopener">live Phase 1 report</a> <span class="path">https://demiyang12.github.io/PFAS-health-feasibility-package/</span></td></tr><tr><td>This report</td><td><a href="https://demiyang12.github.io/PFAS-health-feasibility-package/phase2_report.html" target="_blank" rel="noopener">live Phase 2 report</a> <span class="path">https://demiyang12.github.io/PFAS-health-feasibility-package/phase2_report.html</span></td></tr></table>
+<h2>A &middot; Why Phase 2 scopes before modelling</h2><p>Phase 1 built a full Texas ZCTA-level pipeline (EPA UCMR&nbsp;5 &rarr; SDWIS &rarr; ZIP/ZCTA &rarr; CDC PLACES &rarr; ACS) and concluded that <strong>the main limitation is not sample size &mdash; it is exposure characterization and geographic assignment</strong> (the many-to-many PWS&harr;ZCTA relationship; PFAS and disease hot-spots occupy largely different geographies; associations attenuate after adjustment and are sensitive to spatial model specification). Rather than pairing that same drinking-water-only exposure proxy with a new outcome and a new regression, Phase 2 asks two prior questions: can broader, spatially explicit environmental and source data meaningfully improve exposure characterization, and does the health outcome even need to stay the same? This report is the systematic answer.</p>
+<h2>B &middot; Exposure data inventory</h2><p>17 candidate datasets, grouped by disposition. Full 23-field detail (access method, spatial unit, PFAS compounds, detection limits, sampling design, linkage unit, and more) in <a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/exposure_data_inventory.csv" target="_blank" rel="noopener">the full CSV</a> <span class="path">phase2/docs/exposure_data_inventory.csv</span>.</p><h3><span class="verdict ok">RETAIN</span> &nbsp;Retain &mdash; primary / near-term <span class="path">(4)</span></h3>
+<table><tr><th>Dataset</th><th>Pathway</th><th>Texas coverage</th><th>Key limitation / reason</th></tr><tr><td>EPA UCMR 5 (drinking water)</td><td>drinking water</td><td>1,154-1,223 TX PWS already integrated (Phase 1)</td><td>Small/rural systems under-represented; ZIP-served list is not a service-area polygon (Phase 1 Limitation 1)</td></tr><tr><td>EPA SDWIS / SDWA (PWS characteristics)</td><td>n/a (context: source type/population served)</td><td>1154/1154 TX UCMR5 systems matched (Phase 1)</td><td>Population served is a system total, not the population inside one served ZCTA (Phase 1 Limitation 4)</td></tr><tr><td>EPA TRI (Toxics Release Inventory) - PFAS chemicals</td><td>source-pressure proxy (air/water/land release quantity), not ambient concentration</td><td>not yet extracted (national: 61 facilities reported PFAS in RY2023, per EPA)</td><td>Only large qualifying facilities report; many diffuse/legacy sources (old AFFF use) are not captured; reporting thresholds may exclude smaller emitters</td></tr><tr><td>EPA National PFAS Analytic Tools / ECHO National PFAS Datasets (aggregator)</td><td>multiple (drinking water + discharge + release + federal-site investigation)</td><td>not yet extracted</td><td>A convenience aggregator, not a new primary source - but likely the single most efficient starting point for Direction B/C since it pre-bundles federal sites, TRI, Superfund and AFFF-spill data with a documented public metadata PDF</td></tr></table>
+<h3><span class="verdict warnb">RETAIN-SECONDARY</span> &nbsp;Retain-secondary &mdash; triangulation / illustrative <span class="path">(7)</span></h3>
+<table><tr><th>Dataset</th><th>Pathway</th><th>Texas coverage</th><th>Key limitation / reason</th></tr><tr><td>USGS PFAS National Tapwater Reconnaissance (2016-2022)</td><td>drinking water (tap) - convergent evidence check</td><td>TX subset not yet extracted - likely single digits to low tens of the 716 national sites (needs a direct pull to confirm)</td><td>Too few TX points for a standalone TX analysis; useful only as a validation/triangulation check on UCMR5-based exposure in the handful of TX ZCTAs it happens to cover</td></tr><tr><td>EPA Water Quality Portal (WQP)</td><td>surface water + groundwater (ambient environmental media, not tap)</td><td>not yet extracted - requires a TX + PFAS characteristic-group query</td><td>Highly heterogeneous QA/QC across contributors; sparse and clustered near known investigation sites rather than representative of Texas broadly</td></tr><tr><td>EPA NPDES / DMR (ECHO Effluent / Loading Tool)</td><td>wastewater discharge (point-source)</td><td>not yet extracted</td><td>Coverage is sparse and recent - most TX permits do not yet have a PFAS monitoring requirement; where present it is real measured discharge data</td></tr><tr><td>DoD PFAS installation investigations</td><td>groundwater / drinking water near AFFF-use areas</td><td>5 TX installations identified in initial search: Dyess AFB, Laughlin AFB, Sheppard AFB, Goodfellow AFB, JBSA (Lackland/Randolph) - full TX list not yet compiled</td><td>Data exists mainly as narrative PDF reports (GAO, OSD, base-level fact sheets), not a clean structured download; levels found are dramatically higher than typical UCMR5 drinking-water results (e.g. JBSA Lackland groundwater ~680,000 ppt vs UCMR5's TX MCL-exceedance set of 19 ZCTAs) - illustrates the exposure-characterization gap directly</td></tr><tr><td>Northeastern PFAS Project Lab - Known + Presumptive Contamination Site Tracker (2025 update)</td><td>multi-pathway (industrial discharge, landfill leachate, AFFF, airport)</td><td>not yet extracted</td><td>Presumptive sites are inferred from facility type/SIC codes, not measured contamination - a strong SOURCE-PRESSURE layer but not an exposure-concentration layer; bulk CSV access needs a direct request to the research team</td></tr><tr><td>EPA Superfund National Priorities List (NPL) - Texas sites</td><td>legacy contamination (varies: groundwater, soil, historically often not PFAS-specific until recently)</td><td>~50-55 active/former Texas NPL sites (news-reported count; exact current EPA count not yet pulled)</td><td>PFAS flag requires manual cross-reference of individual Records of Decision; only a subset of the ~50-55 TX sites will actually be PFAS-relevant</td></tr><tr><td>EPA Clean Watersheds Needs Survey (CWNS) + National Sewershed Dataset</td><td>wastewater / biosolids (pathway proxy, not a PFAS measurement itself)</td><td>not yet extracted (straightforward - state-filterable)</td><td>Identifies WHERE wastewater treatment / biosolids-application infrastructure is, not whether PFAS is present - a source-pathway layer, needs pairing with TRI or DMR for actual PFAS evidence</td></tr></table>
+<h3><span class="verdict neutral">DEFER</span> &nbsp;Defer &mdash; real but not ready, or geographically mismatched <span class="path">(1)</span></h3>
+<table><tr><th>Dataset</th><th>Pathway</th><th>Texas coverage</th><th>Key limitation / reason</th></tr><tr><td>Landfill inventory (EPA LMOP / FRS)</td><td>landfill leachate (pathway proxy)</td><td>not yet verified in this pass</td><td>NOT YET VERIFIED - identified as a candidate per the research team's list but not checked in this scoping pass; recommend a follow-up 30-minute check before Phase 2B decision</td></tr></table>
+<h3><span class="verdict neutral">EXCLUDE</span> &nbsp;Excluded &mdash; checked and found unusable at this stage <span class="path">(5)</span></h3>
+<table><tr><th>Dataset</th><th>Pathway</th><th>Texas coverage</th><th>Key limitation / reason</th></tr><tr><td>USGS PFAS Community-Science Tapwater Dataset (2023-2024)</td><td>drinking water (private well emphasis)</td><td>not yet checked for TX participants (likely very few of 84 national sites)</td><td>Self-selection bias; almost certainly 0-2 TX sites; not usable for TX inference</td></tr><tr><td>TCEQ Texas state PFAS drinking-water program</td><td>drinking water (same pathway as Phase 1 - not a new layer yet)</td><td>Texas only (by definition)</td><td>State compliance monitoring literally does not exist yet as a distinct dataset from UCMR5 - re-check in 2027+; the "1,117 vs 1,154" TX system count discrepancy with Phase 1 is a snapshot-date artifact, not a data-quality issue</td></tr><tr><td>Private well PFAS testing (Texas)</td><td>n/a</td><td>none identified beyond the USGS reconnaissance rows above</td><td>Texas does not require private-well PFAS testing; no state or federal systematic private-well PFAS dataset exists for TX beyond the sparse USGS reconnaissance points already listed above</td></tr><tr><td>Soil / sediment PFAS (Texas)</td><td>n/a</td><td>not yet extracted; expected very sparse</td><td>No dedicated national or TX soil/sediment PFAS monitoring program identified; the only public records would be incidental entries within EPA WQP's sediment/tissue characteristic groups, expected to be very sparse for TX</td></tr><tr><td>Ambient PFAS air monitoring / emissions (Texas)</td><td>n/a</td><td>covered by the TRI row above</td><td>No comprehensive ambient PFAS air-monitoring network exists publicly (measured air concentrations, as opposed to self-reported facility release quantities, are essentially unavailable); TRI's air-release-quantity field is the closest public proxy and is already captured above</td></tr></table>
+<h2>C &middot; Health outcome inventory</h2><p>12 candidate outcomes, grouped the same way. Full detail (source, geographic/temporal resolution, confidentiality/suppression rules, biological relevance) in <a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/outcome_data_inventory.csv" target="_blank" rel="noopener">the full CSV</a> <span class="path">phase2/docs/outcome_data_inventory.csv</span>.</p><h3><span class="verdict ok">RETAIN</span> &nbsp;Retain &mdash; primary / near-term <span class="path">(4)</span></h3>
+<table><tr><th>Outcome</th><th>Source</th><th>Geographic resolution</th><th>Key limitation / reason</th></tr><tr><td>Obesity (adult prevalence)</td><td>PLACES 2025 release</td><td>ZCTA</td><td>Crude prevalence only; ecological; already shown to have a weak/unstable association with PFAS in Phase 1</td></tr><tr><td>Diagnosed diabetes (adult prevalence)</td><td>PLACES 2025 release</td><td>ZCTA</td><td>Crude prevalence only; ecological; negative association attenuates after adjustment but survives spatial models (Phase 1)</td></tr><tr><td>High blood pressure / hypertension (adult prevalence)</td><td>PLACES 2025 release</td><td>ZCTA</td><td>Crude prevalence only; ecological; the outcome with the STRONGEST unadjusted correlation in Phase 1 (Spearman -0.47) - the pattern the advisor specifically flagged as interesting</td></tr><tr><td>High cholesterol (adults ever screened)</td><td>PLACES 2025 release (same file as above)</td><td>ZCTA</td><td>Screening-based prevalence (self-reported ever-screened-and-told), not a lipid panel value; still ecological</td></tr></table>
+<h3><span class="verdict warnb">RETAIN-SECONDARY</span> &nbsp;Retain-secondary &mdash; triangulation / illustrative <span class="path">(2)</span></h3>
+<table><tr><th>Outcome</th><th>Source</th><th>Geographic resolution</th><th>Key limitation / reason</th></tr><tr><td>Coronary heart disease (adult prevalence)</td><td>PLACES 2025 release (same file as above)</td><td>ZCTA</td><td>Crude prevalence; low event rate could mean wide CIs at some ZCTAs - check *_ci_width before use</td></tr><tr><td>Stroke (adult prevalence)</td><td>PLACES 2025 release (same file as above)</td><td>ZCTA</td><td>Crude prevalence; low event rate, check estimate precision</td></tr></table>
+<h3><span class="verdict neutral">DEFER</span> &nbsp;Defer &mdash; real but not ready, or geographically mismatched <span class="path">(4)</span></h3>
+<table><tr><th>Outcome</th><th>Source</th><th>Geographic resolution</th><th>Key limitation / reason</th></tr><tr><td>Low birth weight (national)</td><td>CDC WONDER Natality</td><td>county of maternal residence (NOT ZCTA)</td><td>Not usable at ZCTA scale; would require rebuilding the entire Phase 1 exposure pipeline at county resolution, which discards most of the geographic detail Phase 1 was designed to exploit</td></tr><tr><td>Low birth weight (Texas)</td><td>Texas Center for Health Statistics - Vital Statistics Annual Report / Texas Health Data dashboard</td><td>county of maternal residence (NOT ZCTA); some dashboards further break out by Public Health Region</td><td>Best available TX birth-outcome source, but the county/ZCTA resolution mismatch is the binding constraint, not data availability per se</td></tr><tr><td>Preterm birth (Texas)</td><td>Texas Center for Health Statistics - Vital Statistics Annual Report / Texas Health Data dashboard</td><td>county of maternal residence (NOT ZCTA)</td><td>Same geographic-resolution problem as low birth weight</td></tr><tr><td>Small for gestational age (SGA)</td><td>not confirmed as a standard published aggregate table</td><td>unknown - likely requires restricted-use birth-certificate microdata (has gestational age + birth weight, so SGA is derivable, but not as a pre-tabulated public aggregate)</td><td>NOT CONFIRMED as a public aggregate dataset in this pass - SGA is a derived variable (birth weight percentile for gestational age), not a variable vital-records agencies typically pre-tabulate and publish; likely needs a data-use agreement with TX DSHS for restricted birth-certificate microdata</td></tr></table>
+<h3><span class="verdict neutral">EXCLUDE</span> &nbsp;Excluded &mdash; checked and found unusable at this stage <span class="path">(2)</span></h3>
+<table><tr><th>Outcome</th><th>Source</th><th>Geographic resolution</th><th>Key limitation / reason</th></tr><tr><td>Chronic kidney disease (adult prevalence)</td><td>PLACES (2023 release and earlier only)</td><td>ZCTA</td><td>CDC discontinued this measure in the 2024/2025 PLACES release - would need to mix data vintages, which breaks comparability with the other Phase 1 outcomes</td></tr><tr><td>Biomarkers (serum PFAS, individual clinical labs: lipids, A1c, blood pressure)</td><td>none at community/ZCTA level - would come from the planned individual-level survey/biological-sample study</td><td>individual (not ecological)</td><td>This is exactly the advisor's 'more direct health indicators or biomarkers' suggestion, but it does not exist as public community-level data - it is, by design, the planned Phase 4 individual-level study, not a Phase 2 public-data task</td></tr></table>
+<h2>D &middot; Decision framework &mdash; Directions A / B / C</h2><p>Three candidate Phase 2 research directions scored against the same 11 criteria. Full scoring: <a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/decision_matrix.csv" target="_blank" rel="noopener">decision_matrix.csv</a> <span class="path">phase2/docs/decision_matrix.csv</span>.</p><div class="grid2"><div class="grid2-item" ><h3>A <span class="verdict warnb">SECONDARY</span></h3><p style="margin-top:2px"><strong>Focused exposure-health study</strong></p><p style="font-size:13px;color:var(--ink-soft)">Pursue only the low-cost PLACES-family expansion (cholesterol, CHD, stroke) as supporting evidence using the existing pipeline; explicitly defer birth outcomes (Direction A's more novel variant) past the APHA meeting because of the county/ZCTA geographic mismatch.</p></div><div class="grid2-item" ><h3>B <span class="verdict warnb">SECONDARY / PARALLEL</span></h3><p style="margin-top:2px"><strong>Exposure geography / source attribution</strong></p><p style="font-size:13px;color:var(--ink-soft)">Pursue a scoped version (TRI + CWNS + Superfund, all clean and fast) as the source-attribution narrative and as an input to Direction C's sensitivity tests; treat the Presumptive Contamination dataset and DoD PDF reports as stretch goals, not requirements, before APHA.</p></div><div class="grid2-item" style="border:1px solid var(--accent);box-shadow:var(--shadow)"><h3>C <span class="verdict ok">PRIMARY</span></h3><p style="margin-top:2px"><strong>Exposure-assignment methodology</strong></p><p style="font-size:13px;color:var(--ink-soft)">Adopt as the primary Phase 2 research direction for the APHA presentation: it uses only data already in hand, most directly answers Phase 1's own stated lesson, and produces a clear, quantified, exportable result regardless of which way the sensitivity analysis comes out. Directions A (PLACES-family) and B (TRI/CWNS/Superfund) are the supporting acts.</p></div></div><h3>Full scoring matrix</h3><table><tr><th>Criterion</th><th>A &middot; Focused exposure&ndash;health study</th><th>B &middot; Exposure geography / source attribution</th><th>C &middot; Exposure-assignment methodology</th></tr><tr><td><strong>Exposure data quality</strong></td><td><strong>Low-Medium</strong><br><span class="path" style="white-space:normal">Still relies on the same UCMR5/ZIP-to-ZCTA proxy identified in Phase 1 as the core weakness; no new exposure layer is required to add PLACES-family outcomes, so this direction does not by itself fix the acknowledged limitation.</span></td><td><strong>Medium-High</strong><br><span class="path" style="white-space:normal">Brings in genuinely new, facility-level source-pressure data (TRI, EPA PFAS Analytic Tools bundle, Presumptive Contamination Site Tracker, CWNS, Superfund, DoD) that is more spatially precise than the PWS/ZIP proxy, though it measures pressure/likelihood rather than concentration.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Directly interrogates the exposure-assignment problem itself using data already in hand (Phase 1 UCMR5/SDWIS) plus a population/area-weighted crosswalk - the most direct fix to the diagnosed limitation.</span></td></tr><tr><td><strong>Spatial coverage / support</strong></td><td><strong>High (PLACES-family) / Low (birth outcomes)</strong><br><span class="path" style="white-space:normal">PLACES-family outcomes reuse the exact 1,223-ZCTA Phase 1 sample. Birth outcomes collapse to ~254 TX counties, a much smaller and coarser spatial support.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">TRI, CWNS, Superfund, and the Presumptive Contamination dataset all have statewide TX coverage at facility resolution.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Uses the same 1,223-ZCTA sample; the sensitivity comparison itself does not need new geography, just alternative assignment rules.</span></td></tr><tr><td><strong>Temporal alignment with Phase 1 (2023-2025)</strong></td><td><strong>High (PLACES-family) / Medium (birth outcomes)</strong><br><span class="path" style="white-space:normal">PLACES-family measures are drawn from the same 2025 release Phase 1 already uses. Birth outcome years are separately negotiable but not a blocker.</span></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">TRI (RY2020+) and DMR (post-2021) partially overlap the Phase 1 window; DoD/Superfund histories are multi-year and pre-date it, which is a feature (cumulative pressure) as much as a limitation.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Re-analyzes the existing Phase 1 window under alternative assignment rules; no new temporal window to reconcile.</span></td></tr><tr><td><strong>Exposure contrast available</strong></td><td><strong>Low</strong><br><span class="path" style="white-space:normal">Adding outcomes does nothing to fix Phase 1's diagnosed problem of limited exposure contrast (19 MCL-exceedance ZCTAs statewide).</span></td><td><strong>Medium-High</strong><br><span class="path" style="white-space:normal">Facility-level source-pressure variables (e.g. presence/count of AFFF sites, TRI release volume) create a genuinely different, more continuous contrast than the sparse MCL-exceedance flag.</span></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">Does not add contrast on its own, but reveals how much of the apparent contrast in Phase 1 is a construction artifact of the ZIP-to-ZCTA assignment rather than real variation.</span></td></tr><tr><td><strong>Outcome data availability / quality</strong></td><td><strong>High (PLACES-family) / Low (birth outcomes)</strong><br><span class="path" style="white-space:normal">Cholesterol/CHD/stroke are in the exact same CDC PLACES file already integrated. Birth outcomes exist only at county resolution with suppression, and SGA is not a confirmed public aggregate at all.</span></td><td><strong>N/A</strong><br><span class="path" style="white-space:normal">Direction B does not use a health outcome as its dependent variable - it explains exposure geography itself.</span></td><td><strong>N/A</strong><br><span class="path" style="white-space:normal">Direction C does not require a new outcome - it re-uses Phase 1's three PLACES outcomes to test assignment sensitivity.</span></td></tr><tr><td><strong>Biological interpretability</strong></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Cholesterol, CHD, stroke, and birth outcomes all have credible, literature-supported PFAS mechanisms; this is the most biologically motivated direction.</span></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">Source-pressure variables are interpretable as exposure determinants, but are one step removed from a health-relevant biological pathway.</span></td><td><strong>N/A</strong><br><span class="path" style="white-space:normal">A methods question, not a biological one - it strengthens interpretability of any future biological claim rather than making one itself.</span></td></tr><tr><td><strong>Geographic linkage quality</strong></td><td><strong>High (PLACES-family) / Low (birth outcomes)</strong><br><span class="path" style="white-space:normal">PLACES-family reuses Phase 1's exact linkage chain. Birth outcomes require a new, coarser county-level linkage that breaks compatibility with the ZCTA design.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Facility point data joins cleanly to ZCTA/PWS by spatial overlay - no new administrative-boundary mismatch problem.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">The linkage chain itself is the object of study, evaluated systematically rather than assumed.</span></td></tr><tr><td><strong>Methodological defensibility</strong></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">Straightforward and low-risk, but does not address the Phase 1 finding that model specification (not outcome choice) drives most of the instability seen so far.</span></td><td><strong>Medium-High</strong><br><span class="path" style="white-space:normal">Requires care to keep source-pressure variables clearly labeled as pressure/likelihood, not measured exposure - defensible if that distinction is maintained throughout.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Directly operationalizes Phase 1's own stated lesson ("improve exposure characterization before increasing model complexity") and produces a transparent, quantified sensitivity result either way it comes out.</span></td></tr><tr><td><strong>Novelty / contribution</strong></td><td><strong>Low-Medium</strong><br><span class="path" style="white-space:normal">Same outcome family, same design - useful supporting evidence but not a new methodological or substantive contribution.</span></td><td><strong>Medium-High</strong><br><span class="path" style="white-space:normal">A genuine source-attribution contribution: explaining the spatial pattern Phase 1 already documented, which several APHA attendees would find directly useful for their own work.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">A specific, quantified answer to a question (how sensitive is PFAS-health epidemiology to service-area assignment?) that generalizes well beyond this one project - the most exportable methodological contribution.</span></td></tr><tr><td><strong>Feasibility before the APHA presentation</strong></td><td><strong>High (PLACES-family) / Low (birth outcomes)</strong><br><span class="path" style="white-space:normal">PLACES-family outcomes can be added by re-running the existing Phase 1 pipeline with 3 extra columns - essentially free. Birth outcomes would require a parallel county-level pipeline - not realistic before APHA.</span></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">TRI and CWNS are clean, fast pulls; the Presumptive Contamination dataset's downloadability is unconfirmed and DoD data needs manual PDF extraction - a scoped subset (TRI + CWNS + Superfund) is feasible before APHA, the full source-attribution study is not.</span></td><td><strong>Medium-High</strong><br><span class="path" style="white-space:normal">A first sensitivity comparison (e.g. exact-ZIP vs. population-weighted crosswalk vs. one manually-digitized PWS service area as a case study) is achievable with data already on hand; a full multi-method comparison across all listed alternatives is not.</span></td></tr><tr><td><strong>Contribution to the APHA PFAS session narrative</strong></td><td><strong>Medium</strong><br><span class="path" style="white-space:normal">Reinforces the Phase 1 finding (weak, unstable ecological associations) across more outcomes - supporting evidence for the talk, not the headline.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Gives the talk a concrete answer to "what explains the spatial pattern you found?" - a natural, compelling second half after the Phase 1 narrative.</span></td><td><strong>High</strong><br><span class="path" style="white-space:normal">Gives the talk its methodological punchline: quantifies exactly how much of the Phase 1 result depends on an assumption everyone in the room will recognize as shaky.</span></td></tr></table>
+<h2>E &middot; Full Phase 2 methodological memo</h2><p class="sub">The complete write-up (identical to <code>phase2/docs/phase2_methodological_memo.md</code>): which exposure datasets and outcomes are strongest, what is excluded and why, the recommended direction, and the specific evidence still needed before it is final.</p><div class="memo"><h1>Phase 2 Methodological Memo — Exposure &amp; Outcome Scoping</h1>
+<p><strong>Project:</strong> PFAS Drinking-Water Exposure and Obesity-Related Health Outcomes
+<strong>Status:</strong> Phase 2 scoping and feasibility assessment. No new regression model has been
+run. Phase 1 (Texas, ZCTA-level, UCMR 5 + CDC PLACES + ACS) is preserved unchanged as a
+frozen, reproducible record — see <a href="../README.md"><code>../README.md</code></a> and
+<a href="../docs/methodological_memo.md"><code>../docs/methodological_memo.md</code></a>.</p>
+<blockquote>
+<p><strong>Interpretation guard-rail (carried over from Phase 1, and stricter here).</strong>
+Everything catalogued below is either (a) a <strong>measured environmental exposure proxy</strong>
+(drinking water, groundwater, tapwater) or (b) a <strong>source-pressure indicator</strong>
+(a facility’s existence, type, or self-reported releases — not a measured
+concentration). These are not interchangeable, and neither is an individual exposure
+or dose. All associations remain <strong>ecological and cross-sectional</strong>. No causal claim
+is made or implied anywhere in this memo.</p>
+</blockquote>
+<hr />
+<h2>0. One-paragraph summary</h2>
+<p>Phase 1’s own diagnosis was that <strong>exposure characterization, not model sophistication or
+sample size, is the binding constraint</strong> on this project. This scoping
+pass evaluated 17 candidate exposure datasets and 12 candidate health outcomes against
+that diagnosis. The clearest finding: <strong>the single most valuable, lowest-risk next step
+is not a new dataset at all — it is testing how sensitive the Phase 1 result is to the
+PWS→ZIP→ZCTA assignment rule that Phase 1 itself flagged as the main limitation</strong>
+(Direction C). A parallel, complementary step is to bring in facility-level
+<strong>source-pressure</strong> data — EPA TRI, the EPA National PFAS Analytic Tools bundle, and the
+EPA Clean Watersheds Needs Survey are all clean, fast, statewide pulls — to explain the
+spatial pattern Phase 1 already documented (Direction B). Expanding the <strong>outcome</strong> list
+is attractive only where it is nearly free: three additional CDC PLACES measures
+(high cholesterol, coronary heart disease, stroke) reuse the exact ZCTA table, join, and
+covariates Phase 1 already built, at zero new linkage cost. <strong>Birth outcomes — the
+collaborators’ other suggested outcome — are not a drop-in extension</strong>: the best public
+data (Texas DSHS vital statistics) exist only at county resolution, one full aggregation
+level coarser than the ZCTA design this entire project is built around, and would require
+a parallel pipeline rather than reusing this one.</p>
+<hr />
+<h2>1. Which exposure datasets appear strongest</h2>
+<p>Full detail, sourcing, and access notes: <a href="exposure_data_inventory.csv"><code>exposure_data_inventory.csv</code></a>
+(17 candidates evaluated).</p>
+<p><strong>Retain as primary / near-term:</strong></p>
+<ul>
+<li><strong>EPA TRI (Toxics Release Inventory) — PFAS chemicals.</strong> Facility-level, self-reported
+air/water/land release quantities for up to ~200 PFAS chemicals (expanding under NDAA
+mandates through reporting year 2024). Exact addressable facility coordinates — a
+clean spatial join to ZCTA, no crosswalk ambiguity. This is a <strong>source-pressure</strong>
+measure (release quantity), not an ambient concentration.</li>
+<li><strong>EPA National PFAS Analytic Tools / ECHO National PFAS Datasets.</strong> A pre-built EPA
+aggregator bundling 12 categories (UCMR, state drinking water, CDR, Water Quality
+Portal, NPDES/DMR, Superfund, federal sites including DoD, industry sectors, RCRA
+transfers, TRI, AFFF spill reports, GHGRP) with a documented public metadata PDF and a
+bulk-download page. Likely the single most efficient starting point for Direction B —
+worth a direct data pull before assembling the other sources piecemeal.</li>
+<li><strong>EPA Clean Watersheds Needs Survey (CWNS) + National Sewershed Dataset.</strong> ~17,000
+POTWs nationally with clean point/polygon geometry, state-filterable, updated
+periodically since 1984. Operationalizes the “wastewater/biosolids” pathway named in
+the reply-email direction, though it identifies <em>where infrastructure exists</em>, not
+<em>whether PFAS is present</em> — needs pairing with TRI or DMR data for actual evidence.</li>
+</ul>
+<p><strong>Retain as secondary / triangulation:</strong></p>
+<ul>
+<li><strong>USGS PFAS National Tapwater Reconnaissance</strong> (716 US sites, 2016–2022, actually
+measured, 34 analytes) and <strong>EPA Water Quality Portal</strong> (aggregated surface/groundwater
+monitoring) — both real measured data, both far too geographically sparse in Texas
+alone to serve as a primary layer, but useful as an independent check on whether
+UCMR5-based exposure agrees with other measurements where they happen to overlap.</li>
+<li><strong>EPA NPDES/DMR PFAS discharge monitoring</strong>, <strong>EPA Superfund NPL Texas sites</strong>, and the
+<strong>Northeastern PFAS Project Lab Known + Presumptive Contamination Site Tracker</strong>
+(~2,200 known + ~79,891 presumptive sites nationally, 2025 update) — all real and
+relevant, but each has a specific access or scope caveat (sparse/recent PFAS DMR
+coverage; PFAS-relevance not a clean queryable field on NPL sites yet; bulk
+downloadability of the Presumptive Contamination dataset not yet confirmed).</li>
+<li><strong>DoD PFAS installation investigations</strong> — narratively the most compelling Texas
+evidence found in this pass. Groundwater concentrations at Texas military
+installations run <strong>orders of magnitude above</strong> anything in the Phase 1 UCMR5
+drinking-water dataset (e.g., Joint Base San Antonio–Lackland groundwater reported at
+roughly 680,000 ppt, versus Phase 1’s set of only 19 Texas ZCTAs with any MCL
+exceedance at all). This is a concrete, well-sourced illustration of exactly why a
+drinking-water-only proxy under-represents exposure intensity near known source zones
+— but the data exist mainly as narrative PDF reports (GAO, OSD, base fact sheets), not
+a structured download, so using it well means manual extraction, not a quick pull.</li>
+</ul>
+<p><strong>Excluded for now (checked and found unusable at this stage), or not yet checked:</strong></p>
+<ul>
+<li><strong>Private well testing</strong>, <strong>soil/sediment PFAS</strong>, and <strong>ambient air PFAS monitoring</strong>
+— no systematic public Texas dataset exists for any of these three; they are not
+omissions, they were checked and found absent or reducible to data already listed
+above (TRI’s air-release field; the sparse USGS reconnaissance’s private-well points).</li>
+<li><strong>TCEQ’s own PFAS compliance monitoring</strong> does not exist yet as a dataset distinct from
+UCMR5 — Texas compliance monitoring under EPA’s 2024 rule does not begin until April
+2027. Nothing to add here before then.</li>
+<li><strong>Landfill inventory (EPA LMOP/FRS)</strong> — named by the research team but <strong>not yet
+verified in this pass</strong>; flagged in the inventory as a specific follow-up item rather
+than assumed usable.</li>
+</ul>
+<hr />
+<h2>2. Which health outcomes appear strongest</h2>
+<p>Full detail: <a href="outcome_data_inventory.csv"><code>outcome_data_inventory.csv</code></a> (12 candidates
+evaluated).</p>
+<p><strong>Retain — effectively free:</strong> Three additional CDC PLACES measures — <strong>high
+cholesterol</strong> (adults ever screened), <strong>coronary heart disease</strong>, and <strong>stroke</strong> — live
+in the exact same ZCTA-level PLACES file, join, and covariate set Phase 1 already
+integrates. Adding them costs nothing beyond re-running the existing pipeline with three
+extra columns. High cholesterol in particular is a direct, low-cost answer to the
+advisor’s own suggestion to look at “more direct health indicators.”</p>
+<p><strong>Confirmed excluded (do not assume otherwise):</strong> As instructed, this was checked rather
+than assumed — <strong>CDC PLACES contains no birth, pregnancy, or infant outcome of any kind.</strong>
+It is structurally incapable of this: PLACES is built entirely from BRFSS, an adult
+telephone survey. Chronic kidney disease, formerly in PLACES, was <strong>discontinued in the
+2024 release</strong> and is excluded to avoid mixing data vintages.</p>
+<p><strong>Deferred — real data, wrong geography:</strong> Low birth weight, preterm birth, and (least
+confirmed) small-for-gestational-age are available for Texas through the <strong>Texas DSHS</strong>
+Center for Health Statistics (Vital Statistics Annual Reports, Texas Health Data
+dashboards) — a better source than the national CDC WONDER Natality query, which
+suppresses any county under roughly 100,000 population into an “Unidentified Counties”
+category. But even the Texas DSHS source is published at <strong>county of maternal
+residence</strong>, not ZCTA. That is one full aggregation level coarser than the geography
+this entire project is built around, and it would discard most of the spatial detail
+Phase 1 was designed to exploit. Small-for-gestational-age is additionally <strong>not
+confirmed to exist as a public aggregate table at all</strong> — it is derivable from birth
+weight and gestational age, which typically means it lives only in restricted-use
+birth-certificate microdata, not an open download.</p>
+<p><strong>Explicitly out of scope:</strong> Biomarkers (serum PFAS, individual lipid panels, A1c, blood
+pressure readings) are exactly the advisor’s “more direct” suggestion, but by definition
+they are <strong>individual-level, not community-level public data</strong> — this is the planned
+Phase 4 individual-level biomarker study, not a Phase 2 public-data task. Noted here so
+the connection to the advisor’s question is on record, not silently dropped.</p>
+<hr />
+<h2>3. Which of Directions A / B / C currently looks most promising</h2>
+<p>Full scoring and rationale: <a href="decision_matrix.csv"><code>decision_matrix.csv</code></a>.</p>
+<p><strong>Recommended primary direction: C — exposure-assignment methodology.</strong>
+It uses only data already in hand (Phase 1’s UCMR5/SDWIS/ZIP-ZCTA crosswalk), requires no
+new external dataset to be acquired or vetted under time pressure, and directly
+operationalizes the project’s own stated lesson: <em>“improve exposure characterization
+before increasing model complexity.”</em> Whichever way a sensitivity comparison of
+assignment rules (exact ZIP match vs. a population/area-weighted crosswalk vs. one or
+two manually-digitized service areas as case studies) comes out, the result is a clean,
+quantified, exportable methodological finding — useful to the field even independent of
+what it says about obesity, diabetes, or hypertension specifically.</p>
+<p><strong>Recommended secondary / parallel direction: B — exposure geography / source
+attribution</strong>, scoped narrowly to the three cleanest datasets found (TRI, CWNS,
+Superfund). This both stands alone as a “what explains the spatial pattern” narrative
+and directly feeds Direction C: better source-pressure data makes the assignment-rule
+sensitivity tests more informative.</p>
+<p><strong>Direction A — new outcome, same design — recommended only in its low-cost form</strong>: add
+the three free PLACES measures as supporting evidence across a wider outcome set, and
+explicitly <strong>defer</strong> the birth-outcome variant past the APHA meeting given the
+county/ZCTA mismatch documented above. Pursuing birth outcomes now would mean building a
+second, parallel, county-level pipeline under time pressure — a substantially different
+and larger undertaking than “adding an outcome.”</p>
+<p>This recommendation should <strong>not</strong> be read as final — it is the scoping-stage judgment
+call the decision matrix was built to support, and it is explicitly open to revision once
+the follow-up checks in Section 4 are done. See <a href="decision_log.md"><code>decision_log.md</code></a> for
+the running record of this and future decisions.</p>
+<hr />
+<h2>4. What additional evidence is needed before the final decision</h2>
+<ol>
+<li><strong>Confirm the EPA National PFAS Analytic Tools bulk-download contents for Texas</strong> —
+this single check could substantially shorten the work needed for Direction B.</li>
+<li><strong>Pull TRI, CWNS, and Superfund NPL for Texas specifically</strong> and get real facility
+counts (the inventory currently says “not yet extracted” for all three).</li>
+<li><strong>Verify EPA LMOP/landfill data</strong> — named by the research team, not yet checked at
+all in this pass.</li>
+<li><strong>Confirm Texas DSHS’s small-cell suppression threshold</strong> for birth outcomes, to know
+how many TX counties would actually be usable if a county-level companion analysis is
+pursued later.</li>
+<li><strong>Confirm whether the Presumptive Contamination Site Tracker’s underlying data is
+bulk-downloadable</strong> or requires a direct request to the Northeastern research team.</li>
+<li><strong>Decide the Direction C comparison set</strong> explicitly before writing code: which
+assignment alternatives (population-weighted crosswalk, HUD USPS crosswalk, UDS
+Mapper, manually-digitized case-study service areas) are in scope for the APHA
+timeline versus deferred.</li>
+<li><strong>Pre-register the spatial questions</strong> from the original scoping brief (hotspot
+agreement across exposure representations, uncertainty mapping, sampling
+prioritization) as the analysis plan for whichever direction is chosen, before writing
+model code — consistent with Phase 1’s practice of documenting decisions before
+running them.</li>
+</ol>
+<p>Until these are resolved, Phase 2 remains in the scoping stage: <strong>no health-regression
+model has been run, and none should be, until a single primary direction and its
+exposure/outcome pairing are confirmed.</strong></p>
+</div>
+<h2>F &middot; Decision log</h2><p class="sub">Dated, append-only record of decisions made and why &mdash; see <a href="https://github.com/demiyang12/PFAS-health-feasibility-package/blob/phase-2-feasibility-assessment/phase2/docs/decision_log.md" target="_blank" rel="noopener">decision_log.md</a> <span class="path">phase2/docs/decision_log.md</span> for future entries.</p><div class="memo"><h1>Phase 2 Decision Log</h1>
+<p>Running record of substantive decisions, in chronological order. Add a new dated entry
+rather than editing old ones — this is a log, not a living summary (that’s what
+<a href="phase2_methodological_memo.md"><code>phase2_methodological_memo.md</code></a> is for).</p>
+<hr />
+<h2>2026-09-30 — Phase 2 scoping kickoff</h2>
+<p><strong>Decision:</strong> Phase 2 begins as a scoping/feasibility assessment, not a new regression.
+No health-outcome model will be run until a single primary research direction is chosen.</p>
+<p><strong>Why:</strong> Phase 1’s own conclusion was that exposure characterization — not sample size or
+model sophistication — is the binding constraint. Jumping straight to a new outcome and a
+new regression would repeat the mistake Phase 1 already diagnosed.</p>
+<p><strong>What was done:</strong> Inventoried 17 candidate exposure datasets and 12 candidate health
+outcomes against explicit criteria (access, geography, temporal alignment, measured vs.
+source-pressure, linkage quality). Scored three candidate research directions (A: focused
+exposure–health study, B: exposure geography/source attribution, C: exposure-assignment
+methodology) against a common set of criteria.</p>
+<p><strong>Provisional recommendation:</strong> Direction C (exposure-assignment sensitivity) as primary,
+Direction B (source attribution, scoped to TRI/CWNS/Superfund) as secondary/parallel,
+Direction A limited to the three free CDC PLACES additions (cholesterol, CHD, stroke) as
+supporting evidence. Birth outcomes explicitly deferred — Texas DSHS data exist only at
+county resolution, one aggregation level coarser than the ZCTA design.</p>
+<p><strong>Status:</strong> Provisional. See open items below and in memo §4. Not yet reviewed by the
+research team.</p>
+<p><strong>Open items before this becomes final:</strong></p>
+<ul>
+<li>Pull actual Texas facility counts for TRI, CWNS, Superfund NPL (currently “not yet
+extracted” in the inventory).</li>
+<li>Check the EPA National PFAS Analytic Tools bulk-download contents directly.</li>
+<li>Verify EPA LMOP/landfill data (named by the research team, not checked yet).</li>
+<li>Confirm Texas DSHS’s birth-outcome suppression threshold.</li>
+<li>Confirm bulk-download availability for the Northeastern Presumptive Contamination
+dataset.</li>
+<li>Decide the exact comparison set for the Direction C sensitivity analysis.</li>
+</ul>
+</div>
+<p class="foot">Phase&nbsp;2 scoping record &mdash; built 2026-09-30. No raw data was downloaded and no analysis script has been written yet for Phase 2; every fact above was checked against a public source (see the CSVs for URLs) rather than assumed. Phase 1 in <code>data/</code>, <code>scripts/</code>, <code>outputs/</code>, <code>figures/</code> and <code>docs/</code> is unmodified. This HTML is self-contained; the deliverable links point to the GitHub repository.</p>
+</div></body></html>

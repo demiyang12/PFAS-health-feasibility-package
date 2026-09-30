@@ -38,6 +38,10 @@ file, emailed as an attachment, or viewed live at the Pages URL. The two excepti
 `data/raw/` and `data/processed/` — not stored in git (see *Data availability* below) — which
 the report shows as plain paths instead of dead links.
 
+**Phase 2 scoping report** (exposure/outcome data inventory, decision framework — see
+[`phase2/README.md`](phase2/README.md)) is published the same way, once Pages is on, at
+**https://demiyang12.github.io/PFAS-health-feasibility-package/phase2_report.html**
+
 ---
 
 ## How to reproduce
