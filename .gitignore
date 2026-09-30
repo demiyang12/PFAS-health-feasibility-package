@@ -17,6 +17,20 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 
+# Phase 2 (phase2/) mirrors the same policy: raw/interim/processed are not
+# stored in git; scripts, docs (inventories/memo/decision log), outputs and
+# figures are.
+phase2/data/raw/*
+!phase2/data/raw/.gitkeep
+!phase2/data/raw/README.md
+!phase2/data/raw/CHECKSUMS.sha256
+
+phase2/data/interim/*
+!phase2/data/interim/.gitkeep
+
+phase2/data/processed/*
+!phase2/data/processed/.gitkeep
+
 # OS / editor / R cruft
 .DS_Store
 **/.DS_Store
