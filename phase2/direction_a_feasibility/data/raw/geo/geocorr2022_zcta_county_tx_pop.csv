@@ -1,0 +1,2944 @@
+"zcta","county","CountyName","ZIPName","pop20","afact"
+"ZIP census tabulation area","County code","County name","ZIP Code name","Total population (2020 Census)","zcta-to-county allocation factor"
+" ","48003","Andrews TX","[not in a ZCTA]",22,0.0177 
+" ","48007","Aransas TX","[not in a ZCTA]",13,0.0105 
+" ","48033","Borden TX","[not in a ZCTA]",1,0.0008 
+" ","48043","Brewster TX","[not in a ZCTA]",147,0.1184 
+" ","48045","Briscoe TX","[not in a ZCTA]",1,0.0008 
+" ","48047","Brooks TX","[not in a ZCTA]",6,0.0048 
+" ","48059","Callahan TX","[not in a ZCTA]",3,0.0024 
+" ","48065","Carson TX","[not in a ZCTA]",8,0.0064 
+" ","48071","Chambers TX","[not in a ZCTA]",12,0.0097 
+" ","48079","Cochran TX","[not in a ZCTA]",2,0.0016 
+" ","48081","Coke TX","[not in a ZCTA]",10,0.0081 
+" ","48087","Collingsworth TX","[not in a ZCTA]",16,0.0129 
+" ","48099","Coryell TX","[not in a ZCTA]",4,0.0032 
+" ","48101","Cottle TX","[not in a ZCTA]",3,0.0024 
+" ","48107","Crosby TX","[not in a ZCTA]",6,0.0048 
+" ","48109","Culberson TX","[not in a ZCTA]",85,0.0684 
+" ","48117","Deaf Smith TX","[not in a ZCTA]",4,0.0032 
+" ","48127","Dimmit TX","[not in a ZCTA]",41,0.033 
+" ","48131","Duval TX","[not in a ZCTA]",6,0.0048 
+" ","48135","Ector TX","[not in a ZCTA]",8,0.0064 
+" ","48167","Galveston TX","[not in a ZCTA]",1,0.0008 
+" ","48173","Glasscock TX","[not in a ZCTA]",11,0.0089 
+" ","48179","Gray TX","[not in a ZCTA]",9,0.0072 
+" ","48189","Hale TX","[not in a ZCTA]",3,0.0024 
+" ","48191","Hall TX","[not in a ZCTA]",4,0.0032 
+" ","48205","Hartley TX","[not in a ZCTA]",2,0.0016 
+" ","48207","Haskell TX","[not in a ZCTA]",8,0.0064 
+" ","48215","Hidalgo TX","[not in a ZCTA]",1,0.0008 
+" ","48227","Howard TX","[not in a ZCTA]",6,0.0048 
+" ","48229","Hudspeth TX","[not in a ZCTA]",43,0.0346 
+" ","48233","Hutchinson TX","[not in a ZCTA]",31,0.025 
+" ","48235","Irion TX","[not in a ZCTA]",22,0.0177 
+" ","48243","Jeff Davis TX","[not in a ZCTA]",40,0.0322 
+" ","48261","Kenedy TX","[not in a ZCTA]",12,0.0097 
+" ","48269","King TX","[not in a ZCTA]",10,0.0081 
+" ","48271","Kinney TX","[not in a ZCTA]",2,0.0016 
+" ","48273","Kleberg TX","[not in a ZCTA]",3,0.0024 
+" ","48283","La Salle TX","[not in a ZCTA]",15,0.0121 
+" ","48301","Loving TX","[not in a ZCTA]",7,0.0056 
+" ","48321","Matagorda TX","[not in a ZCTA]",7,0.0056 
+" ","48323","Maverick TX","[not in a ZCTA]",2,0.0016 
+" ","48335","Mitchell TX","[not in a ZCTA]",7,0.0056 
+" ","48341","Moore TX","[not in a ZCTA]",33,0.0266 
+" ","48345","Motley TX","[not in a ZCTA]",6,0.0048 
+" ","48359","Oldham TX","[not in a ZCTA]",7,0.0056 
+" ","48371","Pecos TX","[not in a ZCTA]",231,0.186 
+" ","48377","Presidio TX","[not in a ZCTA]",72,0.058 
+" ","48383","Reagan TX","[not in a ZCTA]",11,0.0089 
+" ","48389","Reeves TX","[not in a ZCTA]",30,0.0242 
+" ","48393","Roberts TX","[not in a ZCTA]",5,0.004 
+" ","48413","Schleicher TX","[not in a ZCTA]",6,0.0048 
+" ","48417","Shackelford TX","[not in a ZCTA]",7,0.0056 
+" ","48421","Sherman TX","[not in a ZCTA]",1,0.0008 
+" ","48427","Starr TX","[not in a ZCTA]",30,0.0242 
+" ","48435","Sutton TX","[not in a ZCTA]",4,0.0032 
+" ","48443","Terrell TX","[not in a ZCTA]",14,0.0113 
+" ","48445","Terry TX","[not in a ZCTA]",2,0.0016 
+" ","48451","Tom Green TX","[not in a ZCTA]",6,0.0048 
+" ","48461","Upton TX","[not in a ZCTA]",4,0.0032 
+" ","48463","Uvalde TX","[not in a ZCTA]",25,0.0201 
+" ","48465","Val Verde TX","[not in a ZCTA]",6,0.0048 
+" ","48475","Ward TX","[not in a ZCTA]",2,0.0016 
+" ","48479","Webb TX","[not in a ZCTA]",67,0.0539 
+" ","48483","Wheeler TX","[not in a ZCTA]",1,0.0008 
+" ","48487","Wilbarger TX","[not in a ZCTA]",2,0.0016 
+" ","48495","Winkler TX","[not in a ZCTA]",7,0.0056 
+" ","48501","Yoakum TX","[not in a ZCTA]",11,0.0089 
+" ","48505","Zapata TX","[not in a ZCTA]",4,0.0032 
+" ","48507","Zavala TX","[not in a ZCTA]",4,0.0032 
+"73949","48421","Sherman TX","Texhoma, OK",12,1 
+"73960","48421","Sherman TX","Texhoma, TX (PO boxes)",35,1 
+"75001","48113","Dallas TX","Addison, TX",16528,1 
+"75002","48085","Collin TX","Allen, TX",69939,1 
+"75006","48113","Dallas TX","Carrollton, TX",47811,1 
+"75007","48085","Collin TX","Carrollton, TX",672,0.0125 
+"75007","48113","Dallas TX","Carrollton, TX",3522,0.0653 
+"75007","48121","Denton TX","Carrollton, TX",49766,0.9223 
+"75009","48085","Collin TX","Celina, TX",20752,0.9754 
+"75009","48121","Denton TX","Celina, TX",524,0.0246 
+"75010","48121","Denton TX","Carrollton, TX",33186,1 
+"75013","48085","Collin TX","Allen, TX",48360,1 
+"75019","48113","Dallas TX","Coppell, TX",43875,0.9772 
+"75019","48121","Denton TX","Coppell, TX",1022,0.0228 
+"75020","48181","Grayson TX","Denison, TX",23782,1 
+"75021","48181","Grayson TX","Denison, TX",8288,1 
+"75022","48121","Denton TX","Flower Mound, TX",26256,0.9804 
+"75022","48439","Tarrant TX","Flower Mound, TX",525,0.0196 
+"75023","48085","Collin TX","Plano, TX",46777,1 
+"75024","48085","Collin TX","Plano, TX",43035,0.9465 
+"75024","48121","Denton TX","Plano, TX",2434,0.0535 
+"75025","48085","Collin TX","Plano, TX",53161,1 
+"75028","48121","Denton TX","Flower Mound, TX",46661,0.9964 
+"75028","48439","Tarrant TX","Flower Mound, TX",169,0.0036 
+"75032","48397","Rockwall TX","Rockwall, TX",34590,1 
+"75033","48085","Collin TX","Frisco, TX",9380,0.2068 
+"75033","48121","Denton TX","Frisco, TX",35967,0.7932 
+"75034","48085","Collin TX","Frisco, TX",26465,0.5544 
+"75034","48121","Denton TX","Frisco, TX",21269,0.4456 
+"75035","48085","Collin TX","Frisco, TX",82596,1 
+"75036","48121","Denton TX","Frisco, TX",35148,1 
+"75038","48113","Dallas TX","Irving, TX",32928,1 
+"75039","48113","Dallas TX","Irving, TX",24569,1 
+"75040","48113","Dallas TX","Garland, TX",64035,1 
+"75041","48113","Dallas TX","Garland, TX",32219,1 
+"75042","48113","Dallas TX","Garland, TX",39148,1 
+"75043","48113","Dallas TX","Garland, TX",63973,1 
+"75044","48085","Collin TX","Garland, TX",162,0.0035 
+"75044","48113","Dallas TX","Garland, TX",45932,0.9965 
+"75048","48085","Collin TX","Sachse, TX",9968,0.3583 
+"75048","48113","Dallas TX","Sachse, TX",17850,0.6417 
+"75050","48113","Dallas TX","Grand Prairie, TX",31636,0.7267 
+"75050","48439","Tarrant TX","Grand Prairie, TX",11895,0.2733 
+"75051","48113","Dallas TX","Grand Prairie, TX",35845,0.8907 
+"75051","48439","Tarrant TX","Grand Prairie, TX",4398,0.1093 
+"75052","48113","Dallas TX","Grand Prairie, TX",56937,0.5917 
+"75052","48439","Tarrant TX","Grand Prairie, TX",39288,0.4083 
+"75054","48113","Dallas TX","Grand Prairie, TX",270,0.0173 
+"75054","48439","Tarrant TX","Grand Prairie, TX",15376,0.9827 
+"75056","48121","Denton TX","The Colony, TX",67570,1 
+"75057","48121","Denton TX","Lewisville, TX",16001,1 
+"75058","48181","Grayson TX","Gunter, TX",3799,1 
+"75060","48113","Dallas TX","Irving, TX",47955,1 
+"75061","48113","Dallas TX","Irving, TX",55828,1 
+"75062","48113","Dallas TX","Irving, TX",50466,1 
+"75063","48113","Dallas TX","Irving, TX",46598,1 
+"75065","48121","Denton TX","Lake Dallas, TX",12770,1 
+"75067","48113","Dallas TX","Lewisville, TX",1309,0.019 
+"75067","48121","Denton TX","Lewisville, TX",67425,0.981 
+"75068","48121","Denton TX","Little Elm, TX",66248,1 
+"75069","48085","Collin TX","Mckinney, TX",39084,1 
+"75070","48085","Collin TX","Mckinney, TX",57712,1 
+"75071","48085","Collin TX","Mckinney, TX",64449,1 
+"75072","48085","Collin TX","Mckinney, TX",55538,1 
+"75074","48085","Collin TX","Plano, TX",53003,1 
+"75075","48085","Collin TX","Plano, TX",36600,1 
+"75076","48181","Grayson TX","Pottsboro, TX",8057,1 
+"75077","48121","Denton TX","Lewisville, TX",38073,1 
+"75078","48085","Collin TX","Prosper, TX",27064,0.6943 
+"75078","48121","Denton TX","Prosper, TX",11916,0.3057 
+"75080","48085","Collin TX","Richardson, TX",15366,0.2865 
+"75080","48113","Dallas TX","Richardson, TX",38267,0.7135 
+"75081","48113","Dallas TX","Richardson, TX",37766,1 
+"75082","48085","Collin TX","Richardson, TX",25106,0.8946 
+"75082","48113","Dallas TX","Richardson, TX",2957,0.1054 
+"75087","48085","Collin TX","Rockwall, TX",245,0.0061 
+"75087","48397","Rockwall TX","Rockwall, TX",40215,0.9939 
+"75088","48113","Dallas TX","Rowlett, TX",22632,0.8414 
+"75088","48397","Rockwall TX","Rowlett, TX",4267,0.1586 
+"75089","48113","Dallas TX","Rowlett, TX",32502,0.9391 
+"75089","48397","Rockwall TX","Rowlett, TX",2106,0.0609 
+"75090","48181","Grayson TX","Sherman, TX",25002,1 
+"75092","48181","Grayson TX","Sherman, TX",27186,1 
+"75093","48085","Collin TX","Plano, TX",44977,0.9354 
+"75093","48121","Denton TX","Plano, TX",3104,0.0646 
+"75094","48085","Collin TX","Plano, TX",23864,1 
+"75098","48085","Collin TX","Wylie, TX",62584,0.9311 
+"75098","48113","Dallas TX","Wylie, TX",2852,0.0424 
+"75098","48397","Rockwall TX","Wylie, TX",1776,0.0264 
+"75101","48139","Ellis TX","Bardwell, TX (PO boxes)",633,1 
+"75102","48349","Navarro TX","Barry, TX",1501,1 
+"75103","48467","Van Zandt TX","Canton, TX",15162,1 
+"75104","48113","Dallas TX","Cedar Hill, TX",49154,0.988 
+"75104","48139","Ellis TX","Cedar Hill, TX",595,0.012 
+"75105","48349","Navarro TX","Chatfield, TX",307,1 
+"75109","48349","Navarro TX","Corsicana, TX",4766,1 
+"75110","48349","Navarro TX","Corsicana, TX",30336,1 
+"75114","48257","Kaufman TX","Crandall, TX",6347,1 
+"75115","48113","Dallas TX","Desoto, TX",56164,1 
+"75116","48113","Dallas TX","Duncanville, TX",20656,1 
+"75117","48467","Van Zandt TX","Edgewood, TX",4170,1 
+"75119","48139","Ellis TX","Ennis, TX",28718,0.9912 
+"75119","48349","Navarro TX","Ennis, TX",255,0.0088 
+"75124","48213","Henderson TX","Eustace, TX",4196,0.8239 
+"75124","48467","Van Zandt TX","Eustace, TX",897,0.1761 
+"75125","48113","Dallas TX","Ferris, TX",393,0.0521 
+"75125","48139","Ellis TX","Ferris, TX",7152,0.9479 
+"75126","48257","Kaufman TX","Forney, TX",63710,0.9866 
+"75126","48397","Rockwall TX","Forney, TX",863,0.0134 
+"75127","48467","Van Zandt TX","Fruitvale, TX",1644,1 
+"75132","48397","Rockwall TX","Fate, TX (PO boxes)",135,1 
+"75134","48113","Dallas TX","Lancaster, TX",20194,1 
+"75135","48231","Hunt TX","Caddo Mills, TX",8065,1 
+"75137","48113","Dallas TX","Duncanville, TX",20023,1 
+"75140","48423","Smith TX","Grand Saline, TX",69,0.0092 
+"75140","48467","Van Zandt TX","Grand Saline, TX",7469,0.9908 
+"75141","48113","Dallas TX","Hutchins, TX",5173,1 
+"75142","48257","Kaufman TX","Kaufman, TX",21952,1 
+"75143","48213","Henderson TX","Kemp, TX",7876,0.5131 
+"75143","48257","Kaufman TX","Kemp, TX",7473,0.4869 
+"75144","48349","Navarro TX","Kerens, TX",3462,1 
+"75146","48113","Dallas TX","Lancaster, TX",23749,0.9963 
+"75146","48139","Ellis TX","Lancaster, TX",88,0.0037 
+"75147","48213","Henderson TX","Mabank, TX",937,0.1204 
+"75147","48257","Kaufman TX","Mabank, TX",4080,0.5244 
+"75147","48467","Van Zandt TX","Mabank, TX",2764,0.3552 
+"75148","48213","Henderson TX","Malakoff, TX",5796,1 
+"75149","48113","Dallas TX","Mesquite, TX",60317,1 
+"75150","48113","Dallas TX","Mesquite, TX",64654,1 
+"75152","48139","Ellis TX","Palmer, TX",5820,1 
+"75153","48349","Navarro TX","Powell, TX",536,1 
+"75154","48113","Dallas TX","Red Oak, TX",11514,0.2509 
+"75154","48139","Ellis TX","Red Oak, TX",34380,0.7491 
+"75155","48349","Navarro TX","Rice, TX",3485,1 
+"75156","48213","Henderson TX","Mabank, TX",15683,0.9984 
+"75156","48257","Kaufman TX","Mabank, TX",25,0.0016 
+"75157","48257","Kaufman TX","Rosser, TX (PO boxes)",258,1 
+"75158","48257","Kaufman TX","Scurry, TX",5214,1 
+"75159","48113","Dallas TX","Seagoville, TX",19870,0.898 
+"75159","48257","Kaufman TX","Seagoville, TX",2257,0.102 
+"75160","48231","Hunt TX","Terrell, TX",1554,0.0584 
+"75160","48257","Kaufman TX","Terrell, TX",25041,0.9403 
+"75160","48397","Rockwall TX","Terrell, TX",37,0.0014 
+"75161","48257","Kaufman TX","Terrell, TX",7552,1 
+"75163","48213","Henderson TX","Trinidad, TX",2317,1 
+"75164","48085","Collin TX","Josephine, TX (PO boxes)",335,1 
+"75165","48139","Ellis TX","Waxahachie, TX",49805,1 
+"75166","48085","Collin TX","Lavon, TX",5457,1 
+"75167","48139","Ellis TX","Waxahachie, TX",12455,1 
+"75169","48231","Hunt TX","Wills Point, TX",1850,0.1087 
+"75169","48257","Kaufman TX","Wills Point, TX",999,0.0587 
+"75169","48467","Van Zandt TX","Wills Point, TX",14168,0.8326 
+"75172","48113","Dallas TX","Wilmer, TX",5519,1 
+"75173","48085","Collin TX","Nevada, TX",7733,1 
+"75180","48113","Dallas TX","Balch Springs, TX",26860,1 
+"75181","48113","Dallas TX","Mesquite, TX",27027,1 
+"75182","48113","Dallas TX","Sunnyvale, TX",7806,1 
+"75189","48085","Collin TX","Royse City, TX",4295,0.1137 
+"75189","48231","Hunt TX","Royse City, TX",9652,0.2555 
+"75189","48397","Rockwall TX","Royse City, TX",23830,0.6308 
+"75201","48113","Dallas TX","Dallas, TX",17740,1 
+"75202","48113","Dallas TX","Dallas, TX",2529,1 
+"75203","48113","Dallas TX","Dallas, TX",14710,1 
+"75204","48113","Dallas TX","Dallas, TX",34012,1 
+"75205","48113","Dallas TX","Dallas, TX",26299,1 
+"75206","48113","Dallas TX","Dallas, TX",40386,1 
+"75207","48113","Dallas TX","Dallas, TX",7116,1 
+"75208","48113","Dallas TX","Dallas, TX",29446,1 
+"75209","48113","Dallas TX","Dallas, TX",14740,1 
+"75210","48113","Dallas TX","Dallas, TX",8736,1 
+"75211","48113","Dallas TX","Dallas, TX",70695,1 
+"75212","48113","Dallas TX","Dallas, TX",27329,1 
+"75214","48113","Dallas TX","Dallas, TX",35664,1 
+"75215","48113","Dallas TX","Dallas, TX",18806,1 
+"75216","48113","Dallas TX","Dallas, TX",55759,1 
+"75217","48113","Dallas TX","Dallas, TX",85330,1 
+"75218","48113","Dallas TX","Dallas, TX",23136,1 
+"75219","48113","Dallas TX","Dallas, TX",27885,1 
+"75220","48113","Dallas TX","Dallas, TX",39627,1 
+"75223","48113","Dallas TX","Dallas, TX",13898,1 
+"75224","48113","Dallas TX","Dallas, TX",33766,1 
+"75225","48113","Dallas TX","Dallas, TX",22635,1 
+"75226","48113","Dallas TX","Dallas, TX",4535,1 
+"75227","48113","Dallas TX","Dallas, TX",59103,1 
+"75228","48113","Dallas TX","Dallas, TX",68219,1 
+"75229","48113","Dallas TX","Dallas, TX",33168,1 
+"75230","48113","Dallas TX","Dallas, TX",27810,1 
+"75231","48113","Dallas TX","Dallas, TX",40754,1 
+"75232","48113","Dallas TX","Dallas, TX",30061,1 
+"75233","48113","Dallas TX","Dallas, TX",15104,1 
+"75234","48113","Dallas TX","Dallas, TX",33216,1 
+"75235","48113","Dallas TX","Dallas, TX",19153,1 
+"75236","48113","Dallas TX","Dallas, TX",18385,1 
+"75237","48113","Dallas TX","Dallas, TX",19057,1 
+"75238","48113","Dallas TX","Dallas, TX",32801,1 
+"75240","48113","Dallas TX","Dallas, TX",25839,1 
+"75241","48113","Dallas TX","Dallas, TX",32944,1 
+"75243","48113","Dallas TX","Dallas, TX",62273,1 
+"75244","48113","Dallas TX","Dallas, TX",12576,1 
+"75246","48113","Dallas TX","Dallas, TX",2458,1 
+"75247","48113","Dallas TX","Dallas, TX",830,1 
+"75248","48085","Collin TX","Dallas, TX",235,0.0062 
+"75248","48113","Dallas TX","Dallas, TX",37975,0.9938 
+"75249","48113","Dallas TX","Dallas, TX",15291,1 
+"75251","48113","Dallas TX","Dallas, TX",3840,1 
+"75252","48085","Collin TX","Dallas, TX",25712,0.9364 
+"75252","48113","Dallas TX","Dallas, TX",1746,0.0636 
+"75253","48113","Dallas TX","Dallas, TX",25867,1 
+"75254","48113","Dallas TX","Dallas, TX",24664,1 
+"75261","48439","Tarrant TX","Dallas, TX (PO boxes)",1,1 
+"75287","48085","Collin TX","Dallas, TX",25793,0.485 
+"75287","48113","Dallas TX","Dallas, TX",282,0.0053 
+"75287","48121","Denton TX","Dallas, TX",27106,0.5097 
+"75401","48231","Hunt TX","Greenville, TX",19550,1 
+"75402","48231","Hunt TX","Greenville, TX",18983,1 
+"75407","48085","Collin TX","Princeton, TX",25738,1 
+"75409","48085","Collin TX","Anna, TX",21292,1 
+"75410","48379","Rains TX","Alba, TX",1056,0.2082 
+"75410","48499","Wood TX","Alba, TX",4017,0.7918 
+"75411","48277","Lamar TX","Arthur City, TX",1279,1 
+"75412","48387","Red River TX","Bagwell, TX",604,1 
+"75413","48147","Fannin TX","Bailey, TX (PO boxes)",179,1 
+"75414","48181","Grayson TX","Bells, TX",3507,1 
+"75415","48119","Delta TX","Ben Franklin, TX",212,1 
+"75416","48277","Lamar TX","Blossom, TX",2833,0.9947 
+"75416","48387","Red River TX","Blossom, TX",15,0.0053 
+"75417","48387","Red River TX","Bogata, TX",2361,1 
+"75418","48147","Fannin TX","Bonham, TX",14775,1 
+"75420","48223","Hopkins TX","Brashear, TX",1190,0.9867 
+"75420","48379","Rains TX","Brashear, TX",16,0.0133 
+"75421","48277","Lamar TX","Brookston, TX",988,1 
+"75422","48231","Hunt TX","Campbell, TX",2902,1 
+"75423","48147","Fannin TX","Celeste, TX",59,0.0191 
+"75423","48231","Hunt TX","Celeste, TX",3030,0.9809 
+"75424","48085","Collin TX","Blue Ridge, TX",4201,0.93 
+"75424","48147","Fannin TX","Blue Ridge, TX",316,0.07 
+"75426","48387","Red River TX","Clarksville, TX",4717,1 
+"75428","48119","Delta TX","Commerce, TX",231,0.0206 
+"75428","48231","Hunt TX","Commerce, TX",10961,0.9794 
+"75429","48231","Hunt TX","Commerce, TX (PO boxes)",9,1 
+"75431","48223","Hopkins TX","Como, TX",1815,0.8639 
+"75431","48499","Wood TX","Como, TX",286,0.1361 
+"75432","48119","Delta TX","Cooper, TX",3361,1 
+"75433","48223","Hopkins TX","Cumby, TX",2770,0.984 
+"75433","48231","Hunt TX","Cumby, TX",45,0.016 
+"75434","48277","Lamar TX","Cunningham, TX (PO boxes)",81,1 
+"75435","48277","Lamar TX","Deport, TX",834,0.839 
+"75435","48387","Red River TX","Deport, TX",160,0.161 
+"75436","48277","Lamar TX","Detroit, TX",349,0.1638 
+"75436","48387","Red River TX","Detroit, TX",1781,0.8362 
+"75437","48223","Hopkins TX","Dike, TX",1199,1 
+"75438","48147","Fannin TX","Dodd City, TX",963,1 
+"75439","48147","Fannin TX","Ector, TX",923,1 
+"75440","48223","Hopkins TX","Emory, TX",35,0.0051 
+"75440","48379","Rains TX","Emory, TX",6641,0.9633 
+"75440","48499","Wood TX","Emory, TX",218,0.0316 
+"75441","48119","Delta TX","Enloe, TX (PO boxes)",113,1 
+"75442","48085","Collin TX","Farmersville, TX",9899,0.8806 
+"75442","48231","Hunt TX","Farmersville, TX",1342,0.1194 
+"75446","48147","Fannin TX","Honey Grove, TX",2941,0.8766 
+"75446","48277","Lamar TX","Honey Grove, TX",414,0.1234 
+"75447","48147","Fannin TX","Ivanhoe, TX",1161,1 
+"75448","48119","Delta TX","Klondike, TX",679,1 
+"75449","48147","Fannin TX","Ladonia, TX",916,0.8208 
+"75449","48231","Hunt TX","Ladonia, TX",200,0.1792 
+"75450","48119","Delta TX","Lake Creek, TX",293,1 
+"75451","48063","Camp TX","Leesburg, TX",1159,0.9228 
+"75451","48459","Upshur TX","Leesburg, TX",28,0.0223 
+"75451","48499","Wood TX","Leesburg, TX",69,0.0549 
+"75452","48085","Collin TX","Leonard, TX",238,0.0496 
+"75452","48147","Fannin TX","Leonard, TX",4292,0.8938 
+"75452","48231","Hunt TX","Leonard, TX",272,0.0566 
+"75453","48223","Hopkins TX","Lone Oak, TX",189,0.0506 
+"75453","48231","Hunt TX","Lone Oak, TX",2922,0.7819 
+"75453","48379","Rains TX","Lone Oak, TX",626,0.1675 
+"75454","48085","Collin TX","Melissa, TX",16252,1 
+"75455","48159","Franklin TX","Mount Pleasant, TX",122,0.0045 
+"75455","48449","Titus TX","Mount Pleasant, TX",27183,0.9955 
+"75457","48159","Franklin TX","Mount Vernon, TX",5991,1 
+"75459","48181","Grayson TX","Howe, TX",5556,1 
+"75460","48277","Lamar TX","Paris, TX",22925,1 
+"75462","48277","Lamar TX","Paris, TX",12016,1 
+"75468","48277","Lamar TX","Pattonville, TX",928,1 
+"75469","48119","Delta TX","Pecan Gap, TX",341,0.8655 
+"75469","48147","Fannin TX","Pecan Gap, TX",12,0.0305 
+"75469","48231","Hunt TX","Pecan Gap, TX",41,0.1041 
+"75470","48277","Lamar TX","Petty, TX",229,1 
+"75471","48223","Hopkins TX","Pickton, TX",1193,0.9598 
+"75471","48499","Wood TX","Pickton, TX",50,0.0402 
+"75472","48223","Hopkins TX","Point, TX",33,0.0086 
+"75472","48379","Rains TX","Point, TX",3816,0.9914 
+"75473","48277","Lamar TX","Powderly, TX",3660,1 
+"75474","48231","Hunt TX","Quinlan, TX",15608,0.9749 
+"75474","48257","Kaufman TX","Quinlan, TX",402,0.0251 
+"75475","48147","Fannin TX","Randolph, TX (PO boxes)",150,1 
+"75476","48147","Fannin TX","Ravenna, TX",1214,1 
+"75477","48277","Lamar TX","Roxton, TX",854,1 
+"75478","48159","Franklin TX","Saltillo, TX",58,0.0577 
+"75478","48223","Hopkins TX","Saltillo, TX",948,0.9423 
+"75479","48147","Fannin TX","Savoy, TX",1779,0.9559 
+"75479","48181","Grayson TX","Savoy, TX",82,0.0441 
+"75480","48159","Franklin TX","Scroggins, TX",1535,0.9703 
+"75480","48499","Wood TX","Scroggins, TX",47,0.0297 
+"75481","48159","Franklin TX","Sulphur Bluff, TX",56,0.144 
+"75481","48223","Hopkins TX","Sulphur Bluff, TX",333,0.856 
+"75482","48223","Hopkins TX","Sulphur Springs, TX",25743,1 
+"75486","48277","Lamar TX","Sumner, TX",2698,1 
+"75487","48159","Franklin TX","Talco, TX",664,0.4394 
+"75487","48449","Titus TX","Talco, TX",847,0.5606 
+"75488","48147","Fannin TX","Telephone, TX",1144,1 
+"75489","48181","Grayson TX","Tom Bean, TX (PO boxes)",1028,1 
+"75490","48147","Fannin TX","Trenton, TX",2754,0.9804 
+"75490","48181","Grayson TX","Trenton, TX",55,0.0196 
+"75491","48085","Collin TX","Whitewright, TX",39,0.0076 
+"75491","48147","Fannin TX","Whitewright, TX",1054,0.2047 
+"75491","48181","Grayson TX","Whitewright, TX",4055,0.7877 
+"75492","48147","Fannin TX","Windom, TX",562,1 
+"75493","48449","Titus TX","Winfield, TX (PO boxes)",497,1 
+"75494","48159","Franklin TX","Winnsboro, TX",1933,0.1634 
+"75494","48223","Hopkins TX","Winnsboro, TX",921,0.0779 
+"75494","48459","Upshur TX","Winnsboro, TX",136,0.0115 
+"75494","48499","Wood TX","Winnsboro, TX",8837,0.7472 
+"75495","48085","Collin TX","Van Alstyne, TX",387,0.0427 
+"75495","48181","Grayson TX","Van Alstyne, TX",8674,0.9573 
+"75496","48147","Fannin TX","Wolfe City, TX",468,0.1361 
+"75496","48231","Hunt TX","Wolfe City, TX",2970,0.8639 
+"75497","48223","Hopkins TX","Yantis, TX",418,0.1136 
+"75497","48379","Rains TX","Yantis, TX",9,0.0024 
+"75497","48499","Wood TX","Yantis, TX",3252,0.8839 
+"75501","48037","Bowie TX","Texarkana, TX",36423,1 
+"75503","48037","Bowie TX","Texarkana, TX",25547,1 
+"75550","48387","Red River TX","Annona, TX",602,1 
+"75551","48067","Cass TX","Atlanta, TX",10372,1 
+"75554","48037","Bowie TX","Avery, TX",265,0.1732 
+"75554","48387","Red River TX","Avery, TX",1265,0.8268 
+"75555","48067","Cass TX","Bivins, TX",1556,0.9052 
+"75555","48315","Marion TX","Bivins, TX",163,0.0948 
+"75556","48067","Cass TX","Bloomburg, TX",1127,1 
+"75558","48343","Morris TX","Cookville, TX",39,0.0257 
+"75558","48449","Titus TX","Cookville, TX",1479,0.9743 
+"75559","48037","Bowie TX","De Kalb, TX",5390,0.985 
+"75559","48387","Red River TX","De Kalb, TX",82,0.015 
+"75560","48067","Cass TX","Douglassville, TX",920,1 
+"75561","48037","Bowie TX","Hooks, TX",4875,1 
+"75562","48067","Cass TX","Kildare, TX (PO boxes)",116,1 
+"75563","48067","Cass TX","Linden, TX",3794,1 
+"75564","48067","Cass TX","Lodi, TX (PO boxes)",9,1 
+"75565","48067","Cass TX","Mc Leod, TX (PO boxes)",106,1 
+"75566","48067","Cass TX","Marietta, TX",676,1 
+"75567","48037","Bowie TX","Maud, TX",3770,1 
+"75568","48067","Cass TX","Naples, TX",818,0.2783 
+"75568","48343","Morris TX","Naples, TX",2121,0.7217 
+"75569","48037","Bowie TX","Nash, TX",3338,1 
+"75570","48037","Bowie TX","New Boston, TX",11315,1 
+"75571","48343","Morris TX","Omaha, TX",2349,0.901 
+"75571","48449","Titus TX","Omaha, TX",258,0.099 
+"75572","48067","Cass TX","Queen City, TX",3387,1 
+"75573","48037","Bowie TX","Redwater, TX (PO boxes)",275,1 
+"75574","48037","Bowie TX","Simms, TX",1695,1 
+"75601","48183","Gregg TX","Longview, TX",13595,0.8597 
+"75601","48203","Harrison TX","Longview, TX",2218,0.1403 
+"75602","48183","Gregg TX","Longview, TX",16109,0.7309 
+"75602","48203","Harrison TX","Longview, TX",5932,0.2691 
+"75603","48183","Gregg TX","Longview, TX",4458,0.7707 
+"75603","48401","Rusk TX","Longview, TX",1326,0.2293 
+"75604","48183","Gregg TX","Longview, TX",30524,0.9926 
+"75604","48459","Upshur TX","Longview, TX",228,0.0074 
+"75605","48183","Gregg TX","Longview, TX",27934,0.8488 
+"75605","48203","Harrison TX","Longview, TX",4932,0.1499 
+"75605","48459","Upshur TX","Longview, TX",43,0.0013 
+"75630","48067","Cass TX","Avinger, TX",1042,0.3932 
+"75630","48315","Marion TX","Avinger, TX",1608,0.6068 
+"75631","48365","Panola TX","Beckville, TX",2461,1 
+"75633","48365","Panola TX","Carthage, TX",13558,1 
+"75638","48067","Cass TX","Daingerfield, TX",20,0.0037 
+"75638","48343","Morris TX","Daingerfield, TX",5414,0.9963 
+"75639","48365","Panola TX","De Berry, TX",2716,1 
+"75640","48203","Harrison TX","Diana, TX",1338,0.246 
+"75640","48315","Marion TX","Diana, TX",53,0.0097 
+"75640","48459","Upshur TX","Diana, TX",4047,0.7442 
+"75641","48183","Gregg TX","Easton, TX (PO boxes)",109,0.7842 
+"75641","48401","Rusk TX","Easton, TX (PO boxes)",30,0.2158 
+"75642","48203","Harrison TX","Elysian Fields, TX (PO boxes)",169,0.8711 
+"75642","48365","Panola TX","Elysian Fields, TX (PO boxes)",25,0.1289 
+"75643","48365","Panola TX","Gary, TX",1857,0.9076 
+"75643","48419","Shelby TX","Gary, TX",189,0.0924 
+"75644","48459","Upshur TX","Gilmer, TX",11720,1 
+"75645","48183","Gregg TX","Gilmer, TX",123,0.0115 
+"75645","48459","Upshur TX","Gilmer, TX",10601,0.9885 
+"75647","48183","Gregg TX","Gladewater, TX",7125,0.5284 
+"75647","48423","Smith TX","Gladewater, TX",1461,0.1083 
+"75647","48459","Upshur TX","Gladewater, TX",4899,0.3633 
+"75650","48203","Harrison TX","Hallsville, TX",10139,1 
+"75651","48203","Harrison TX","Harleton, TX",2001,0.9643 
+"75651","48315","Marion TX","Harleton, TX",74,0.0357 
+"75652","48365","Panola TX","Henderson, TX",15,0.0009 
+"75652","48401","Rusk TX","Henderson, TX",15941,0.9991 
+"75654","48073","Cherokee TX","Henderson, TX",29,0.0024 
+"75654","48401","Rusk TX","Henderson, TX",12016,0.9976 
+"75656","48067","Cass TX","Hughes Springs, TX",4126,0.9052 
+"75656","48343","Morris TX","Hughes Springs, TX",432,0.0948 
+"75657","48067","Cass TX","Jefferson, TX",385,0.0486 
+"75657","48203","Harrison TX","Jefferson, TX",594,0.075 
+"75657","48315","Marion TX","Jefferson, TX",6944,0.8764 
+"75658","48401","Rusk TX","Joinerville, TX (PO boxes)",210,1 
+"75659","48203","Harrison TX","Jonesville, TX (PO boxes)",59,1 
+"75661","48203","Harrison TX","Karnack, TX",2381,1 
+"75662","48183","Gregg TX","Kilgore, TX",17750,0.7099 
+"75662","48401","Rusk TX","Kilgore, TX",6683,0.2673 
+"75662","48423","Smith TX","Kilgore, TX",569,0.0228 
+"75667","48401","Rusk TX","Laneville, TX",1227,1 
+"75668","48315","Marion TX","Lone Star, TX",164,0.0981 
+"75668","48343","Morris TX","Lone Star, TX",1508,0.9019 
+"75669","48365","Panola TX","Long Branch, TX",507,0.8608 
+"75669","48401","Rusk TX","Long Branch, TX",82,0.1392 
+"75670","48203","Harrison TX","Marshall, TX",16935,1 
+"75672","48203","Harrison TX","Marshall, TX",17280,0.9997 
+"75672","48365","Panola TX","Marshall, TX",5,0.0003 
+"75680","48401","Rusk TX","Minden, TX (PO boxes)",14,1 
+"75681","48401","Rusk TX","Mount Enterprise, TX",2674,1 
+"75682","48401","Rusk TX","New London, TX (PO boxes)",563,1 
+"75683","48315","Marion TX","Ore City, TX",719,0.1906 
+"75683","48459","Upshur TX","Ore City, TX",3054,0.8094 
+"75684","48401","Rusk TX","Overton, TX",6072,0.9004 
+"75684","48423","Smith TX","Overton, TX",672,0.0996 
+"75686","48063","Camp TX","Pittsburg, TX",11305,0.8504 
+"75686","48343","Morris TX","Pittsburg, TX",110,0.0083 
+"75686","48449","Titus TX","Pittsburg, TX",983,0.0739 
+"75686","48459","Upshur TX","Pittsburg, TX",895,0.0673 
+"75687","48401","Rusk TX","Price, TX (PO boxes)",7,1 
+"75689","48401","Rusk TX","Selman City, TX (PO boxes)",212,1 
+"75691","48365","Panola TX","Tatum, TX",306,0.076 
+"75691","48401","Rusk TX","Tatum, TX",3719,0.924 
+"75692","48203","Harrison TX","Waskom, TX",4861,0.9535 
+"75692","48365","Panola TX","Waskom, TX",237,0.0465 
+"75693","48183","Gregg TX","White Oak, TX",6512,1 
+"75701","48423","Smith TX","Tyler, TX",34502,1 
+"75702","48423","Smith TX","Tyler, TX",26777,1 
+"75703","48423","Smith TX","Tyler, TX",44428,1 
+"75704","48423","Smith TX","Tyler, TX",10075,1 
+"75705","48423","Smith TX","Tyler, TX",2141,1 
+"75706","48423","Smith TX","Tyler, TX",10313,1 
+"75707","48423","Smith TX","Tyler, TX",16620,1 
+"75708","48423","Smith TX","Tyler, TX",8294,1 
+"75709","48423","Smith TX","Tyler, TX",6037,1 
+"75711","48423","Smith TX","Tyler, TX (PO boxes)",135,1 
+"75750","48423","Smith TX","Arp, TX",3777,1 
+"75751","48001","Anderson TX","Athens, TX",359,0.021 
+"75751","48213","Henderson TX","Athens, TX",16741,0.979 
+"75752","48001","Anderson TX","Athens, TX",64,0.0086 
+"75752","48213","Henderson TX","Athens, TX",6972,0.9372 
+"75752","48467","Van Zandt TX","Athens, TX",403,0.0542 
+"75754","48467","Van Zandt TX","Ben Wheeler, TX",6632,1 
+"75755","48459","Upshur TX","Big Sandy, TX",5153,0.9815 
+"75755","48499","Wood TX","Big Sandy, TX",97,0.0185 
+"75756","48213","Henderson TX","Brownsboro, TX",4318,0.9686 
+"75756","48467","Van Zandt TX","Brownsboro, TX",140,0.0314 
+"75757","48073","Cherokee TX","Bullard, TX",5556,0.4168 
+"75757","48423","Smith TX","Bullard, TX",7774,0.5832 
+"75758","48213","Henderson TX","Chandler, TX",9192,0.9294 
+"75758","48467","Van Zandt TX","Chandler, TX",698,0.0706 
+"75759","48073","Cherokee TX","Cuney, TX (PO boxes)",122,1 
+"75760","48347","Nacogdoches TX","Cushing, TX",2236,0.8657 
+"75760","48401","Rusk TX","Cushing, TX",347,0.1343 
+"75762","48423","Smith TX","Flint, TX",13923,1 
+"75763","48001","Anderson TX","Frankston, TX",2905,0.513 
+"75763","48213","Henderson TX","Frankston, TX",2758,0.487 
+"75764","48073","Cherokee TX","Gallatin, TX (PO boxes)",178,1 
+"75765","48459","Upshur TX","Hawkins, TX",88,0.0114 
+"75765","48499","Wood TX","Hawkins, TX",7640,0.9886 
+"75766","48073","Cherokee TX","Jacksonville, TX",25382,1 
+"75770","48213","Henderson TX","Larue, TX",2893,1 
+"75771","48423","Smith TX","Lindale, TX",21870,1 
+"75773","48423","Smith TX","Mineola, TX",992,0.0732 
+"75773","48499","Wood TX","Mineola, TX",12567,0.9268 
+"75778","48213","Henderson TX","Murchison, TX",2313,0.6671 
+"75778","48467","Van Zandt TX","Murchison, TX",1154,0.3329 
+"75779","48001","Anderson TX","Neches, TX (PO boxes)",80,1 
+"75780","48073","Cherokee TX","New Summerfield, TX (PO boxes)",481,1 
+"75782","48213","Henderson TX","Poynor, TX (PO boxes)",85,1 
+"75783","48499","Wood TX","Quitman, TX",7763,1 
+"75784","48073","Cherokee TX","Reklaw, TX",256,0.4723 
+"75784","48401","Rusk TX","Reklaw, TX",286,0.5277 
+"75785","48073","Cherokee TX","Rusk, TX",10687,1 
+"75788","48347","Nacogdoches TX","Sacul, TX (PO boxes)",99,1 
+"75789","48073","Cherokee TX","Troup, TX",2920,0.363 
+"75789","48401","Rusk TX","Troup, TX",44,0.0055 
+"75789","48423","Smith TX","Troup, TX",5081,0.6316 
+"75790","48423","Smith TX","Van, TX",119,0.0273 
+"75790","48467","Van Zandt TX","Van, TX",4240,0.9727 
+"75791","48423","Smith TX","Whitehouse, TX",14255,1 
+"75792","48423","Smith TX","Winona, TX",3595,1 
+"75801","48001","Anderson TX","Palestine, TX",16859,1 
+"75803","48001","Anderson TX","Palestine, TX",22236,0.9976 
+"75803","48213","Henderson TX","Palestine, TX",54,0.0024 
+"75831","48161","Freestone TX","Buffalo, TX",623,0.1281 
+"75831","48289","Leon TX","Buffalo, TX",4242,0.8719 
+"75833","48289","Leon TX","Centerville, TX",3259,1 
+"75835","48225","Houston TX","Crockett, TX",11342,1 
+"75838","48161","Freestone TX","Donie, TX",447,0.8514 
+"75838","48293","Limestone TX","Donie, TX",78,0.1486 
+"75839","48001","Anderson TX","Elkhart, TX",5255,0.9949 
+"75839","48225","Houston TX","Elkhart, TX",27,0.0051 
+"75840","48161","Freestone TX","Fairfield, TX",7029,1 
+"75844","48001","Anderson TX","Grapeland, TX",688,0.1337 
+"75844","48225","Houston TX","Grapeland, TX",4456,0.8663 
+"75845","48455","Trinity TX","Groveton, TX",2784,1 
+"75846","48289","Leon TX","Jewett, TX",1783,0.7662 
+"75846","48293","Limestone TX","Jewett, TX",544,0.2338 
+"75847","48225","Houston TX","Kennard, TX",1254,0.8106 
+"75847","48455","Trinity TX","Kennard, TX",293,0.1894 
+"75848","48161","Freestone TX","Kirvin, TX (PO boxes)",88,1 
+"75849","48225","Houston TX","Latexo, TX (PO boxes)",95,1 
+"75850","48289","Leon TX","Leona, TX",596,1 
+"75851","48225","Houston TX","Lovelady, TX",4702,0.9657 
+"75851","48455","Trinity TX","Lovelady, TX",167,0.0343 
+"75852","48313","Madison TX","Midway, TX",3482,0.9616 
+"75852","48471","Walker TX","Midway, TX",139,0.0384 
+"75853","48001","Anderson TX","Montalba, TX",951,0.9804 
+"75853","48213","Henderson TX","Montalba, TX",19,0.0196 
+"75855","48161","Freestone TX","Oakwood, TX",1046,0.4665 
+"75855","48289","Leon TX","Oakwood, TX",1196,0.5335 
+"75856","48225","Houston TX","Pennington, TX",90,0.4615 
+"75856","48455","Trinity TX","Pennington, TX",105,0.5385 
+"75858","48225","Houston TX","Ratcliff, TX (PO boxes)",100,1 
+"75859","48161","Freestone TX","Streetman, TX",1696,0.7667 
+"75859","48349","Navarro TX","Streetman, TX",516,0.2333 
+"75860","48161","Freestone TX","Teague, TX",6623,1 
+"75861","48001","Anderson TX","Tennessee Colony, TX",1410,1 
+"75862","48455","Trinity TX","Trinity, TX",9131,0.9751 
+"75862","48471","Walker TX","Trinity, TX",233,0.0249 
+"75865","48455","Trinity TX","Woodlake, TX (PO boxes)",22,1 
+"75884","48001","Anderson TX","Tennessee Colony, TX",4156,1 
+"75886","48001","Anderson TX","Tennessee Colony, TX",2959,1 
+"75901","48005","Angelina TX","Lufkin, TX",28373,1 
+"75903","48005","Angelina TX","Lufkin, TX (PO boxes)",133,1 
+"75904","48005","Angelina TX","Lufkin, TX",34646,0.999 
+"75904","48455","Trinity TX","Lufkin, TX",34,0.001 
+"75925","48073","Cherokee TX","Alto, TX",3635,1 
+"75926","48455","Trinity TX","Apple Springs, TX",1066,1 
+"75928","48351","Newton TX","Bon Wier, TX",1181,1 
+"75929","48405","San Augustine TX","Broaddus, TX",1415,1 
+"75930","48403","Sabine TX","Bronson, TX",1172,0.5998 
+"75930","48405","San Augustine TX","Bronson, TX",782,0.4002 
+"75931","48241","Jasper TX","Brookeland, TX",2189,0.8949 
+"75931","48403","Sabine TX","Brookeland, TX",257,0.1051 
+"75932","48351","Newton TX","Burkeville, TX",1331,1 
+"75933","48241","Jasper TX","Call, TX",365,0.2829 
+"75933","48351","Newton TX","Call, TX",925,0.7171 
+"75934","48373","Polk TX","Camden, TX (PO boxes)",71,1 
+"75935","48405","San Augustine TX","Center, TX",184,0.0141 
+"75935","48419","Shelby TX","Center, TX",12876,0.9859 
+"75936","48373","Polk TX","Chester, TX",226,0.2665 
+"75936","48457","Tyler TX","Chester, TX",622,0.7335 
+"75937","48347","Nacogdoches TX","Chireno, TX",1081,1 
+"75938","48457","Tyler TX","Colmesneil, TX",2432,1 
+"75939","48373","Polk TX","Corrigan, TX",3716,1 
+"75941","48005","Angelina TX","Diboll, TX",8622,1 
+"75942","48457","Tyler TX","Doucette, TX (PO boxes)",125,1 
+"75943","48347","Nacogdoches TX","Douglass, TX",1300,1 
+"75944","48347","Nacogdoches TX","Etoile, TX",1138,1 
+"75946","48347","Nacogdoches TX","Garrison, TX",2793,0.8091 
+"75946","48401","Rusk TX","Garrison, TX",659,0.1909 
+"75948","48351","Newton TX","Hemphill, TX",12,0.0021 
+"75948","48403","Sabine TX","Hemphill, TX",5570,0.9978 
+"75949","48005","Angelina TX","Huntington, TX",8052,1 
+"75951","48241","Jasper TX","Jasper, TX",14367,0.9998 
+"75951","48351","Newton TX","Jasper, TX",3,0.0002 
+"75954","48365","Panola TX","Joaquin, TX",221,0.0684 
+"75954","48419","Shelby TX","Joaquin, TX",3012,0.9316 
+"75956","48241","Jasper TX","Kirbyville, TX",6565,0.883 
+"75956","48351","Newton TX","Kirbyville, TX",870,0.117 
+"75959","48403","Sabine TX","Milam, TX",821,1 
+"75960","48373","Polk TX","Moscow, TX",816,1 
+"75961","48347","Nacogdoches TX","Nacogdoches, TX",15656,1 
+"75962","48347","Nacogdoches TX","Nacogdoches, TX",2712,1 
+"75964","48347","Nacogdoches TX","Nacogdoches, TX",19986,1 
+"75965","48347","Nacogdoches TX","Nacogdoches, TX",17652,1 
+"75966","48241","Jasper TX","Newton, TX",27,0.0064 
+"75966","48351","Newton TX","Newton, TX",4182,0.9936 
+"75968","48403","Sabine TX","Pineland, TX",1819,1 
+"75969","48005","Angelina TX","Pollok, TX",4182,0.9723 
+"75969","48073","Cherokee TX","Pollok, TX",119,0.0277 
+"75972","48403","Sabine TX","San Augustine, TX",255,0.0432 
+"75972","48405","San Augustine TX","San Augustine, TX",5537,0.9386 
+"75972","48419","Shelby TX","San Augustine, TX",107,0.0181 
+"75973","48419","Shelby TX","Shelbyville, TX",2290,1 
+"75974","48365","Panola TX","Tenaha, TX",516,0.1804 
+"75974","48419","Shelby TX","Tenaha, TX",2344,0.8196 
+"75975","48365","Panola TX","Timpson, TX",67,0.0199 
+"75975","48401","Rusk TX","Timpson, TX",102,0.0302 
+"75975","48419","Shelby TX","Timpson, TX",3204,0.9499 
+"75976","48073","Cherokee TX","Wells, TX (PO boxes)",1047,1 
+"75977","48351","Newton TX","Wiergate, TX",570,1 
+"75979","48457","Tyler TX","Woodville, TX",10354,1 
+"75980","48005","Angelina TX","Zavalla, TX",2387,0.9731 
+"75980","48241","Jasper TX","Zavalla, TX",66,0.0269 
+"76001","48439","Tarrant TX","Arlington, TX",34102,1 
+"76002","48439","Tarrant TX","Arlington, TX",35021,1 
+"76005","48439","Tarrant TX","Arlington, TX",4412,1 
+"76006","48439","Tarrant TX","Arlington, TX",25320,1 
+"76008","48367","Parker TX","Aledo, TX",19824,0.9075 
+"76008","48439","Tarrant TX","Aledo, TX",2020,0.0925 
+"76009","48251","Johnson TX","Alvarado, TX",23376,1 
+"76010","48439","Tarrant TX","Arlington, TX",55894,1 
+"76011","48439","Tarrant TX","Arlington, TX",23158,1 
+"76012","48439","Tarrant TX","Arlington, TX",27080,1 
+"76013","48439","Tarrant TX","Arlington, TX",36535,1 
+"76014","48439","Tarrant TX","Arlington, TX",35954,1 
+"76015","48439","Tarrant TX","Arlington, TX",17185,1 
+"76016","48439","Tarrant TX","Arlington, TX",31091,1 
+"76017","48439","Tarrant TX","Arlington, TX",45745,1 
+"76018","48439","Tarrant TX","Arlington, TX",27784,1 
+"76020","48367","Parker TX","Azle, TX",13866,0.4143 
+"76020","48439","Tarrant TX","Azle, TX",18549,0.5542 
+"76020","48497","Wise TX","Azle, TX",1054,0.0315 
+"76021","48439","Tarrant TX","Bedford, TX",35265,1 
+"76022","48439","Tarrant TX","Bedford, TX",14692,1 
+"76023","48367","Parker TX","Boyd, TX",422,0.0618 
+"76023","48497","Wise TX","Boyd, TX",6403,0.9382 
+"76028","48251","Johnson TX","Burleson, TX",52175,0.7048 
+"76028","48439","Tarrant TX","Burleson, TX",21848,0.2952 
+"76031","48251","Johnson TX","Cleburne, TX",18398,1 
+"76033","48221","Hood TX","Cleburne, TX",76,0.0028 
+"76033","48251","Johnson TX","Cleburne, TX",26942,0.989 
+"76033","48425","Somervell TX","Cleburne, TX",225,0.0083 
+"76034","48439","Tarrant TX","Colleyville, TX",25988,1 
+"76035","48221","Hood TX","Cresson, TX",1000,0.3775 
+"76035","48251","Johnson TX","Cresson, TX",198,0.0747 
+"76035","48367","Parker TX","Cresson, TX",1451,0.5478 
+"76036","48251","Johnson TX","Crowley, TX",3061,0.0969 
+"76036","48439","Tarrant TX","Crowley, TX",28528,0.9031 
+"76039","48439","Tarrant TX","Euless, TX",39997,1 
+"76040","48439","Tarrant TX","Euless, TX",31899,1 
+"76041","48139","Ellis TX","Forreston, TX",395,1 
+"76043","48035","Bosque TX","Glen Rose, TX",23,0.0033 
+"76043","48425","Somervell TX","Glen Rose, TX",7037,0.9967 
+"76044","48251","Johnson TX","Godley, TX",5715,1 
+"76048","48221","Hood TX","Granbury, TX",25475,0.9888 
+"76048","48425","Somervell TX","Granbury, TX",289,0.0112 
+"76049","48221","Hood TX","Granbury, TX",30047,0.9761 
+"76049","48251","Johnson TX","Granbury, TX",298,0.0097 
+"76049","48367","Parker TX","Granbury, TX",439,0.0143 
+"76050","48139","Ellis TX","Grandview, TX",365,0.0499 
+"76050","48217","Hill TX","Grandview, TX",375,0.0513 
+"76050","48251","Johnson TX","Grandview, TX",6575,0.8988 
+"76051","48439","Tarrant TX","Grapevine, TX",49969,1 
+"76052","48121","Denton TX","Haslet, TX",3169,0.1188 
+"76052","48439","Tarrant TX","Haslet, TX",22937,0.8599 
+"76052","48497","Wise TX","Haslet, TX",569,0.0213 
+"76053","48439","Tarrant TX","Hurst, TX",31935,1 
+"76054","48439","Tarrant TX","Hurst, TX",12120,1 
+"76055","48217","Hill TX","Itasca, TX",3076,1 
+"76058","48251","Johnson TX","Joshua, TX",20940,1 
+"76059","48251","Johnson TX","Keene, TX",4928,1 
+"76060","48439","Tarrant TX","Kennedale, TX",8653,1 
+"76061","48251","Johnson TX","Lillian, TX (PO boxes)",192,1 
+"76063","48139","Ellis TX","Mansfield, TX",335,0.0044 
+"76063","48251","Johnson TX","Mansfield, TX",5265,0.0685 
+"76063","48439","Tarrant TX","Mansfield, TX",71314,0.9272 
+"76064","48139","Ellis TX","Maypearl, TX",1929,1 
+"76065","48113","Dallas TX","Midlothian, TX",61,0.0014 
+"76065","48139","Ellis TX","Midlothian, TX",42766,0.9986 
+"76066","48363","Palo Pinto TX","Millsap, TX",165,0.0432 
+"76066","48367","Parker TX","Millsap, TX",3651,0.9568 
+"76067","48363","Palo Pinto TX","Mineral Wells, TX",20049,0.9793 
+"76067","48367","Parker TX","Mineral Wells, TX",424,0.0207 
+"76070","48251","Johnson TX","Nemo, TX",16,0.0266 
+"76070","48425","Somervell TX","Nemo, TX",585,0.9734 
+"76071","48439","Tarrant TX","Newark, TX",465,0.1102 
+"76071","48497","Wise TX","Newark, TX",3755,0.8898 
+"76073","48497","Wise TX","Paradise, TX",6579,1 
+"76077","48425","Somervell TX","Rainbow, TX",555,1 
+"76078","48121","Denton TX","Rhome, TX",880,0.0882 
+"76078","48497","Wise TX","Rhome, TX",9099,0.9118 
+"76082","48367","Parker TX","Springtown, TX",19069,0.8864 
+"76082","48497","Wise TX","Springtown, TX",2445,0.1136 
+"76084","48139","Ellis TX","Venus, TX",2291,0.1913 
+"76084","48251","Johnson TX","Venus, TX",9688,0.8087 
+"76085","48367","Parker TX","Weatherford, TX",12249,1 
+"76086","48367","Parker TX","Weatherford, TX",21429,1 
+"76087","48221","Hood TX","Weatherford, TX",391,0.0117 
+"76087","48367","Parker TX","Weatherford, TX",32955,0.9883 
+"76088","48367","Parker TX","Weatherford, TX",13794,1 
+"76092","48121","Denton TX","Southlake, TX",722,0.0226 
+"76092","48439","Tarrant TX","Southlake, TX",31202,0.9774 
+"76093","48217","Hill TX","Rio Vista, TX",111,0.0489 
+"76093","48251","Johnson TX","Rio Vista, TX",2160,0.9511 
+"76102","48439","Tarrant TX","Fort Worth, TX",13236,1 
+"76103","48439","Tarrant TX","Fort Worth, TX",15394,1 
+"76104","48439","Tarrant TX","Fort Worth, TX",21571,1 
+"76105","48439","Tarrant TX","Fort Worth, TX",23445,1 
+"76106","48439","Tarrant TX","Fort Worth, TX",36521,1 
+"76107","48439","Tarrant TX","Fort Worth, TX",31591,1 
+"76108","48367","Parker TX","Fort Worth, TX",3084,0.0668 
+"76108","48439","Tarrant TX","Fort Worth, TX",43086,0.9332 
+"76109","48439","Tarrant TX","Fort Worth, TX",25373,1 
+"76110","48439","Tarrant TX","Fort Worth, TX",29858,1 
+"76111","48439","Tarrant TX","Fort Worth, TX",22512,1 
+"76112","48439","Tarrant TX","Fort Worth, TX",43132,1 
+"76114","48439","Tarrant TX","Fort Worth, TX",26676,1 
+"76115","48439","Tarrant TX","Fort Worth, TX",20956,1 
+"76116","48439","Tarrant TX","Fort Worth, TX",51639,1 
+"76117","48439","Tarrant TX","Haltom City, TX",33398,1 
+"76118","48439","Tarrant TX","Fort Worth, TX",16537,1 
+"76119","48439","Tarrant TX","Fort Worth, TX",50850,1 
+"76120","48439","Tarrant TX","Fort Worth, TX",19240,1 
+"76123","48439","Tarrant TX","Fort Worth, TX",37981,1 
+"76126","48367","Parker TX","Fort Worth, TX",1324,0.052 
+"76126","48439","Tarrant TX","Fort Worth, TX",24120,0.948 
+"76127","48439","Tarrant TX","Naval Air Station Jrb, TX",2214,1 
+"76129","48439","Tarrant TX","Fort Worth, TX",2579,1 
+"76131","48439","Tarrant TX","Fort Worth, TX",48515,1 
+"76132","48439","Tarrant TX","Fort Worth, TX",26249,1 
+"76133","48439","Tarrant TX","Fort Worth, TX",51811,1 
+"76134","48439","Tarrant TX","Fort Worth, TX",27362,1 
+"76135","48439","Tarrant TX","Fort Worth, TX",22009,1 
+"76137","48439","Tarrant TX","Fort Worth, TX",60555,1 
+"76140","48439","Tarrant TX","Fort Worth, TX",32623,1 
+"76148","48439","Tarrant TX","Fort Worth, TX",23587,1 
+"76155","48439","Tarrant TX","Fort Worth, TX",5647,1 
+"76164","48439","Tarrant TX","Fort Worth, TX",15602,1 
+"76177","48121","Denton TX","Fort Worth, TX",3949,0.1717 
+"76177","48439","Tarrant TX","Fort Worth, TX",19052,0.8283 
+"76179","48439","Tarrant TX","Fort Worth, TX",68333,1 
+"76180","48439","Tarrant TX","North Richland Hills, TX",37087,1 
+"76182","48439","Tarrant TX","North Richland Hills, TX",31117,1 
+"76201","48121","Denton TX","Denton, TX",27610,1 
+"76203","48121","Denton TX","Denton, TX (PO boxes)",224,1 
+"76205","48121","Denton TX","Denton, TX",18969,1 
+"76207","48121","Denton TX","Denton, TX",16097,1 
+"76208","48121","Denton TX","Denton, TX",27084,1 
+"76209","48121","Denton TX","Denton, TX",28088,1 
+"76210","48121","Denton TX","Denton, TX",46211,1 
+"76225","48337","Montague TX","Alvord, TX",24,0.0063 
+"76225","48497","Wise TX","Alvord, TX",3765,0.9937 
+"76226","48121","Denton TX","Argyle, TX",37214,1 
+"76227","48121","Denton TX","Aubrey, TX",47118,1 
+"76228","48077","Clay TX","Bellevue, TX",877,0.8761 
+"76228","48337","Montague TX","Bellevue, TX",124,0.1239 
+"76230","48077","Clay TX","Bowie, TX",143,0.0143 
+"76230","48237","Jack TX","Bowie, TX",219,0.0219 
+"76230","48337","Montague TX","Bowie, TX",9630,0.9638 
+"76233","48097","Cooke TX","Collinsville, TX",551,0.1482 
+"76233","48181","Grayson TX","Collinsville, TX",3168,0.8518 
+"76234","48097","Cooke TX","Decatur, TX",83,0.0044 
+"76234","48121","Denton TX","Decatur, TX",296,0.0158 
+"76234","48497","Wise TX","Decatur, TX",18376,0.9798 
+"76238","48097","Cooke TX","Era, TX",447,1 
+"76239","48097","Cooke TX","Forestburg, TX",183,0.1791 
+"76239","48337","Montague TX","Forestburg, TX",839,0.8209 
+"76240","48097","Cooke TX","Gainesville, TX",28311,0.9987 
+"76240","48181","Grayson TX","Gainesville, TX",38,0.0013 
+"76241","48097","Cooke TX","Gainesville, TX (PO boxes)",5,1 
+"76244","48439","Tarrant TX","Keller, TX",77154,1 
+"76245","48181","Grayson TX","Gordonville, TX",1954,1 
+"76247","48121","Denton TX","Justin, TX",17090,0.9949 
+"76247","48497","Wise TX","Justin, TX",88,0.0051 
+"76248","48439","Tarrant TX","Keller, TX",40894,1 
+"76249","48121","Denton TX","Krum, TX",9384,0.9971 
+"76249","48497","Wise TX","Krum, TX",27,0.0029 
+"76250","48097","Cooke TX","Lindsay, TX",945,1 
+"76251","48337","Montague TX","Montague, TX",719,1 
+"76252","48097","Cooke TX","Muenster, TX",2840,0.9961 
+"76252","48337","Montague TX","Muenster, TX",11,0.0039 
+"76253","48097","Cooke TX","Myra, TX (PO boxes)",191,1 
+"76255","48337","Montague TX","Nocona, TX",5448,1 
+"76258","48097","Cooke TX","Pilot Point, TX",8,0.0011 
+"76258","48121","Denton TX","Pilot Point, TX",7040,0.9502 
+"76258","48181","Grayson TX","Pilot Point, TX",361,0.0487 
+"76259","48121","Denton TX","Ponder, TX",6252,0.9891 
+"76259","48497","Wise TX","Ponder, TX",69,0.0109 
+"76261","48077","Clay TX","Ringgold, TX",39,0.1612 
+"76261","48337","Montague TX","Ringgold, TX",203,0.8388 
+"76262","48121","Denton TX","Roanoke, TX",29772,0.699 
+"76262","48439","Tarrant TX","Roanoke, TX",12820,0.301 
+"76263","48097","Cooke TX","Rosston, TX",48,1 
+"76264","48181","Grayson TX","Sadler, TX",1497,1 
+"76265","48097","Cooke TX","Saint Jo, TX",88,0.0555 
+"76265","48337","Montague TX","Saint Jo, TX",1497,0.9445 
+"76266","48097","Cooke TX","Sanger, TX",40,0.0024 
+"76266","48121","Denton TX","Sanger, TX",16739,0.9976 
+"76267","48497","Wise TX","Slidell, TX (PO boxes)",147,1 
+"76268","48181","Grayson TX","Southmayd, TX (PO boxes)",220,1 
+"76270","48337","Montague TX","Sunset, TX",1470,0.6631 
+"76270","48497","Wise TX","Sunset, TX",747,0.3369 
+"76271","48097","Cooke TX","Tioga, TX",229,0.1219 
+"76271","48181","Grayson TX","Tioga, TX",1650,0.8781 
+"76272","48097","Cooke TX","Valley View, TX",5426,0.9876 
+"76272","48121","Denton TX","Valley View, TX",68,0.0124 
+"76273","48097","Cooke TX","Whitesboro, TX",2273,0.2306 
+"76273","48181","Grayson TX","Whitesboro, TX",7584,0.7694 
+"76301","48485","Wichita TX","Wichita Falls, TX",15320,1 
+"76302","48485","Wichita TX","Wichita Falls, TX",12400,1 
+"76305","48077","Clay TX","Wichita Falls, TX",1942,0.377 
+"76305","48485","Wichita TX","Wichita Falls, TX",3209,0.623 
+"76306","48485","Wichita TX","Wichita Falls, TX",14664,1 
+"76308","48009","Archer TX","Wichita Falls, TX",1175,0.0579 
+"76308","48485","Wichita TX","Wichita Falls, TX",19130,0.9421 
+"76309","48485","Wichita TX","Wichita Falls, TX",13053,1 
+"76310","48009","Archer TX","Wichita Falls, TX",1769,0.0876 
+"76310","48077","Clay TX","Wichita Falls, TX",947,0.0469 
+"76310","48485","Wichita TX","Wichita Falls, TX",17488,0.8656 
+"76311","48485","Wichita TX","Sheppard AFB, TX",6349,1 
+"76351","48009","Archer TX","Archer City, TX (PO boxes)",1817,1 
+"76354","48485","Wichita TX","Burkburnett, TX",11496,1 
+"76357","48077","Clay TX","Byers, TX",685,1 
+"76360","48009","Archer TX","Electra, TX",36,0.0125 
+"76360","48023","Baylor TX","Electra, TX",1,0.0003 
+"76360","48485","Wichita TX","Electra, TX",2784,0.9647 
+"76360","48487","Wilbarger TX","Electra, TX",65,0.0225 
+"76363","48275","Knox TX","Goree, TX",231,1 
+"76364","48487","Wilbarger TX","Harrold, TX",181,1 
+"76365","48077","Clay TX","Henrietta, TX",4754,0.9956 
+"76365","48237","Jack TX","Henrietta, TX",21,0.0044 
+"76366","48009","Archer TX","Holliday, TX",2023,1 
+"76367","48485","Wichita TX","Iowa Park, TX",13457,1 
+"76370","48009","Archer TX","Megargel, TX (PO boxes)",238,1 
+"76371","48207","Haskell TX","Munday, TX",4,0.0026 
+"76371","48275","Knox TX","Munday, TX",1509,0.9974 
+"76372","48447","Throckmorton TX","Newcastle, TX",77,0.0886 
+"76372","48503","Young TX","Newcastle, TX",792,0.9114 
+"76373","48487","Wilbarger TX","Oklaunion, TX",161,1 
+"76374","48009","Archer TX","Olney, TX",73,0.0188 
+"76374","48447","Throckmorton TX","Olney, TX",17,0.0044 
+"76374","48503","Young TX","Olney, TX",3793,0.9768 
+"76377","48077","Clay TX","Petrolia, TX",592,1 
+"76379","48009","Archer TX","Scotland, TX",519,1 
+"76380","48023","Baylor TX","Seymour, TX",3464,0.9835 
+"76380","48275","Knox TX","Seymour, TX",58,0.0165 
+"76384","48155","Foard TX","Vernon, TX",10,0.0008 
+"76384","48487","Wilbarger TX","Vernon, TX",12364,0.9992 
+"76388","48207","Haskell TX","Weinert, TX",200,1 
+"76389","48009","Archer TX","Windthorst, TX",910,0.7502 
+"76389","48077","Clay TX","Windthorst, TX",239,0.197 
+"76389","48237","Jack TX","Windthorst, TX",64,0.0528 
+"76401","48143","Erath TX","Stephenville, TX",30144,1 
+"76402","48143","Erath TX","Stephenville, TX",980,1 
+"76424","48429","Stephens TX","Breckenridge, TX",8404,0.9985 
+"76424","48503","Young TX","Breckenridge, TX",13,0.0015 
+"76426","48237","Jack TX","Bridgeport, TX",263,0.0224 
+"76426","48497","Wise TX","Bridgeport, TX",11464,0.9776 
+"76427","48237","Jack TX","Bryson, TX",643,1 
+"76429","48363","Palo Pinto TX","Caddo, TX",23,0.1111 
+"76429","48429","Stephens TX","Caddo, TX",184,0.8889 
+"76430","48417","Shackelford TX","Albany, TX",2313,0.9983 
+"76430","48447","Throckmorton TX","Albany, TX",4,0.0017 
+"76431","48237","Jack TX","Chico, TX",66,0.0188 
+"76431","48497","Wise TX","Chico, TX",3451,0.9812 
+"76432","48049","Brown TX","Blanket, TX",1156,0.9167 
+"76432","48093","Comanche TX","Blanket, TX",105,0.0833 
+"76433","48143","Erath TX","Bluff Dale, TX",1759,0.8804 
+"76433","48221","Hood TX","Bluff Dale, TX",113,0.0566 
+"76433","48425","Somervell TX","Bluff Dale, TX",126,0.0631 
+"76435","48133","Eastland TX","Carbon, TX",691,1 
+"76436","48093","Comanche TX","Carlton, TX",121,0.4449 
+"76436","48143","Erath TX","Carlton, TX",14,0.0515 
+"76436","48193","Hamilton TX","Carlton, TX",137,0.5037 
+"76437","48059","Callahan TX","Cisco, TX",136,0.0236 
+"76437","48133","Eastland TX","Cisco, TX",5549,0.9617 
+"76437","48429","Stephens TX","Cisco, TX",85,0.0147 
+"76439","48367","Parker TX","Dennis, TX (PO boxes)",28,1 
+"76442","48093","Comanche TX","Comanche, TX",7336,0.9687 
+"76442","48193","Hamilton TX","Comanche, TX",28,0.0037 
+"76442","48333","Mills TX","Comanche, TX",209,0.0276 
+"76443","48049","Brown TX","Cross Plains, TX",102,0.0605 
+"76443","48059","Callahan TX","Cross Plains, TX",1567,0.93 
+"76443","48083","Coleman TX","Cross Plains, TX",16,0.0095 
+"76444","48093","Comanche TX","De Leon, TX",3662,0.9962 
+"76444","48143","Erath TX","De Leon, TX",14,0.0038 
+"76445","48093","Comanche TX","Desdemona, TX",93,0.2879 
+"76445","48133","Eastland TX","Desdemona, TX",201,0.6223 
+"76445","48143","Erath TX","Desdemona, TX",29,0.0898 
+"76446","48093","Comanche TX","Dublin, TX",972,0.1139 
+"76446","48143","Erath TX","Dublin, TX",7562,0.8861 
+"76448","48133","Eastland TX","Eastland, TX",5417,1 
+"76449","48237","Jack TX","Graford, TX",11,0.0043 
+"76449","48363","Palo Pinto TX","Graford, TX",2531,0.9957 
+"76450","48363","Palo Pinto TX","Graham, TX",242,0.0186 
+"76450","48429","Stephens TX","Graham, TX",105,0.0081 
+"76450","48503","Young TX","Graham, TX",12679,0.9734 
+"76452","48093","Comanche TX","Energy, TX (PO boxes)",111,1 
+"76453","48143","Erath TX","Gordon, TX",96,0.0816 
+"76453","48363","Palo Pinto TX","Gordon, TX",1081,0.9184 
+"76454","48093","Comanche TX","Gorman, TX",98,0.0657 
+"76454","48133","Eastland TX","Gorman, TX",1394,0.9343 
+"76455","48093","Comanche TX","Gustine, TX",804,1 
+"76457","48035","Bosque TX","Hico, TX",170,0.0451 
+"76457","48143","Erath TX","Hico, TX",1199,0.318 
+"76457","48193","Hamilton TX","Hico, TX",2401,0.6369 
+"76458","48237","Jack TX","Jacksboro, TX",6012,0.995 
+"76458","48497","Wise TX","Jacksboro, TX",30,0.005 
+"76459","48237","Jack TX","Jermyn, TX",184,1 
+"76460","48503","Young TX","Loving, TX",394,1 
+"76462","48143","Erath TX","Lipan, TX",433,0.1134 
+"76462","48221","Hood TX","Lipan, TX",1440,0.377 
+"76462","48363","Palo Pinto TX","Lipan, TX",634,0.166 
+"76462","48367","Parker TX","Lipan, TX",1313,0.3437 
+"76463","48143","Erath TX","Mingus, TX",236,0.4729 
+"76463","48363","Palo Pinto TX","Mingus, TX",263,0.5271 
+"76464","48059","Callahan TX","Moran, TX",31,0.0614 
+"76464","48417","Shackelford TX","Moran, TX",430,0.8515 
+"76464","48429","Stephens TX","Moran, TX",44,0.0871 
+"76466","48133","Eastland TX","Olden, TX (PO boxes)",156,1 
+"76469","48059","Callahan TX","Putnam, TX (PO boxes)",88,1 
+"76470","48133","Eastland TX","Ranger, TX",2854,0.929 
+"76470","48429","Stephens TX","Ranger, TX",218,0.071 
+"76471","48049","Brown TX","Rising Star, TX",241,0.1408 
+"76471","48093","Comanche TX","Rising Star, TX",21,0.0123 
+"76471","48133","Eastland TX","Rising Star, TX",1450,0.847 
+"76472","48363","Palo Pinto TX","Santo, TX",1432,1 
+"76474","48049","Brown TX","Sidney, TX",10,0.0422 
+"76474","48093","Comanche TX","Sidney, TX",227,0.9578 
+"76475","48133","Eastland TX","Strawn, TX",13,0.0148 
+"76475","48363","Palo Pinto TX","Strawn, TX",812,0.9259 
+"76475","48429","Stephens TX","Strawn, TX",52,0.0593 
+"76476","48221","Hood TX","Tolar, TX",3056,1 
+"76481","48503","Young TX","South Bend, TX",196,1 
+"76483","48447","Throckmorton TX","Throckmorton, TX",963,1 
+"76484","48363","Palo Pinto TX","Palo Pinto, TX",1020,1 
+"76486","48237","Jack TX","Perrin, TX",828,0.6504 
+"76486","48363","Palo Pinto TX","Perrin, TX",157,0.1233 
+"76486","48367","Parker TX","Perrin, TX",288,0.2262 
+"76487","48237","Jack TX","Poolville, TX",161,0.0497 
+"76487","48367","Parker TX","Poolville, TX",2513,0.7761 
+"76487","48497","Wise TX","Poolville, TX",564,0.1742 
+"76490","48367","Parker TX","Whitt, TX",99,1 
+"76491","48429","Stephens TX","Woodson, TX",9,0.0233 
+"76491","48447","Throckmorton TX","Woodson, TX",378,0.9767 
+"76501","48027","Bell TX","Temple, TX",16987,1 
+"76502","48027","Bell TX","Temple, TX",47297,1 
+"76504","48027","Bell TX","Temple, TX",24682,1 
+"76511","48027","Bell TX","Bartlett, TX",1067,0.4353 
+"76511","48331","Milam TX","Bartlett, TX",125,0.051 
+"76511","48491","Williamson TX","Bartlett, TX",1259,0.5137 
+"76513","48027","Bell TX","Belton, TX",43698,1 
+"76518","48331","Milam TX","Buckholts, TX",1220,1 
+"76519","48027","Bell TX","Burlington, TX",276,0.4929 
+"76519","48145","Falls TX","Burlington, TX",31,0.0554 
+"76519","48331","Milam TX","Burlington, TX",253,0.4518 
+"76520","48331","Milam TX","Cameron, TX",8068,1 
+"76522","48099","Coryell TX","Copperas Cove, TX",38975,0.9478 
+"76522","48281","Lampasas TX","Copperas Cove, TX",2148,0.0522 
+"76523","48331","Milam TX","Davilla, TX (PO boxes)",181,1 
+"76524","48145","Falls TX","Eddy, TX",569,0.2107 
+"76524","48309","McLennan TX","Eddy, TX",2131,0.7893 
+"76525","48099","Coryell TX","Evant, TX",535,0.524 
+"76525","48193","Hamilton TX","Evant, TX",345,0.3379 
+"76525","48281","Lampasas TX","Evant, TX",141,0.1381 
+"76527","48027","Bell TX","Florence, TX",276,0.0589 
+"76527","48053","Burnet TX","Florence, TX",247,0.0527 
+"76527","48491","Williamson TX","Florence, TX",4165,0.8884 
+"76528","48027","Bell TX","Gatesville, TX",328,0.0175 
+"76528","48099","Coryell TX","Gatesville, TX",18445,0.9825 
+"76530","48491","Williamson TX","Granger, TX",2654,1 
+"76531","48093","Comanche TX","Hamilton, TX",16,0.0034 
+"76531","48193","Hamilton TX","Hamilton, TX",4675,0.9957 
+"76531","48333","Mills TX","Hamilton, TX",4,0.0009 
+"76534","48027","Bell TX","Holland, TX",2593,0.9752 
+"76534","48331","Milam TX","Holland, TX",66,0.0248 
+"76537","48491","Williamson TX","Jarrell, TX",10943,1 
+"76538","48099","Coryell TX","Jonesboro, TX",533,0.5599 
+"76538","48193","Hamilton TX","Jonesboro, TX",419,0.4401 
+"76539","48027","Bell TX","Kempner, TX",1600,0.1786 
+"76539","48053","Burnet TX","Kempner, TX",282,0.0315 
+"76539","48099","Coryell TX","Kempner, TX",890,0.0993 
+"76539","48281","Lampasas TX","Kempner, TX",6188,0.6906 
+"76541","48027","Bell TX","Killeen, TX",19641,1 
+"76542","48027","Bell TX","Killeen, TX",53312,1 
+"76543","48027","Bell TX","Killeen, TX",30545,1 
+"76544","48027","Bell TX","Fort Hood, TX",13006,0.4579 
+"76544","48099","Coryell TX","Fort Hood, TX",15398,0.5421 
+"76548","48027","Bell TX","Harker Heights, TX",32714,1 
+"76549","48027","Bell TX","Killeen, TX",56085,0.998 
+"76549","48053","Burnet TX","Killeen, TX",87,0.0015 
+"76549","48099","Coryell TX","Killeen, TX",27,0.0005 
+"76550","48053","Burnet TX","Lampasas, TX",1189,0.0926 
+"76550","48281","Lampasas TX","Lampasas, TX",11651,0.9074 
+"76554","48027","Bell TX","Little River Academy, TX",2139,1 
+"76556","48051","Burleson TX","Milano, TX",8,0.0053 
+"76556","48331","Milam TX","Milano, TX",1495,0.9947 
+"76557","48027","Bell TX","Moody, TX",1659,0.312 
+"76557","48099","Coryell TX","Moody, TX",429,0.0807 
+"76557","48309","McLennan TX","Moody, TX",3230,0.6074 
+"76559","48027","Bell TX","Nolanville, TX",6354,1 
+"76561","48099","Coryell TX","Oglesby, TX",1013,0.9539 
+"76561","48309","McLennan TX","Oglesby, TX",49,0.0461 
+"76565","48193","Hamilton TX","Pottsville, TX",73,1 
+"76566","48099","Coryell TX","Purmela, TX",313,0.8817 
+"76566","48193","Hamilton TX","Purmela, TX",42,0.1183 
+"76567","48051","Burleson TX","Rockdale, TX",259,0.0283 
+"76567","48331","Milam TX","Rockdale, TX",8904,0.9717 
+"76569","48027","Bell TX","Rogers, TX",2452,0.9215 
+"76569","48331","Milam TX","Rogers, TX",209,0.0785 
+"76570","48145","Falls TX","Rosebud, TX",2276,0.9579 
+"76570","48331","Milam TX","Rosebud, TX",100,0.0421 
+"76571","48027","Bell TX","Salado, TX",8937,1 
+"76573","48491","Williamson TX","Schwertner, TX (PO boxes)",26,1 
+"76574","48453","Travis TX","Taylor, TX",22,0.0011 
+"76574","48491","Williamson TX","Taylor, TX",19344,0.9989 
+"76577","48331","Milam TX","Thorndale, TX",3068,0.9405 
+"76577","48491","Williamson TX","Thorndale, TX",194,0.0595 
+"76578","48331","Milam TX","Thrall, TX",34,0.0187 
+"76578","48491","Williamson TX","Thrall, TX",1783,0.9813 
+"76579","48027","Bell TX","Troy, TX",4999,0.9764 
+"76579","48145","Falls TX","Troy, TX",121,0.0236 
+"76596","48099","Coryell TX","Gatesville, TX",1159,1 
+"76597","48099","Coryell TX","Gatesville, TX",3233,1 
+"76598","48099","Coryell TX","Gatesville, TX",440,1 
+"76599","48099","Coryell TX","Gatesville, TX",1367,1 
+"76621","48217","Hill TX","Abbott, TX",972,0.9759 
+"76621","48309","McLennan TX","Abbott, TX",24,0.0241 
+"76622","48217","Hill TX","Aquilla, TX",1100,0.9582 
+"76622","48309","McLennan TX","Aquilla, TX",48,0.0418 
+"76623","48139","Ellis TX","Avalon, TX (PO boxes)",208,1 
+"76624","48293","Limestone TX","Axtell, TX",87,0.035 
+"76624","48309","McLennan TX","Axtell, TX",2400,0.965 
+"76626","48139","Ellis TX","Blooming Grove, TX",59,0.0355 
+"76626","48349","Navarro TX","Blooming Grove, TX",1603,0.9645 
+"76627","48217","Hill TX","Blum, TX",1687,1 
+"76628","48217","Hill TX","Brandon, TX (PO boxes)",87,1 
+"76629","48145","Falls TX","Bremond, TX",263,0.1328 
+"76629","48395","Robertson TX","Bremond, TX",1717,0.8672 
+"76630","48145","Falls TX","Bruceville, TX",24,0.0128 
+"76630","48309","McLennan TX","Bruceville, TX",1854,0.9872 
+"76631","48217","Hill TX","Bynum, TX",394,1 
+"76632","48145","Falls TX","Chilton, TX",1544,1 
+"76633","48035","Bosque TX","China Spring, TX",463,0.0817 
+"76633","48309","McLennan TX","China Spring, TX",5202,0.9183 
+"76634","48035","Bosque TX","Clifton, TX",7283,0.9959 
+"76634","48099","Coryell TX","Clifton, TX",30,0.0041 
+"76635","48293","Limestone TX","Coolidge, TX",1138,1 
+"76636","48217","Hill TX","Covington, TX",1502,1 
+"76637","48035","Bosque TX","Cranfills Gap, TX",428,0.8825 
+"76637","48193","Hamilton TX","Cranfills Gap, TX",57,0.1175 
+"76638","48309","McLennan TX","Crawford, TX",3130,1 
+"76639","48349","Navarro TX","Dawson, TX",1621,1 
+"76640","48309","McLennan TX","Elm Mott, TX",3063,1 
+"76641","48139","Ellis TX","Frost, TX",43,0.0244 
+"76641","48349","Navarro TX","Frost, TX",1718,0.9756 
+"76642","48293","Limestone TX","Groesbeck, TX",6641,1 
+"76643","48309","McLennan TX","Hewitt, TX",16044,1 
+"76645","48217","Hill TX","Hillsboro, TX",11274,1 
+"76648","48217","Hill TX","Hubbard, TX",2234,0.8865 
+"76648","48293","Limestone TX","Hubbard, TX",64,0.0254 
+"76648","48349","Navarro TX","Hubbard, TX",222,0.0881 
+"76649","48035","Bosque TX","Iredell, TX",696,0.9134 
+"76649","48143","Erath TX","Iredell, TX",66,0.0866 
+"76650","48217","Hill TX","Irene, TX (PO boxes)",46,1 
+"76651","48139","Ellis TX","Italy, TX",3373,1 
+"76652","48035","Bosque TX","Kopperl, TX",1078,1 
+"76653","48145","Falls TX","Kosse, TX",253,0.221 
+"76653","48293","Limestone TX","Kosse, TX",876,0.7651 
+"76653","48395","Robertson TX","Kosse, TX",16,0.014 
+"76654","48309","McLennan TX","Leroy, TX (PO boxes)",132,1 
+"76655","48145","Falls TX","Lorena, TX",686,0.0671 
+"76655","48309","McLennan TX","Lorena, TX",9541,0.9329 
+"76656","48145","Falls TX","Lott, TX",2229,1 
+"76657","48099","Coryell TX","Mc Gregor, TX",155,0.0135 
+"76657","48309","McLennan TX","Mc Gregor, TX",11289,0.9865 
+"76660","48217","Hill TX","Malone, TX",484,1 
+"76661","48145","Falls TX","Marlin, TX",7982,1 
+"76664","48145","Falls TX","Mart, TX",43,0.0132 
+"76664","48293","Limestone TX","Mart, TX",359,0.1098 
+"76664","48309","McLennan TX","Mart, TX",2867,0.877 
+"76665","48035","Bosque TX","Meridian, TX",2390,1 
+"76666","48217","Hill TX","Mertens, TX",278,0.9115 
+"76666","48349","Navarro TX","Mertens, TX",27,0.0885 
+"76667","48161","Freestone TX","Mexia, TX",376,0.0348 
+"76667","48293","Limestone TX","Mexia, TX",10425,0.9652 
+"76670","48139","Ellis TX","Milford, TX",1045,0.6911 
+"76670","48217","Hill TX","Milford, TX",467,0.3089 
+"76671","48035","Bosque TX","Morgan, TX",1988,1 
+"76673","48217","Hill TX","Mount Calm, TX",826,0.7024 
+"76673","48293","Limestone TX","Mount Calm, TX",321,0.273 
+"76673","48309","McLennan TX","Mount Calm, TX",29,0.0247 
+"76676","48217","Hill TX","Penelope, TX",315,1 
+"76678","48293","Limestone TX","Prairie Hill, TX",111,1 
+"76679","48349","Navarro TX","Purdon, TX",1442,1 
+"76680","48145","Falls TX","Reagan, TX",284,1 
+"76681","48349","Navarro TX","Richland, TX",520,1 
+"76682","48145","Falls TX","Riesel, TX",564,0.2016 
+"76682","48309","McLennan TX","Riesel, TX",2234,0.7984 
+"76685","48145","Falls TX","Satin, TX",91,1 
+"76686","48293","Limestone TX","Tehuacana, TX (PO boxes)",242,1 
+"76687","48145","Falls TX","Thornton, TX",4,0.0027 
+"76687","48293","Limestone TX","Thornton, TX",1208,0.8053 
+"76687","48395","Robertson TX","Thornton, TX",288,0.192 
+"76689","48035","Bosque TX","Valley Mills, TX",2644,0.6625 
+"76689","48099","Coryell TX","Valley Mills, TX",147,0.0368 
+"76689","48309","McLennan TX","Valley Mills, TX",1200,0.3007 
+"76690","48035","Bosque TX","Walnut Springs, TX",1072,0.7278 
+"76690","48143","Erath TX","Walnut Springs, TX",13,0.0088 
+"76690","48425","Somervell TX","Walnut Springs, TX",388,0.2634 
+"76691","48217","Hill TX","West, TX",84,0.0128 
+"76691","48309","McLennan TX","West, TX",6504,0.9872 
+"76692","48217","Hill TX","Whitney, TX",10562,1 
+"76693","48161","Freestone TX","Wortham, TX",1507,0.8076 
+"76693","48293","Limestone TX","Wortham, TX",52,0.0279 
+"76693","48349","Navarro TX","Wortham, TX",307,0.1645 
+"76701","48309","McLennan TX","Waco, TX",1674,1 
+"76704","48309","McLennan TX","Waco, TX",7220,1 
+"76705","48309","McLennan TX","Waco, TX",31736,1 
+"76706","48145","Falls TX","Waco, TX",4,0.0001 
+"76706","48309","McLennan TX","Waco, TX",39299,0.9999 
+"76707","48309","McLennan TX","Waco, TX",16227,1 
+"76708","48309","McLennan TX","Waco, TX",28499,1 
+"76710","48309","McLennan TX","Waco, TX",24874,1 
+"76711","48309","McLennan TX","Waco, TX",9806,1 
+"76712","48309","McLennan TX","Woodway, TX",27800,1 
+"76798","48309","McLennan TX","Waco, TX",2473,1 
+"76801","48049","Brown TX","Brownwood, TX",25336,0.9974 
+"76801","48083","Coleman TX","Brownwood, TX",29,0.0011 
+"76801","48333","Mills TX","Brownwood, TX",36,0.0014 
+"76802","48049","Brown TX","Early, TX",5503,1 
+"76820","48319","Mason TX","Art, TX",104,1 
+"76821","48399","Runnels TX","Ballinger, TX",4618,1 
+"76823","48049","Brown TX","Bangs, TX",2777,0.9975 
+"76823","48083","Coleman TX","Bangs, TX",7,0.0025 
+"76824","48411","San Saba TX","Bend, TX (PO boxes)",6,1 
+"76825","48307","McCulloch TX","Brady, TX",6549,0.9935 
+"76825","48319","Mason TX","Brady, TX",43,0.0065 
+"76827","48049","Brown TX","Brookesmith, TX",390,1 
+"76828","48083","Coleman TX","Burkett, TX",175,1 
+"76831","48299","Llano TX","Castell, TX",31,1 
+"76832","48411","San Saba TX","Cherokee, TX",551,1 
+"76834","48083","Coleman TX","Coleman, TX",4991,1 
+"76836","48095","Concho TX","Doole, TX",13,0.2407 
+"76836","48307","McCulloch TX","Doole, TX",41,0.7593 
+"76837","48095","Concho TX","Eden, TX",2313,1 
+"76841","48267","Kimble TX","Fort Mc Kavett, TX",2,0.0274 
+"76841","48327","Menard TX","Fort Mc Kavett, TX",52,0.7123 
+"76841","48413","Schleicher TX","Fort Mc Kavett, TX",19,0.2603 
+"76842","48319","Mason TX","Fredonia, TX",162,0.7431 
+"76842","48411","San Saba TX","Fredonia, TX",56,0.2569 
+"76844","48193","Hamilton TX","Goldthwaite, TX",45,0.0135 
+"76844","48281","Lampasas TX","Goldthwaite, TX",27,0.0081 
+"76844","48333","Mills TX","Goldthwaite, TX",3262,0.9784 
+"76845","48083","Coleman TX","Gouldbusk, TX",183,1 
+"76848","48327","Menard TX","Hext, TX",68,1 
+"76849","48265","Kerr TX","Junction, TX",38,0.0109 
+"76849","48267","Kimble TX","Junction, TX",3444,0.9891 
+"76852","48307","McCulloch TX","Lohn, TX",215,1 
+"76853","48281","Lampasas TX","Lometa, TX",1472,0.954 
+"76853","48333","Mills TX","Lometa, TX",64,0.0415 
+"76853","48411","San Saba TX","Lometa, TX",7,0.0045 
+"76854","48267","Kimble TX","London, TX",300,0.7958 
+"76854","48327","Menard TX","London, TX",77,0.2042 
+"76856","48319","Mason TX","Mason, TX",3574,1 
+"76857","48049","Brown TX","May, TX",1817,0.9934 
+"76857","48093","Comanche TX","May, TX",12,0.0066 
+"76858","48095","Concho TX","Melvin, TX",29,0.1362 
+"76858","48307","McCulloch TX","Melvin, TX",184,0.8638 
+"76859","48267","Kimble TX","Menard, TX",140,0.0735 
+"76859","48327","Menard TX","Menard, TX",1765,0.9265 
+"76861","48399","Runnels TX","Miles, TX",1129,0.5336 
+"76861","48451","Tom Green TX","Miles, TX",987,0.4664 
+"76862","48095","Concho TX","Millersview, TX",230,1 
+"76864","48333","Mills TX","Mullin, TX",707,1 
+"76865","48399","Runnels TX","Norton, TX",123,1 
+"76866","48095","Concho TX","Paint Rock, TX",627,1 
+"76869","48299","Llano TX","Pontotoc, TX",16,0.3077 
+"76869","48319","Mason TX","Pontotoc, TX",27,0.5192 
+"76869","48411","San Saba TX","Pontotoc, TX",9,0.1731 
+"76870","48333","Mills TX","Priddy, TX",59,1 
+"76871","48307","McCulloch TX","Richland Springs, TX",27,0.0417 
+"76871","48411","San Saba TX","Richland Springs, TX",621,0.9583 
+"76872","48307","McCulloch TX","Rochelle, TX",496,0.8239 
+"76872","48411","San Saba TX","Rochelle, TX",106,0.1761 
+"76873","48083","Coleman TX","Rockwood, TX",65,1 
+"76874","48267","Kimble TX","Roosevelt, TX",27,0.4909 
+"76874","48435","Sutton TX","Roosevelt, TX",28,0.5091 
+"76875","48095","Concho TX","Rowena, TX",45,0.0745 
+"76875","48399","Runnels TX","Rowena, TX",559,0.9255 
+"76877","48411","San Saba TX","San Saba, TX",4374,1 
+"76878","48083","Coleman TX","Santa Anna, TX",1492,1 
+"76880","48333","Mills TX","Star, TX (PO boxes)",16,1 
+"76882","48083","Coleman TX","Talpa, TX",220,0.712 
+"76882","48399","Runnels TX","Talpa, TX",89,0.288 
+"76884","48083","Coleman TX","Valera, TX",117,1 
+"76885","48299","Llano TX","Valley Spring, TX",133,1 
+"76887","48307","McCulloch TX","Voca, TX",118,1 
+"76888","48083","Coleman TX","Voss, TX",117,1 
+"76890","48049","Brown TX","Zephyr, TX",763,0.869 
+"76890","48093","Comanche TX","Zephyr, TX",16,0.0182 
+"76890","48333","Mills TX","Zephyr, TX",99,0.1128 
+"76901","48235","Irion TX","San Angelo, TX",33,0.0011 
+"76901","48451","Tom Green TX","San Angelo, TX",31051,0.9989 
+"76902","48451","Tom Green TX","San Angelo, TX (PO boxes)",5,1 
+"76903","48451","Tom Green TX","San Angelo, TX",32215,1 
+"76904","48235","Irion TX","San Angelo, TX",81,0.0022 
+"76904","48451","Tom Green TX","San Angelo, TX",36655,0.9978 
+"76905","48451","Tom Green TX","San Angelo, TX",13635,1 
+"76908","48451","Tom Green TX","Goodfellow AFB, TX",1515,1 
+"76909","48451","Tom Green TX","San Angelo, TX",195,1 
+"76930","48105","Crockett TX","Barnhart, TX (PO boxes)",11,0.0957 
+"76930","48235","Irion TX","Barnhart, TX (PO boxes)",104,0.9043 
+"76932","48105","Crockett TX","Big Lake, TX",32,0.0095 
+"76932","48383","Reagan TX","Big Lake, TX",3347,0.9905 
+"76933","48081","Coke TX","Bronte, TX",1215,0.9212 
+"76933","48399","Runnels TX","Bronte, TX",104,0.0788 
+"76934","48451","Tom Green TX","Carlsbad, TX",1336,1 
+"76935","48413","Schleicher TX","Christoval, TX",69,0.0403 
+"76935","48451","Tom Green TX","Christoval, TX",1645,0.9597 
+"76936","48413","Schleicher TX","Eldorado, TX",2357,1 
+"76937","48095","Concho TX","Eola, TX",28,0.2295 
+"76937","48451","Tom Green TX","Eola, TX",94,0.7705 
+"76939","48451","Tom Green TX","Knickerbocker, TX (PO boxes)",28,1 
+"76940","48451","Tom Green TX","Mereta, TX",128,1 
+"76941","48235","Irion TX","Mertzon, TX",1273,1 
+"76943","48105","Crockett TX","Ozona, TX",3005,0.9927 
+"76943","48465","Val Verde TX","Ozona, TX",22,0.0073 
+"76945","48081","Coke TX","Robert Lee, TX",1725,0.9885 
+"76945","48451","Tom Green TX","Robert Lee, TX",20,0.0115 
+"76950","48137","Edwards TX","Sonora, TX",36,0.0107 
+"76950","48435","Sutton TX","Sonora, TX",3340,0.9885 
+"76950","48465","Val Verde TX","Sonora, TX",3,0.0009 
+"76951","48431","Sterling TX","Sterling City, TX",1372,1 
+"76953","48081","Coke TX","Tennyson, TX (PO boxes)",51,1 
+"76955","48095","Concho TX","Vancourt, TX",18,0.1314 
+"76955","48451","Tom Green TX","Vancourt, TX",119,0.8686 
+"76957","48451","Tom Green TX","Wall, TX",68,1 
+"76958","48451","Tom Green TX","Water Valley, TX (PO boxes)",301,1 
+"77002","48201","Harris TX","Houston, TX",19844,1 
+"77003","48201","Harris TX","Houston, TX",11874,1 
+"77004","48201","Harris TX","Houston, TX",37005,1 
+"77005","48201","Harris TX","Houston, TX",28241,1 
+"77006","48201","Harris TX","Houston, TX",24129,1 
+"77007","48201","Harris TX","Houston, TX",42908,1 
+"77008","48201","Harris TX","Houston, TX",36631,1 
+"77009","48201","Harris TX","Houston, TX",36425,1 
+"77010","48201","Harris TX","Houston, TX",883,1 
+"77011","48201","Harris TX","Houston, TX",16841,1 
+"77012","48201","Harris TX","Houston, TX",18397,1 
+"77013","48201","Harris TX","Houston, TX",16815,1 
+"77014","48201","Harris TX","Houston, TX",35161,1 
+"77015","48201","Harris TX","Houston, TX",57106,1 
+"77016","48201","Harris TX","Houston, TX",29966,1 
+"77017","48201","Harris TX","Houston, TX",31659,1 
+"77018","48201","Harris TX","Houston, TX",27870,1 
+"77019","48201","Harris TX","Houston, TX",24136,1 
+"77020","48201","Harris TX","Houston, TX",24846,1 
+"77021","48201","Harris TX","Houston, TX",28055,1 
+"77022","48201","Harris TX","Houston, TX",28748,1 
+"77023","48201","Harris TX","Houston, TX",26780,1 
+"77024","48201","Harris TX","Houston, TX",39565,1 
+"77025","48201","Harris TX","Houston, TX",28510,1 
+"77026","48201","Harris TX","Houston, TX",23405,1 
+"77027","48201","Harris TX","Houston, TX",18987,1 
+"77028","48201","Harris TX","Houston, TX",18701,1 
+"77029","48201","Harris TX","Houston, TX",17044,1 
+"77030","48201","Harris TX","Houston, TX",13221,1 
+"77031","48157","Fort Bend TX","Houston, TX",16,0.001 
+"77031","48201","Harris TX","Houston, TX",15662,0.999 
+"77032","48201","Harris TX","Houston, TX",13497,1 
+"77033","48201","Harris TX","Houston, TX",28369,1 
+"77034","48201","Harris TX","Houston, TX",38186,1 
+"77035","48201","Harris TX","Houston, TX",37417,1 
+"77036","48201","Harris TX","Houston, TX",75870,1 
+"77037","48201","Harris TX","Houston, TX",19569,1 
+"77038","48201","Harris TX","Houston, TX",30483,1 
+"77039","48201","Harris TX","Houston, TX",28740,1 
+"77040","48201","Harris TX","Houston, TX",49524,1 
+"77041","48201","Harris TX","Houston, TX",35958,1 
+"77042","48201","Harris TX","Houston, TX",41177,1 
+"77043","48201","Harris TX","Houston, TX",26281,1 
+"77044","48201","Harris TX","Houston, TX",55665,1 
+"77045","48201","Harris TX","Houston, TX",32411,1 
+"77046","48201","Harris TX","Houston, TX",1742,1 
+"77047","48201","Harris TX","Houston, TX",32088,1 
+"77048","48201","Harris TX","Houston, TX",20536,1 
+"77049","48201","Harris TX","Houston, TX",38788,1 
+"77050","48201","Harris TX","Houston, TX",5004,1 
+"77051","48201","Harris TX","Houston, TX",18323,1 
+"77053","48157","Fort Bend TX","Houston, TX",16697,0.5501 
+"77053","48201","Harris TX","Houston, TX",13653,0.4499 
+"77054","48201","Harris TX","Houston, TX",24419,1 
+"77055","48201","Harris TX","Houston, TX",42766,1 
+"77056","48201","Harris TX","Houston, TX",24115,1 
+"77057","48201","Harris TX","Houston, TX",43669,1 
+"77058","48201","Harris TX","Houston, TX",19442,1 
+"77059","48201","Harris TX","Houston, TX",18568,1 
+"77060","48201","Harris TX","Houston, TX",42707,1 
+"77061","48201","Harris TX","Houston, TX",23398,1 
+"77062","48201","Harris TX","Houston, TX",25095,1 
+"77063","48201","Harris TX","Houston, TX",38298,1 
+"77064","48201","Harris TX","Houston, TX",48243,1 
+"77065","48201","Harris TX","Houston, TX",37144,1 
+"77066","48201","Harris TX","Houston, TX",34443,1 
+"77067","48201","Harris TX","Houston, TX",31729,1 
+"77068","48201","Harris TX","Houston, TX",11764,1 
+"77069","48201","Harris TX","Houston, TX",19299,1 
+"77070","48201","Harris TX","Houston, TX",52943,1 
+"77071","48201","Harris TX","Houston, TX",26949,1 
+"77072","48201","Harris TX","Houston, TX",56271,1 
+"77073","48201","Harris TX","Houston, TX",46071,1 
+"77074","48201","Harris TX","Houston, TX",40199,1 
+"77075","48201","Harris TX","Houston, TX",38873,1 
+"77076","48201","Harris TX","Houston, TX",32349,1 
+"77077","48201","Harris TX","Houston, TX",61302,1 
+"77078","48201","Harris TX","Houston, TX",14855,1 
+"77079","48201","Harris TX","Houston, TX",36404,1 
+"77080","48201","Harris TX","Houston, TX",45428,1 
+"77081","48201","Harris TX","Houston, TX",48293,1 
+"77082","48157","Fort Bend TX","Houston, TX",39,0.0007 
+"77082","48201","Harris TX","Houston, TX",57454,0.9993 
+"77083","48157","Fort Bend TX","Houston, TX",30598,0.4148 
+"77083","48201","Harris TX","Houston, TX",43165,0.5852 
+"77084","48201","Harris TX","Houston, TX",109808,1 
+"77085","48157","Fort Bend TX","Houston, TX",791,0.0445 
+"77085","48201","Harris TX","Houston, TX",16994,0.9555 
+"77086","48201","Harris TX","Houston, TX",29366,1 
+"77087","48201","Harris TX","Houston, TX",34654,1 
+"77088","48201","Harris TX","Houston, TX",54320,1 
+"77089","48201","Harris TX","Houston, TX",56994,1 
+"77090","48201","Harris TX","Houston, TX",42285,1 
+"77091","48201","Harris TX","Houston, TX",28020,1 
+"77092","48201","Harris TX","Houston, TX",34903,1 
+"77093","48201","Harris TX","Houston, TX",47736,1 
+"77094","48201","Harris TX","Houston, TX",11150,1 
+"77095","48201","Harris TX","Houston, TX",71206,1 
+"77096","48201","Harris TX","Houston, TX",34510,1 
+"77098","48201","Harris TX","Houston, TX",15717,1 
+"77099","48157","Fort Bend TX","Houston, TX",1932,0.0388 
+"77099","48201","Harris TX","Houston, TX",47917,0.9612 
+"77204","48201","Harris TX","Houston, TX",4280,1 
+"77301","48339","Montgomery TX","Conroe, TX",35923,1 
+"77302","48339","Montgomery TX","Conroe, TX",19384,1 
+"77303","48339","Montgomery TX","Conroe, TX",20974,1 
+"77304","48339","Montgomery TX","Conroe, TX",35969,1 
+"77306","48339","Montgomery TX","Conroe, TX",15127,1 
+"77316","48185","Grimes TX","Montgomery, TX",115,0.0038 
+"77316","48339","Montgomery TX","Montgomery, TX",30483,0.9962 
+"77318","48339","Montgomery TX","Willis, TX",17518,1 
+"77320","48407","San Jacinto TX","Huntsville, TX",1256,0.0337 
+"77320","48471","Walker TX","Huntsville, TX",36069,0.9663 
+"77326","48373","Polk TX","Ace, TX (PO boxes)",137,1 
+"77327","48291","Liberty TX","Cleveland, TX",32172,0.997 
+"77327","48339","Montgomery TX","Cleveland, TX",97,0.003 
+"77328","48291","Liberty TX","Cleveland, TX",3317,0.1943 
+"77328","48339","Montgomery TX","Cleveland, TX",7448,0.4363 
+"77328","48407","San Jacinto TX","Cleveland, TX",6306,0.3694 
+"77331","48407","San Jacinto TX","Coldspring, TX",6953,1 
+"77334","48471","Walker TX","Dodge, TX (PO boxes)",139,1 
+"77335","48373","Polk TX","Goodrich, TX",1937,1 
+"77336","48201","Harris TX","Huffman, TX",14881,1 
+"77338","48201","Harris TX","Humble, TX",45031,1 
+"77339","48201","Harris TX","Kingwood, TX",31431,0.7297 
+"77339","48339","Montgomery TX","Kingwood, TX",11645,0.2703 
+"77340","48471","Walker TX","Huntsville, TX",35020,1 
+"77342","48471","Walker TX","Huntsville, TX (PO boxes)",23,1 
+"77345","48201","Harris TX","Kingwood, TX",27258,1 
+"77346","48201","Harris TX","Humble, TX",71119,1 
+"77350","48373","Polk TX","Leggett, TX (PO boxes)",264,1 
+"77351","48373","Polk TX","Livingston, TX",37353,1 
+"77354","48339","Montgomery TX","Magnolia, TX",40625,1 
+"77355","48339","Montgomery TX","Magnolia, TX",28109,0.9594 
+"77355","48473","Waller TX","Magnolia, TX",1191,0.0406 
+"77356","48185","Grimes TX","Montgomery, TX",131,0.0041 
+"77356","48339","Montgomery TX","Montgomery, TX",32005,0.9959 
+"77357","48201","Harris TX","New Caney, TX",548,0.0181 
+"77357","48291","Liberty TX","New Caney, TX",226,0.0074 
+"77357","48339","Montgomery TX","New Caney, TX",29565,0.9745 
+"77358","48339","Montgomery TX","New Waverly, TX",440,0.0913 
+"77358","48407","San Jacinto TX","New Waverly, TX",747,0.1551 
+"77358","48471","Walker TX","New Waverly, TX",3630,0.7536 
+"77359","48407","San Jacinto TX","Oakhurst, TX",679,1 
+"77360","48373","Polk TX","Onalaska, TX",5603,1 
+"77362","48339","Montgomery TX","Pinehurst, TX",7007,1 
+"77363","48185","Grimes TX","Plantersville, TX",3562,0.9325 
+"77363","48473","Waller TX","Plantersville, TX",258,0.0675 
+"77364","48407","San Jacinto TX","Pointblank, TX",2312,1 
+"77365","48201","Harris TX","Porter, TX",1403,0.0333 
+"77365","48339","Montgomery TX","Porter, TX",40683,0.9667 
+"77367","48471","Walker TX","Riverside, TX (PO boxes)",287,1 
+"77368","48291","Liberty TX","Romayor, TX (PO boxes)",30,1 
+"77369","48199","Hardin TX","Rye, TX (PO boxes)",25,0.034 
+"77369","48291","Liberty TX","Rye, TX (PO boxes)",711,0.966 
+"77371","48291","Liberty TX","Shepherd, TX",35,0.0044 
+"77371","48407","San Jacinto TX","Shepherd, TX",7835,0.9956 
+"77372","48291","Liberty TX","Splendora, TX",2186,0.1643 
+"77372","48339","Montgomery TX","Splendora, TX",11120,0.8357 
+"77373","48201","Harris TX","Spring, TX",63413,1 
+"77374","48199","Hardin TX","Thicket, TX (PO boxes)",407,1 
+"77375","48201","Harris TX","Tomball, TX",65365,1 
+"77376","48199","Hardin TX","Votaw, TX (PO boxes)",468,1 
+"77377","48201","Harris TX","Tomball, TX",39711,1 
+"77378","48339","Montgomery TX","Willis, TX",16103,0.9246 
+"77378","48407","San Jacinto TX","Willis, TX",1314,0.0754 
+"77379","48201","Harris TX","Spring, TX",84704,1 
+"77380","48339","Montgomery TX","Spring, TX",27651,1 
+"77381","48339","Montgomery TX","Spring, TX",35191,1 
+"77382","48339","Montgomery TX","Spring, TX",37755,1 
+"77384","48339","Montgomery TX","Conroe, TX",23952,1 
+"77385","48339","Montgomery TX","Conroe, TX",27801,1 
+"77386","48339","Montgomery TX","Spring, TX",66058,1 
+"77388","48201","Harris TX","Spring, TX",51483,1 
+"77389","48201","Harris TX","Spring, TX",41534,1 
+"77396","48201","Harris TX","Humble, TX",61058,1 
+"77401","48201","Harris TX","Bellaire, TX",17219,1 
+"77406","48157","Fort Bend TX","Richmond, TX",58703,1 
+"77407","48157","Fort Bend TX","Richmond, TX",74657,1 
+"77412","48089","Colorado TX","Altair, TX (PO boxes)",57,1 
+"77414","48321","Matagorda TX","Bay City, TX",23416,1 
+"77415","48321","Matagorda TX","Cedar Lane, TX (PO boxes)",82,1 
+"77417","48157","Fort Bend TX","Beasley, TX",2154,1 
+"77418","48015","Austin TX","Bellville, TX",10037,1 
+"77419","48321","Matagorda TX","Blessing, TX (PO boxes)",1332,1 
+"77420","48157","Fort Bend TX","Boling, TX",31,0.0135 
+"77420","48321","Matagorda TX","Boling, TX",123,0.0536 
+"77420","48481","Wharton TX","Boling, TX",2142,0.9329 
+"77422","48039","Brazoria TX","Brazoria, TX",13731,1 
+"77423","48157","Fort Bend TX","Brookshire, TX",2537,0.1571 
+"77423","48473","Waller TX","Brookshire, TX",13615,0.8429 
+"77426","48015","Austin TX","Chappell Hill, TX",158,0.077 
+"77426","48477","Washington TX","Chappell Hill, TX",1895,0.923 
+"77428","48321","Matagorda TX","Collegeport, TX (PO boxes)",84,1 
+"77429","48201","Harris TX","Cypress, TX",94176,1 
+"77430","48039","Brazoria TX","Damon, TX",1323,0.5949 
+"77430","48157","Fort Bend TX","Damon, TX",901,0.4051 
+"77431","48039","Brazoria TX","Danciger, TX (PO boxes)",84,1 
+"77432","48481","Wharton TX","Danevang, TX (PO boxes)",138,1 
+"77433","48201","Harris TX","Cypress, TX",106663,1 
+"77434","48089","Colorado TX","Eagle Lake, TX",4046,0.9173 
+"77434","48481","Wharton TX","Eagle Lake, TX",365,0.0827 
+"77435","48089","Colorado TX","East Bernard, TX",21,0.0044 
+"77435","48157","Fort Bend TX","East Bernard, TX",436,0.0909 
+"77435","48481","Wharton TX","East Bernard, TX",4338,0.9047 
+"77436","48481","Wharton TX","Egypt, TX (PO boxes)",131,1 
+"77437","48481","Wharton TX","El Campo, TX",17832,1 
+"77440","48321","Matagorda TX","Elmaton, TX (PO boxes)",60,1 
+"77441","48157","Fort Bend TX","Fulshear, TX",23111,1 
+"77442","48089","Colorado TX","Garwood, TX",1151,1 
+"77443","48481","Wharton TX","Glen Flora, TX (PO boxes)",151,1 
+"77444","48039","Brazoria TX","Guy, TX",262,0.2479 
+"77444","48157","Fort Bend TX","Guy, TX",795,0.7521 
+"77445","48473","Waller TX","Hempstead, TX",14160,1 
+"77446","48473","Waller TX","Prairie View, TX (PO boxes)",6236,1 
+"77447","48201","Harris TX","Hockley, TX",14648,0.7041 
+"77447","48339","Montgomery TX","Hockley, TX",1416,0.0681 
+"77447","48473","Waller TX","Hockley, TX",4741,0.2279 
+"77448","48481","Wharton TX","Hungerford, TX (PO boxes)",459,1 
+"77449","48201","Harris TX","Katy, TX",128180,1 
+"77450","48157","Fort Bend TX","Katy, TX",21839,0.2993 
+"77450","48201","Harris TX","Katy, TX",51138,0.7007 
+"77451","48157","Fort Bend TX","Kendleton, TX (PO boxes)",495,1 
+"77453","48481","Wharton TX","Lane City, TX (PO boxes)",243,1 
+"77454","48481","Wharton TX","Lissie, TX (PO boxes)",192,1 
+"77455","48089","Colorado TX","Louise, TX",5,0.0029 
+"77455","48239","Jackson TX","Louise, TX",53,0.0303 
+"77455","48481","Wharton TX","Louise, TX",1693,0.9669 
+"77456","48321","Matagorda TX","Markham, TX (PO boxes)",1191,1 
+"77457","48321","Matagorda TX","Matagorda, TX (PO boxes)",426,1 
+"77458","48321","Matagorda TX","Midfield, TX (PO boxes)",397,1 
+"77459","48157","Fort Bend TX","Missouri City, TX",79731,1 
+"77460","48089","Colorado TX","Nada, TX (PO boxes)",52,1 
+"77461","48157","Fort Bend TX","Needville, TX",11890,1 
+"77464","48157","Fort Bend TX","Orchard, TX (PO boxes)",501,1 
+"77465","48057","Calhoun TX","Palacios, TX",61,0.0085 
+"77465","48239","Jackson TX","Palacios, TX",797,0.1117 
+"77465","48321","Matagorda TX","Palacios, TX",6279,0.8798 
+"77466","48473","Waller TX","Pattison, TX (PO boxes)",627,1 
+"77467","48481","Wharton TX","Pierce, TX (PO boxes)",25,1 
+"77468","48321","Matagorda TX","Pledger, TX",20,1 
+"77469","48157","Fort Bend TX","Richmond, TX",57925,1 
+"77470","48089","Colorado TX","Rock Island, TX (PO boxes)",276,1 
+"77471","48157","Fort Bend TX","Rosenberg, TX",42284,1 
+"77473","48015","Austin TX","San Felipe, TX (PO boxes)",39,1 
+"77474","48015","Austin TX","Sealy, TX",14101,0.9956 
+"77474","48089","Colorado TX","Sealy, TX",63,0.0044 
+"77475","48089","Colorado TX","Sheridan, TX (PO boxes)",718,1 
+"77476","48157","Fort Bend TX","Simonton, TX (PO boxes)",601,1 
+"77477","48157","Fort Bend TX","Stafford, TX",31833,0.8962 
+"77477","48201","Harris TX","Stafford, TX",3687,0.1038 
+"77478","48157","Fort Bend TX","Sugar Land, TX",24536,1 
+"77479","48157","Fort Bend TX","Sugar Land, TX",93180,1 
+"77480","48039","Brazoria TX","Sweeny, TX",7540,0.9531 
+"77480","48321","Matagorda TX","Sweeny, TX",371,0.0469 
+"77481","48157","Fort Bend TX","Thompsons, TX (PO boxes)",132,1 
+"77482","48321","Matagorda TX","Van Vleck, TX",2241,1 
+"77483","48321","Matagorda TX","Wadsworth, TX (PO boxes)",226,1 
+"77484","48185","Grimes TX","Waller, TX",602,0.0448 
+"77484","48201","Harris TX","Waller, TX",3390,0.2521 
+"77484","48473","Waller TX","Waller, TX",9457,0.7032 
+"77485","48015","Austin TX","Wallis, TX",2245,0.6139 
+"77485","48157","Fort Bend TX","Wallis, TX",1412,0.3861 
+"77486","48039","Brazoria TX","West Columbia, TX",7488,1 
+"77488","48481","Wharton TX","Wharton, TX",13861,1 
+"77489","48157","Fort Bend TX","Missouri City, TX",36045,0.9675 
+"77489","48201","Harris TX","Missouri City, TX",1212,0.0325 
+"77493","48157","Fort Bend TX","Katy, TX",177,0.0034 
+"77493","48201","Harris TX","Katy, TX",45357,0.8761 
+"77493","48473","Waller TX","Katy, TX",6240,0.1205 
+"77494","48157","Fort Bend TX","Katy, TX",115960,0.8861 
+"77494","48201","Harris TX","Katy, TX",14678,0.1122 
+"77494","48473","Waller TX","Katy, TX",234,0.0018 
+"77498","48157","Fort Bend TX","Sugar Land, TX",51472,1 
+"77502","48201","Harris TX","Pasadena, TX",37495,1 
+"77503","48201","Harris TX","Pasadena, TX",24956,1 
+"77504","48201","Harris TX","Pasadena, TX",25728,1 
+"77505","48201","Harris TX","Pasadena, TX",23584,1 
+"77506","48201","Harris TX","Pasadena, TX",34431,1 
+"77507","48201","Harris TX","Pasadena, TX",770,1 
+"77510","48039","Brazoria TX","Santa Fe, TX",6,0.0004 
+"77510","48167","Galveston TX","Santa Fe, TX",14351,0.9996 
+"77511","48039","Brazoria TX","Alvin, TX",48183,0.943 
+"77511","48167","Galveston TX","Alvin, TX",2910,0.057 
+"77514","48071","Chambers TX","Anahuac, TX",4926,1 
+"77515","48039","Brazoria TX","Angleton, TX",32710,1 
+"77517","48039","Brazoria TX","Santa Fe, TX",37,0.0061 
+"77517","48167","Galveston TX","Santa Fe, TX",6021,0.9939 
+"77518","48167","Galveston TX","Bacliff, TX",9689,1 
+"77519","48199","Hardin TX","Batson, TX",882,1 
+"77520","48071","Chambers TX","Baytown, TX",8,0.0002 
+"77520","48201","Harris TX","Baytown, TX",38579,0.9998 
+"77521","48071","Chambers TX","Baytown, TX",3522,0.0541 
+"77521","48201","Harris TX","Baytown, TX",61536,0.9459 
+"77523","48071","Chambers TX","Baytown, TX",26779,0.9689 
+"77523","48201","Harris TX","Baytown, TX",859,0.0311 
+"77530","48201","Harris TX","Channelview, TX",35319,1 
+"77531","48039","Brazoria TX","Clute, TX",15666,1 
+"77532","48201","Harris TX","Crosby, TX",34679,1 
+"77533","48291","Liberty TX","Daisetta, TX (PO boxes)",980,1 
+"77534","48039","Brazoria TX","Danbury, TX",2998,1 
+"77535","48071","Chambers TX","Dayton, TX",3105,0.0851 
+"77535","48201","Harris TX","Dayton, TX",23,0.0006 
+"77535","48291","Liberty TX","Dayton, TX",33366,0.9143 
+"77536","48201","Harris TX","Deer Park, TX",33693,1 
+"77538","48291","Liberty TX","Devers, TX",809,1 
+"77539","48167","Galveston TX","Dickinson, TX",48183,1 
+"77541","48039","Brazoria TX","Freeport, TX",16441,1 
+"77545","48039","Brazoria TX","Fresno, TX",137,0.0052 
+"77545","48157","Fort Bend TX","Fresno, TX",26426,0.9948 
+"77546","48039","Brazoria TX","Friendswood, TX",364,0.0067 
+"77546","48167","Galveston TX","Friendswood, TX",30505,0.558 
+"77546","48201","Harris TX","Friendswood, TX",23801,0.4354 
+"77547","48201","Harris TX","Galena Park, TX",9627,1 
+"77550","48167","Galveston TX","Galveston, TX",24247,1 
+"77551","48167","Galveston TX","Galveston, TX",22677,1 
+"77554","48167","Galveston TX","Galveston, TX",8961,1 
+"77555","48167","Galveston TX","Galveston, TX",9,1 
+"77560","48071","Chambers TX","Hankamer, TX",960,1 
+"77561","48291","Liberty TX","Hardin, TX (PO boxes)",92,1 
+"77562","48201","Harris TX","Highlands, TX",11861,1 
+"77563","48167","Galveston TX","Hitchcock, TX",9778,1 
+"77564","48199","Hardin TX","Hull, TX",277,0.1353 
+"77564","48291","Liberty TX","Hull, TX",1770,0.8647 
+"77565","48167","Galveston TX","Kemah, TX",6966,1 
+"77566","48039","Brazoria TX","Lake Jackson, TX",30538,1 
+"77568","48167","Galveston TX","La Marque, TX",20254,1 
+"77571","48201","Harris TX","La Porte, TX",37018,1 
+"77573","48167","Galveston TX","League City, TX",95256,1 
+"77575","48071","Chambers TX","Liberty, TX",156,0.0099 
+"77575","48291","Liberty TX","Liberty, TX",15612,0.9901 
+"77577","48039","Brazoria TX","Liverpool, TX",1250,1 
+"77578","48039","Brazoria TX","Manvel, TX",25228,1 
+"77580","48071","Chambers TX","Mont Belvieu, TX (PO boxes)",99,1 
+"77581","48039","Brazoria TX","Pearland, TX",44812,0.9108 
+"77581","48201","Harris TX","Pearland, TX",4386,0.0891 
+"77582","48291","Liberty TX","Raywood, TX (PO boxes)",262,1 
+"77583","48039","Brazoria TX","Rosharon, TX",36086,0.837 
+"77583","48157","Fort Bend TX","Rosharon, TX",7027,0.163 
+"77584","48039","Brazoria TX","Pearland, TX",87147,0.9364 
+"77584","48157","Fort Bend TX","Pearland, TX",5915,0.0636 
+"77585","48199","Hardin TX","Saratoga, TX",892,1 
+"77586","48201","Harris TX","Seabrook, TX",23503,1 
+"77587","48201","Harris TX","South Houston, TX",16179,1 
+"77590","48167","Galveston TX","Texas City, TX",30758,1 
+"77591","48167","Galveston TX","Texas City, TX",17347,1 
+"77597","48071","Chambers TX","Wallisville, TX",734,1 
+"77598","48201","Harris TX","Webster, TX",25620,1 
+"77611","48361","Orange TX","Bridge City, TX",9993,1 
+"77612","48241","Jasper TX","Buna, TX",8522,0.9153 
+"77612","48351","Newton TX","Buna, TX",789,0.0847 
+"77613","48245","Jefferson TX","China, TX (PO boxes)",1293,1 
+"77614","48351","Newton TX","Deweyville, TX (PO boxes)",468,1 
+"77615","48241","Jasper TX","Evadale, TX (PO boxes)",314,1 
+"77616","48457","Tyler TX","Fred, TX",656,1 
+"77617","48167","Galveston TX","Gilchrist, TX (PO boxes)",125,1 
+"77619","48245","Jefferson TX","Groves, TX",17349,1 
+"77622","48245","Jefferson TX","Hamshire, TX",1384,1 
+"77623","48167","Galveston TX","High Island, TX (PO boxes)",340,1 
+"77624","48457","Tyler TX","Hillister, TX",535,1 
+"77625","48199","Hardin TX","Kountze, TX",8599,1 
+"77627","48245","Jefferson TX","Nederland, TX",23296,1 
+"77629","48245","Jefferson TX","Nome, TX (PO boxes)",808,0.9309 
+"77629","48291","Liberty TX","Nome, TX (PO boxes)",60,0.0691 
+"77630","48361","Orange TX","Orange, TX",29317,1 
+"77632","48351","Newton TX","Orange, TX",1886,0.0839 
+"77632","48361","Orange TX","Orange, TX",20601,0.9161 
+"77640","48245","Jefferson TX","Port Arthur, TX",16618,1 
+"77642","48245","Jefferson TX","Port Arthur, TX",39017,1 
+"77650","48167","Galveston TX","Port Bolivar, TX (PO boxes)",2304,1 
+"77651","48245","Jefferson TX","Port Neches, TX",13705,1 
+"77655","48245","Jefferson TX","Sabine Pass, TX",291,1 
+"77656","48199","Hardin TX","Silsbee, TX",16676,0.9696 
+"77656","48457","Tyler TX","Silsbee, TX",523,0.0304 
+"77657","48199","Hardin TX","Lumberton, TX",22161,1 
+"77659","48199","Hardin TX","Sour Lake, TX",4964,1 
+"77660","48457","Tyler TX","Spurger, TX",1206,1 
+"77661","48071","Chambers TX","Stowell, TX (PO boxes)",429,1 
+"77662","48241","Jasper TX","Vidor, TX",565,0.0222 
+"77662","48361","Orange TX","Vidor, TX",24897,0.9778 
+"77663","48199","Hardin TX","Village Mills, TX (PO boxes)",819,0.6344 
+"77663","48457","Tyler TX","Village Mills, TX (PO boxes)",472,0.3656 
+"77664","48199","Hardin TX","Warren, TX",61,0.0208 
+"77664","48457","Tyler TX","Warren, TX",2873,0.9792 
+"77665","48071","Chambers TX","Winnie, TX",5841,0.825 
+"77665","48245","Jefferson TX","Winnie, TX",1239,0.175 
+"77701","48245","Jefferson TX","Beaumont, TX",13232,1 
+"77702","48245","Jefferson TX","Beaumont, TX",2682,1 
+"77703","48245","Jefferson TX","Beaumont, TX",13357,1 
+"77705","48245","Jefferson TX","Beaumont, TX",37950,1 
+"77706","48245","Jefferson TX","Beaumont, TX",29910,1 
+"77707","48245","Jefferson TX","Beaumont, TX",17509,1 
+"77708","48245","Jefferson TX","Beaumont, TX",12478,1 
+"77713","48245","Jefferson TX","Beaumont, TX",14408,1 
+"77801","48041","Brazos TX","Bryan, TX",15097,1 
+"77802","48041","Brazos TX","Bryan, TX",25502,1 
+"77803","48041","Brazos TX","Bryan, TX",30533,1 
+"77807","48041","Brazos TX","Bryan, TX",12420,0.9452 
+"77807","48395","Robertson TX","Bryan, TX",720,0.0548 
+"77808","48041","Brazos TX","Bryan, TX",14532,0.955 
+"77808","48395","Robertson TX","Bryan, TX",685,0.045 
+"77830","48185","Grimes TX","Anderson, TX",2836,1 
+"77831","48185","Grimes TX","Bedias, TX",2885,0.8203 
+"77831","48313","Madison TX","Bedias, TX",37,0.0105 
+"77831","48471","Walker TX","Bedias, TX",595,0.1692 
+"77833","48015","Austin TX","Brenham, TX",466,0.0158 
+"77833","48477","Washington TX","Brenham, TX",28965,0.9842 
+"77835","48015","Austin TX","Burton, TX",37,0.015 
+"77835","48477","Washington TX","Burton, TX",2426,0.985 
+"77836","48051","Burleson TX","Caldwell, TX",11675,0.9961 
+"77836","48331","Milam TX","Caldwell, TX",46,0.0039 
+"77837","48395","Robertson TX","Calvert, TX",1362,1 
+"77840","48041","Brazos TX","College Station, TX",55180,1 
+"77843","48041","Brazos TX","College Station, TX",8701,1 
+"77845","48041","Brazos TX","College Station, TX",70108,1 
+"77852","48051","Burleson TX","Deanville, TX (PO boxes)",40,1 
+"77853","48287","Lee TX","Dime Box, TX",1116,1 
+"77855","48289","Leon TX","Flynn, TX (PO boxes)",159,1 
+"77856","48395","Robertson TX","Franklin, TX",5170,1 
+"77857","48331","Milam TX","Gause, TX (PO boxes)",985,1 
+"77859","48041","Brazos TX","Hearne, TX",486,0.0682 
+"77859","48395","Robertson TX","Hearne, TX",6645,0.9318 
+"77861","48185","Grimes TX","Iola, TX",2850,1 
+"77863","48051","Burleson TX","Lyons, TX (PO boxes)",64,1 
+"77864","48313","Madison TX","Madisonville, TX",7243,1 
+"77865","48289","Leon TX","Marquez, TX",1571,1 
+"77866","48041","Brazos TX","Millican, TX (PO boxes)",36,1 
+"77867","48395","Robertson TX","Mumford, TX (PO boxes)",109,1 
+"77868","48041","Brazos TX","Navasota, TX",1254,0.0753 
+"77868","48185","Grimes TX","Navasota, TX",15324,0.9205 
+"77868","48473","Waller TX","Navasota, TX",35,0.0021 
+"77868","48477","Washington TX","Navasota, TX",34,0.002 
+"77871","48289","Leon TX","Normangee, TX",2913,0.7922 
+"77871","48313","Madison TX","Normangee, TX",764,0.2078 
+"77872","48185","Grimes TX","North Zulch, TX",63,0.0316 
+"77872","48313","Madison TX","North Zulch, TX",1929,0.9684 
+"77873","48185","Grimes TX","Richards, TX",791,0.5455 
+"77873","48339","Montgomery TX","Richards, TX",394,0.2717 
+"77873","48471","Walker TX","Richards, TX",265,0.1828 
+"77875","48185","Grimes TX","Roans Prairie, TX (PO boxes)",63,1 
+"77876","48185","Grimes TX","Shiro, TX (PO boxes)",46,1 
+"77878","48051","Burleson TX","Snook, TX (PO boxes)",602,1 
+"77879","48051","Burleson TX","Somerville, TX",4994,1 
+"77880","48477","Washington TX","Washington, TX",1922,1 
+"77882","48395","Robertson TX","Wheelock, TX (PO boxes)",45,1 
+"77901","48469","Victoria TX","Victoria, TX",40062,1 
+"77904","48469","Victoria TX","Victoria, TX",29646,1 
+"77905","48175","Goliad TX","Victoria, TX",1108,0.0725 
+"77905","48469","Victoria TX","Victoria, TX",14174,0.9275 
+"77950","48007","Aransas TX","Austwell, TX (PO boxes)",19,0.1195 
+"77950","48391","Refugio TX","Austwell, TX (PO boxes)",140,0.8805 
+"77951","48469","Victoria TX","Bloomington, TX (PO boxes)",2246,1 
+"77954","48123","DeWitt TX","Cuero, TX",11441,0.9985 
+"77954","48177","Gonzales TX","Cuero, TX",17,0.0015 
+"77957","48239","Jackson TX","Edna, TX",8730,1 
+"77960","48175","Goliad TX","Fannin, TX (PO boxes)",78,1 
+"77961","48239","Jackson TX","Francitas, TX (PO boxes)",161,1 
+"77962","48239","Jackson TX","Ganado, TX",3425,1 
+"77963","48175","Goliad TX","Goliad, TX",5184,1 
+"77964","48089","Colorado TX","Hallettsville, TX",26,0.0032 
+"77964","48285","Lavaca TX","Hallettsville, TX",8207,0.9968 
+"77968","48469","Victoria TX","Inez, TX",3398,1 
+"77969","48239","Jackson TX","La Salle, TX (PO boxes)",206,1 
+"77970","48239","Jackson TX","La Ward, TX (PO boxes)",283,1 
+"77971","48239","Jackson TX","Lolita, TX",829,1 
+"77973","48469","Victoria TX","Mcfaddin, TX (PO boxes)",47,1 
+"77974","48123","DeWitt TX","Meyersville, TX",198,0.4352 
+"77974","48469","Victoria TX","Meyersville, TX",257,0.5648 
+"77975","48285","Lavaca TX","Moulton, TX",1753,1 
+"77976","48469","Victoria TX","Nursery, TX (PO boxes)",68,1 
+"77977","48469","Victoria TX","Placedo, TX (PO boxes)",667,1 
+"77978","48057","Calhoun TX","Point Comfort, TX (PO boxes)",621,1 
+"77979","48057","Calhoun TX","Port Lavaca, TX",16639,0.9915 
+"77979","48239","Jackson TX","Port Lavaca, TX",76,0.0045 
+"77979","48469","Victoria TX","Port Lavaca, TX",67,0.004 
+"77982","48057","Calhoun TX","Port O Connor, TX (PO boxes)",968,1 
+"77983","48057","Calhoun TX","Seadrift, TX",1732,1 
+"77984","48123","DeWitt TX","Shiner, TX",19,0.0042 
+"77984","48177","Gonzales TX","Shiner, TX",437,0.0973 
+"77984","48285","Lavaca TX","Shiner, TX",4034,0.8984 
+"77986","48285","Lavaca TX","Sublime, TX",27,1 
+"77987","48285","Lavaca TX","Sweet Home, TX (PO boxes)",161,1 
+"77988","48469","Victoria TX","Telferner, TX (PO boxes)",353,1 
+"77990","48057","Calhoun TX","Tivoli, TX",85,0.1286 
+"77990","48391","Refugio TX","Tivoli, TX",576,0.8714 
+"77991","48239","Jackson TX","Vanderbilt, TX (PO boxes)",428,1 
+"77993","48175","Goliad TX","Weesatche, TX (PO boxes)",166,1 
+"77994","48123","DeWitt TX","Westhoff, TX",300,0.9709 
+"77994","48177","Gonzales TX","Westhoff, TX",9,0.0291 
+"77995","48123","DeWitt TX","Yoakum, TX",3818,0.3888 
+"77995","48285","Lavaca TX","Yoakum, TX",5669,0.5772 
+"77995","48469","Victoria TX","Yoakum, TX",334,0.034 
+"78001","48283","La Salle TX","Artesia Wells, TX (PO boxes)",4,1 
+"78002","48029","Bexar TX","Atascosa, TX",8876,1 
+"78003","48019","Bandera TX","Bandera, TX",8994,0.9374 
+"78003","48325","Medina TX","Bandera, TX",601,0.0626 
+"78004","48259","Kendall TX","Bergheim, TX",518,1 
+"78005","48013","Atascosa TX","Bigfoot, TX",189,0.2296 
+"78005","48163","Frio TX","Bigfoot, TX",634,0.7704 
+"78006","48029","Bexar TX","Boerne, TX",6526,0.1593 
+"78006","48091","Comal TX","Boerne, TX",557,0.0136 
+"78006","48259","Kendall TX","Boerne, TX",33896,0.8272 
+"78007","48311","McMullen TX","Calliham, TX",95,1 
+"78008","48013","Atascosa TX","Campbellton, TX",209,0.933 
+"78008","48297","Live Oak TX","Campbellton, TX",15,0.067 
+"78009","48325","Medina TX","Castroville, TX",8715,1 
+"78010","48265","Kerr TX","Center Point, TX",3357,1 
+"78011","48013","Atascosa TX","Charlotte, TX",1943,1 
+"78012","48013","Atascosa TX","Christine, TX",373,1 
+"78013","48259","Kendall TX","Comfort, TX",4173,0.7111 
+"78013","48265","Kerr TX","Comfort, TX",1695,0.2889 
+"78014","48127","Dimmit TX","Cotulla, TX",9,0.0018 
+"78014","48283","La Salle TX","Cotulla, TX",5069,0.9982 
+"78015","48029","Bexar TX","Boerne, TX",15054,0.725 
+"78015","48091","Comal TX","Boerne, TX",1318,0.0635 
+"78015","48259","Kendall TX","Boerne, TX",4392,0.2115 
+"78016","48163","Frio TX","Devine, TX",248,0.0236 
+"78016","48325","Medina TX","Devine, TX",10282,0.9764 
+"78017","48163","Frio TX","Dilley, TX",5872,0.9932 
+"78017","48283","La Salle TX","Dilley, TX",40,0.0068 
+"78019","48283","La Salle TX","Encinal, TX (PO boxes)",1406,0.9481 
+"78019","48479","Webb TX","Encinal, TX (PO boxes)",77,0.0519 
+"78021","48283","La Salle TX","Fowlerton, TX",130,0.8125 
+"78021","48311","McMullen TX","Fowlerton, TX",30,0.1875 
+"78022","48297","Live Oak TX","George West, TX",4335,0.9982 
+"78022","48311","McMullen TX","George West, TX",8,0.0018 
+"78023","48019","Bandera TX","Helotes, TX",220,0.0073 
+"78023","48029","Bexar TX","Helotes, TX",29397,0.9704 
+"78023","48325","Medina TX","Helotes, TX",678,0.0224 
+"78024","48265","Kerr TX","Hunt, TX",1074,0.9917 
+"78024","48385","Real TX","Hunt, TX",9,0.0083 
+"78025","48265","Kerr TX","Ingram, TX",5146,1 
+"78026","48013","Atascosa TX","Jourdanton, TX",6151,0.9951 
+"78026","48311","McMullen TX","Jourdanton, TX",30,0.0049 
+"78027","48259","Kendall TX","Kendalia, TX",478,1 
+"78028","48171","Gillespie TX","Kerrville, TX",918,0.0225 
+"78028","48265","Kerr TX","Kerrville, TX",39871,0.9775 
+"78029","48265","Kerr TX","Kerrville, TX (PO boxes)",7,1 
+"78039","48029","Bexar TX","La Coste, TX",227,0.1265 
+"78039","48325","Medina TX","La Coste, TX",1568,0.8735 
+"78040","48479","Webb TX","Laredo, TX",36688,1 
+"78041","48479","Webb TX","Laredo, TX",48491,1 
+"78043","48479","Webb TX","Laredo, TX",43473,1 
+"78044","48479","Webb TX","Laredo, TX (PO boxes)",200,1 
+"78045","48479","Webb TX","Laredo, TX",65354,1 
+"78046","48479","Webb TX","Laredo, TX",71956,1 
+"78050","48013","Atascosa TX","Leming, TX (PO boxes)",583,1 
+"78052","48013","Atascosa TX","Lytle, TX",5059,0.6797 
+"78052","48029","Bexar TX","Lytle, TX",459,0.0617 
+"78052","48325","Medina TX","Lytle, TX",1925,0.2586 
+"78055","48019","Bandera TX","Medina, TX",1548,0.9835 
+"78055","48265","Kerr TX","Medina, TX",26,0.0165 
+"78056","48325","Medina TX","Mico, TX",2116,1 
+"78057","48163","Frio TX","Moore, TX",1062,0.8705 
+"78057","48325","Medina TX","Moore, TX",158,0.1295 
+"78058","48171","Gillespie TX","Mountain Home, TX",114,0.0874 
+"78058","48265","Kerr TX","Mountain Home, TX",1153,0.8842 
+"78058","48385","Real TX","Mountain Home, TX",37,0.0284 
+"78059","48325","Medina TX","Natalia, TX",5724,1 
+"78061","48163","Frio TX","Pearsall, TX",10569,1 
+"78062","48013","Atascosa TX","Peggy, TX (PO boxes)",3,1 
+"78063","48019","Bandera TX","Pipe Creek, TX",9281,0.9977 
+"78063","48265","Kerr TX","Pipe Creek, TX",21,0.0023 
+"78064","48013","Atascosa TX","Pleasanton, TX",15552,0.9899 
+"78064","48493","Wilson TX","Pleasanton, TX",158,0.0101 
+"78065","48013","Atascosa TX","Poteet, TX",12048,1 
+"78066","48325","Medina TX","Rio Medina, TX",650,1 
+"78067","48505","Zapata TX","San Ygnacio, TX",613,1 
+"78069","48013","Atascosa TX","Somerset, TX",3565,0.6143 
+"78069","48029","Bexar TX","Somerset, TX",2238,0.3857 
+"78070","48031","Blanco TX","Spring Branch, TX",670,0.0325 
+"78070","48091","Comal TX","Spring Branch, TX",19885,0.9644 
+"78070","48259","Kendall TX","Spring Branch, TX",63,0.0031 
+"78071","48297","Live Oak TX","Three Rivers, TX",4117,0.9983 
+"78071","48311","McMullen TX","Three Rivers, TX",7,0.0017 
+"78072","48311","McMullen TX","Tilden, TX",420,1 
+"78073","48013","Atascosa TX","Von Ormy, TX",1511,0.1582 
+"78073","48029","Bexar TX","Von Ormy, TX",8039,0.8418 
+"78074","48259","Kendall TX","Waring, TX (PO boxes)",101,1 
+"78075","48297","Live Oak TX","Whitsett, TX",93,0.9029 
+"78075","48311","McMullen TX","Whitsett, TX",10,0.0971 
+"78076","48505","Zapata TX","Zapata, TX",13033,1 
+"78101","48029","Bexar TX","Adkins, TX",4414,0.4848 
+"78101","48493","Wilson TX","Adkins, TX",4690,0.5152 
+"78102","48025","Bee TX","Beeville, TX",27159,0.9952 
+"78102","48297","Live Oak TX","Beeville, TX",130,0.0048 
+"78104","48025","Bee TX","Beeville, TX (PO boxes)",47,1 
+"78107","48175","Goliad TX","Berclair, TX (PO boxes)",309,1 
+"78108","48029","Bexar TX","Cibolo, TX",449,0.0102 
+"78108","48091","Comal TX","Cibolo, TX",1095,0.0248 
+"78108","48187","Guadalupe TX","Cibolo, TX",42535,0.965 
+"78109","48029","Bexar TX","Converse, TX",52093,1 
+"78111","48255","Karnes TX","Ecleto, TX",10,1 
+"78112","48029","Bexar TX","Elmendorf, TX",9527,0.9933 
+"78112","48493","Wilson TX","Elmendorf, TX",64,0.0067 
+"78113","48013","Atascosa TX","Falls City, TX",245,0.1087 
+"78113","48255","Karnes TX","Falls City, TX",968,0.4296 
+"78113","48493","Wilson TX","Falls City, TX",1040,0.4616 
+"78114","48013","Atascosa TX","Floresville, TX",207,0.0093 
+"78114","48493","Wilson TX","Floresville, TX",21971,0.9907 
+"78116","48255","Karnes TX","Gillett, TX",218,1 
+"78117","48255","Karnes TX","Hobson, TX",649,1 
+"78118","48013","Atascosa TX","Karnes City, TX",40,0.0082 
+"78118","48255","Karnes TX","Karnes City, TX",4851,0.9902 
+"78118","48297","Live Oak TX","Karnes City, TX",8,0.0016 
+"78119","48025","Bee TX","Kenedy, TX",370,0.0525 
+"78119","48255","Karnes TX","Kenedy, TX",6644,0.9427 
+"78119","48297","Live Oak TX","Kenedy, TX",34,0.0048 
+"78121","48187","Guadalupe TX","La Vernia, TX",1312,0.0863 
+"78121","48493","Wilson TX","La Vernia, TX",13894,0.9137 
+"78122","48177","Gonzales TX","Leesville, TX",354,1 
+"78123","48187","Guadalupe TX","Mc Queeney, TX",2291,1 
+"78124","48029","Bexar TX","Marion, TX",447,0.0652 
+"78124","48187","Guadalupe TX","Marion, TX",6413,0.9348 
+"78125","48025","Bee TX","Mineral, TX (PO boxes)",57,1 
+"78130","48091","Comal TX","New Braunfels, TX",57938,0.6558 
+"78130","48187","Guadalupe TX","New Braunfels, TX",30380,0.3439 
+"78130","48209","Hays TX","New Braunfels, TX",31,0.0004 
+"78132","48091","Comal TX","New Braunfels, TX",37279,0.9948 
+"78132","48187","Guadalupe TX","New Braunfels, TX",196,0.0052 
+"78133","48091","Comal TX","Canyon Lake, TX",20787,1 
+"78140","48177","Gonzales TX","Nixon, TX",3177,0.8808 
+"78140","48187","Guadalupe TX","Nixon, TX",131,0.0363 
+"78140","48255","Karnes TX","Nixon, TX",15,0.0042 
+"78140","48493","Wilson TX","Nixon, TX",284,0.0787 
+"78141","48123","DeWitt TX","Nordheim, TX",697,0.9601 
+"78141","48255","Karnes TX","Nordheim, TX",29,0.0399 
+"78142","48025","Bee TX","Normanna, TX (PO boxes)",119,1 
+"78143","48493","Wilson TX","Pandora, TX (PO boxes)",77,1 
+"78144","48255","Karnes TX","Panna Maria, TX (PO boxes)",36,1 
+"78145","48025","Bee TX","Pawnee, TX (PO boxes)",83,1 
+"78146","48025","Bee TX","Pettus, TX (PO boxes)",624,1 
+"78147","48493","Wilson TX","Poth, TX (PO boxes)",1825,1 
+"78148","48029","Bexar TX","Universal City, TX",21569,1 
+"78150","48029","Bexar TX","Jbsa Randolph, TX",9,1 
+"78151","48123","DeWitt TX","Runge, TX",9,0.0069 
+"78151","48255","Karnes TX","Runge, TX",1290,0.9931 
+"78152","48029","Bexar TX","Saint Hedwig, TX",3022,1 
+"78154","48029","Bexar TX","Schertz, TX",13039,0.3139 
+"78154","48091","Comal TX","Schertz, TX",635,0.0153 
+"78154","48187","Guadalupe TX","Schertz, TX",27859,0.6708 
+"78155","48187","Guadalupe TX","Seguin, TX",51772,1 
+"78159","48177","Gonzales TX","Smiley, TX",793,1 
+"78160","48493","Wilson TX","Stockdale, TX",4528,1 
+"78161","48493","Wilson TX","Sutherland Springs, TX",699,1 
+"78162","48025","Bee TX","Tuleta, TX (PO boxes)",301,1 
+"78163","48091","Comal TX","Bulverde, TX",13960,1 
+"78164","48123","DeWitt TX","Yorktown, TX",3297,0.9518 
+"78164","48175","Goliad TX","Yorktown, TX",167,0.0482 
+"78201","48029","Bexar TX","San Antonio, TX",42005,1 
+"78202","48029","Bexar TX","San Antonio, TX",11422,1 
+"78203","48029","Bexar TX","San Antonio, TX",5872,1 
+"78204","48029","Bexar TX","San Antonio, TX",11298,1 
+"78205","48029","Bexar TX","San Antonio, TX",2339,1 
+"78207","48029","Bexar TX","San Antonio, TX",51705,1 
+"78208","48029","Bexar TX","San Antonio, TX",3874,1 
+"78209","48029","Bexar TX","San Antonio, TX",42456,1 
+"78210","48029","Bexar TX","San Antonio, TX",33010,1 
+"78211","48029","Bexar TX","San Antonio, TX",29976,1 
+"78212","48029","Bexar TX","San Antonio, TX",26738,1 
+"78213","48029","Bexar TX","San Antonio, TX",40589,1 
+"78214","48029","Bexar TX","San Antonio, TX",22664,1 
+"78215","48029","Bexar TX","San Antonio, TX",3644,1 
+"78216","48029","Bexar TX","San Antonio, TX",40172,1 
+"78217","48029","Bexar TX","San Antonio, TX",33562,1 
+"78218","48029","Bexar TX","San Antonio, TX",36137,1 
+"78219","48029","Bexar TX","San Antonio, TX",16509,1 
+"78220","48029","Bexar TX","San Antonio, TX",17749,1 
+"78221","48029","Bexar TX","San Antonio, TX",39779,1 
+"78222","48029","Bexar TX","San Antonio, TX",25028,1 
+"78223","48029","Bexar TX","San Antonio, TX",55182,0.9906 
+"78223","48493","Wilson TX","San Antonio, TX",523,0.0094 
+"78224","48029","Bexar TX","San Antonio, TX",21759,1 
+"78225","48029","Bexar TX","San Antonio, TX",12576,1 
+"78226","48029","Bexar TX","San Antonio, TX",7140,1 
+"78227","48029","Bexar TX","San Antonio, TX",46594,1 
+"78228","48029","Bexar TX","San Antonio, TX",56369,1 
+"78229","48029","Bexar TX","San Antonio, TX",33135,1 
+"78230","48029","Bexar TX","San Antonio, TX",42145,1 
+"78231","48029","Bexar TX","San Antonio, TX",8993,1 
+"78232","48029","Bexar TX","San Antonio, TX",35397,1 
+"78233","48029","Bexar TX","San Antonio, TX",49442,1 
+"78234","48029","Bexar TX","Jbsa Ft Sam Houston, TX",7464,1 
+"78235","48029","Bexar TX","San Antonio, TX",2307,1 
+"78236","48029","Bexar TX","Jbsa Lackland, TX",9869,1 
+"78237","48029","Bexar TX","San Antonio, TX",36019,1 
+"78238","48029","Bexar TX","San Antonio, TX",26014,1 
+"78239","48029","Bexar TX","San Antonio, TX",31554,1 
+"78240","48029","Bexar TX","San Antonio, TX",56112,1 
+"78242","48029","Bexar TX","San Antonio, TX",33294,1 
+"78243","48029","Bexar TX","San Antonio, TX",235,1 
+"78244","48029","Bexar TX","San Antonio, TX",35801,1 
+"78245","48029","Bexar TX","San Antonio, TX",93031,1 
+"78247","48029","Bexar TX","San Antonio, TX",50876,1 
+"78248","48029","Bexar TX","San Antonio, TX",13825,1 
+"78249","48029","Bexar TX","San Antonio, TX",56996,1 
+"78250","48029","Bexar TX","San Antonio, TX",54933,1 
+"78251","48029","Bexar TX","San Antonio, TX",58836,1 
+"78252","48029","Bexar TX","San Antonio, TX",17156,1 
+"78253","48029","Bexar TX","San Antonio, TX",63115,0.9478 
+"78253","48325","Medina TX","San Antonio, TX",3474,0.0522 
+"78254","48029","Bexar TX","San Antonio, TX",72791,1 
+"78255","48029","Bexar TX","San Antonio, TX",17775,1 
+"78256","48029","Bexar TX","San Antonio, TX",13643,1 
+"78257","48029","Bexar TX","San Antonio, TX",12173,1 
+"78258","48029","Bexar TX","San Antonio, TX",51073,1 
+"78259","48029","Bexar TX","San Antonio, TX",29842,1 
+"78260","48029","Bexar TX","San Antonio, TX",37037,1 
+"78261","48029","Bexar TX","San Antonio, TX",26971,1 
+"78263","48029","Bexar TX","San Antonio, TX",4995,1 
+"78264","48013","Atascosa TX","San Antonio, TX",1303,0.0886 
+"78264","48029","Bexar TX","San Antonio, TX",13402,0.9114 
+"78266","48029","Bexar TX","San Antonio, TX",1540,0.2044 
+"78266","48091","Comal TX","San Antonio, TX",5994,0.7956 
+"78330","48355","Nueces TX","Agua Dulce, TX",780,1 
+"78332","48131","Duval TX","Alice, TX",112,0.0041 
+"78332","48249","Jim Wells TX","Alice, TX",27040,0.9959 
+"78336","48007","Aransas TX","Aransas Pass, TX",3135,0.2611 
+"78336","48355","Nueces TX","Aransas Pass, TX",15,0.0012 
+"78336","48409","San Patricio TX","Aransas Pass, TX",8859,0.7377 
+"78338","48261","Kenedy TX","Armstrong, TX (PO boxes)",50,1 
+"78339","48355","Nueces TX","Banquete, TX (PO boxes)",625,1 
+"78340","48391","Refugio TX","Bayside, TX",341,1 
+"78341","48131","Duval TX","Benavides, TX (PO boxes)",1420,1 
+"78342","48249","Jim Wells TX","Ben Bolt, TX (PO boxes)",318,1 
+"78343","48355","Nueces TX","Bishop, TX",4405,1 
+"78344","48479","Webb TX","Bruni, TX",278,1 
+"78347","48355","Nueces TX","Chapman Ranch, TX (PO boxes)",19,1 
+"78349","48131","Duval TX","Concepcion, TX",325,1 
+"78351","48355","Nueces TX","Driscoll, TX (PO boxes)",578,1 
+"78352","48409","San Patricio TX","Edroy, TX (PO boxes)",254,1 
+"78353","48047","Brooks TX","Encino, TX",377,1 
+"78355","48047","Brooks TX","Falfurrias, TX",6693,0.9586 
+"78355","48249","Jim Wells TX","Falfurrias, TX",273,0.0391 
+"78355","48273","Kleberg TX","Falfurrias, TX",16,0.0023 
+"78357","48131","Duval TX","Freer, TX",2858,1 
+"78358","48007","Aransas TX","Fulton, TX (PO boxes)",1137,1 
+"78359","48409","San Patricio TX","Gregory, TX (PO boxes)",1920,1 
+"78360","48247","Jim Hogg TX","Guerra, TX",22,1 
+"78361","48131","Duval TX","Hebbronville, TX",13,0.0027 
+"78361","48247","Jim Hogg TX","Hebbronville, TX",4816,0.9946 
+"78361","48505","Zapata TX","Hebbronville, TX",13,0.0027 
+"78362","48409","San Patricio TX","Ingleside, TX",10238,1 
+"78363","48273","Kleberg TX","Kingsville, TX",29391,1 
+"78368","48297","Live Oak TX","Mathis, TX",1067,0.1223 
+"78368","48409","San Patricio TX","Mathis, TX",7659,0.8777 
+"78369","48479","Webb TX","Mirando City, TX",249,1 
+"78370","48409","San Patricio TX","Odem, TX",4746,1 
+"78371","48479","Webb TX","Oilton, TX (PO boxes)",281,1 
+"78372","48131","Duval TX","Orange Grove, TX",8,0.0014 
+"78372","48249","Jim Wells TX","Orange Grove, TX",5492,0.9895 
+"78372","48297","Live Oak TX","Orange Grove, TX",50,0.009 
+"78373","48355","Nueces TX","Port Aransas, TX",3134,1 
+"78374","48409","San Patricio TX","Portland, TX",20281,1 
+"78375","48249","Jim Wells TX","Premont, TX",3109,1 
+"78376","48131","Duval TX","Realitos, TX",307,1 
+"78377","48391","Refugio TX","Refugio, TX",3547,1 
+"78379","48273","Kleberg TX","Riviera, TX",1624,1 
+"78380","48249","Jim Wells TX","Robstown, TX",77,0.0033 
+"78380","48355","Nueces TX","Robstown, TX",23309,0.9967 
+"78382","48007","Aransas TX","Rockport, TX",19432,1 
+"78383","48249","Jim Wells TX","Sandia, TX",1711,0.4554 
+"78383","48297","Live Oak TX","Sandia, TX",1486,0.3955 
+"78383","48355","Nueces TX","Sandia, TX",560,0.1491 
+"78384","48131","Duval TX","San Diego, TX",4782,0.8459 
+"78384","48249","Jim Wells TX","San Diego, TX",871,0.1541 
+"78385","48261","Kenedy TX","Sarita, TX (PO boxes)",259,1 
+"78387","48025","Bee TX","Sinton, TX",491,0.0494 
+"78387","48409","San Patricio TX","Sinton, TX",9445,0.9506 
+"78389","48025","Bee TX","Skidmore, TX",1535,1 
+"78390","48007","Aransas TX","Taft, TX",94,0.0173 
+"78390","48409","San Patricio TX","Taft, TX",5353,0.9827 
+"78391","48025","Bee TX","Tynan, TX",261,1 
+"78393","48391","Refugio TX","Woodsboro, TX",2137,1 
+"78401","48355","Nueces TX","Corpus Christi, TX",4701,1 
+"78402","48355","Nueces TX","Corpus Christi, TX",625,1 
+"78404","48355","Nueces TX","Corpus Christi, TX",15339,1 
+"78405","48355","Nueces TX","Corpus Christi, TX",14151,1 
+"78406","48355","Nueces TX","Corpus Christi, TX",1185,1 
+"78407","48355","Nueces TX","Corpus Christi, TX",1649,1 
+"78408","48355","Nueces TX","Corpus Christi, TX",11023,1 
+"78409","48355","Nueces TX","Corpus Christi, TX",2570,1 
+"78410","48355","Nueces TX","Corpus Christi, TX",29545,1 
+"78411","48355","Nueces TX","Corpus Christi, TX",26150,1 
+"78412","48355","Nueces TX","Corpus Christi, TX",38783,1 
+"78413","48355","Nueces TX","Corpus Christi, TX",37531,1 
+"78414","48355","Nueces TX","Corpus Christi, TX",46972,1 
+"78415","48355","Nueces TX","Corpus Christi, TX",38722,1 
+"78416","48355","Nueces TX","Corpus Christi, TX",14103,1 
+"78417","48355","Nueces TX","Corpus Christi, TX",4482,1 
+"78418","48273","Kleberg TX","Corpus Christi, TX",6,0.0002 
+"78418","48355","Nueces TX","Corpus Christi, TX",31781,0.9998 
+"78419","48355","Nueces TX","Corpus Christi, TX",441,1 
+"78501","48215","Hidalgo TX","Mcallen, TX",60817,1 
+"78503","48215","Hidalgo TX","Mcallen, TX",23604,1 
+"78504","48215","Hidalgo TX","Mcallen, TX",56830,1 
+"78516","48215","Hidalgo TX","Alamo, TX",34506,1 
+"78520","48061","Cameron TX","Brownsville, TX",64949,1 
+"78521","48061","Cameron TX","Brownsville, TX",88708,1 
+"78526","48061","Cameron TX","Brownsville, TX",55164,1 
+"78535","48061","Cameron TX","Combes, TX (PO boxes)",679,1 
+"78536","48427","Starr TX","Delmita, TX",322,1 
+"78537","48215","Hidalgo TX","Donna, TX",51962,1 
+"78538","48215","Hidalgo TX","Edcouch, TX",12278,1 
+"78539","48215","Hidalgo TX","Edinburg, TX",37686,1 
+"78540","48215","Hidalgo TX","Edinburg, TX (PO boxes)",11,1 
+"78541","48215","Hidalgo TX","Edinburg, TX",48513,1 
+"78542","48215","Hidalgo TX","Edinburg, TX",84678,1 
+"78543","48215","Hidalgo TX","Elsa, TX (PO boxes)",7535,1 
+"78545","48427","Starr TX","Falcon Heights, TX (PO boxes)",639,0.8386 
+"78545","48505","Zapata TX","Falcon Heights, TX (PO boxes)",123,0.1614 
+"78547","48427","Starr TX","Garciasville, TX (PO boxes)",413,1 
+"78548","48427","Starr TX","Grulla, TX (PO boxes)",1296,1 
+"78549","48215","Hidalgo TX","Hargill, TX (PO boxes)",872,1 
+"78550","48061","Cameron TX","Harlingen, TX",56038,1 
+"78552","48061","Cameron TX","Harlingen, TX",38474,1 
+"78557","48215","Hidalgo TX","Hidalgo, TX",13986,1 
+"78558","48215","Hidalgo TX","La Blanca, TX (PO boxes)",388,1 
+"78559","48061","Cameron TX","La Feria, TX",12533,1 
+"78560","48215","Hidalgo TX","La Joya, TX",4815,1 
+"78561","48489","Willacy TX","Lasara, TX (PO boxes)",768,1 
+"78562","48215","Hidalgo TX","La Villa, TX (PO boxes)",3081,1 
+"78563","48215","Hidalgo TX","Linn, TX",192,0.9552 
+"78563","48427","Starr TX","Linn, TX",9,0.0448 
+"78564","48505","Zapata TX","Lopeno, TX",103,1 
+"78565","48215","Hidalgo TX","Los Ebanos, TX (PO boxes)",319,1 
+"78566","48061","Cameron TX","Los Fresnos, TX",23704,1 
+"78567","48061","Cameron TX","Los Indios, TX (PO boxes)",544,1 
+"78569","48061","Cameron TX","Lyford, TX",89,0.0233 
+"78569","48215","Hidalgo TX","Lyford, TX",98,0.0256 
+"78569","48489","Willacy TX","Lyford, TX",3634,0.9511 
+"78570","48215","Hidalgo TX","Mercedes, TX",32950,1 
+"78572","48215","Hidalgo TX","Mission, TX",78280,1 
+"78573","48215","Hidalgo TX","Mission, TX",42229,1 
+"78574","48215","Hidalgo TX","Mission, TX",63627,1 
+"78575","48061","Cameron TX","Olmito, TX",5270,1 
+"78576","48215","Hidalgo TX","Penitas, TX",13901,1 
+"78577","48215","Hidalgo TX","Pharr, TX",79937,1 
+"78578","48061","Cameron TX","Port Isabel, TX",10076,1 
+"78579","48215","Hidalgo TX","Progreso, TX (PO boxes)",2637,1 
+"78580","48261","Kenedy TX","Raymondville, TX",29,0.0022 
+"78580","48489","Willacy TX","Raymondville, TX",13179,0.9978 
+"78582","48427","Starr TX","Rio Grande City, TX",43253,1 
+"78583","48061","Cameron TX","Rio Hondo, TX",5869,1 
+"78584","48427","Starr TX","Roma, TX",19373,1 
+"78585","48427","Starr TX","Salineno, TX (PO boxes)",4,1 
+"78586","48061","Cameron TX","San Benito, TX",50135,1 
+"78588","48427","Starr TX","San Isidro, TX",168,1 
+"78589","48215","Hidalgo TX","San Juan, TX",38987,1 
+"78590","48489","Willacy TX","San Perlita, TX (PO boxes)",468,1 
+"78591","48427","Starr TX","Santa Elena, TX",341,1 
+"78592","48061","Cameron TX","Santa Maria, TX (PO boxes)",765,1 
+"78593","48061","Cameron TX","Santa Rosa, TX",5541,1 
+"78594","48489","Willacy TX","Sebastian, TX (PO boxes)",1796,1 
+"78595","48215","Hidalgo TX","Sullivan City, TX",6232,0.9886 
+"78595","48427","Starr TX","Sullivan City, TX",72,0.0114 
+"78596","48215","Hidalgo TX","Weslaco, TX",37329,1 
+"78597","48061","Cameron TX","South Padre Island, TX",2479,1 
+"78598","48489","Willacy TX","Port Mansfield, TX (PO boxes)",319,1 
+"78599","48215","Hidalgo TX","Weslaco, TX",32500,1 
+"78602","48021","Bastrop TX","Bastrop, TX",33759,1 
+"78605","48053","Burnet TX","Bertram, TX",6246,1 
+"78606","48031","Blanco TX","Blanco, TX",5522,0.9399 
+"78606","48091","Comal TX","Blanco, TX",212,0.0361 
+"78606","48259","Kendall TX","Blanco, TX",141,0.024 
+"78607","48299","Llano TX","Bluffton, TX",180,1 
+"78608","48053","Burnet TX","Briggs, TX",519,1 
+"78609","48299","Llano TX","Buchanan Dam, TX",1827,1 
+"78610","48055","Caldwell TX","Buda, TX",325,0.0072 
+"78610","48209","Hays TX","Buda, TX",42229,0.9356 
+"78610","48453","Travis TX","Buda, TX",2580,0.0572 
+"78611","48053","Burnet TX","Burnet, TX",14680,0.9893 
+"78611","48299","Llano TX","Burnet, TX",159,0.0107 
+"78612","48021","Bastrop TX","Cedar Creek, TX",15642,0.9617 
+"78612","48453","Travis TX","Cedar Creek, TX",623,0.0383 
+"78613","48453","Travis TX","Cedar Park, TX",9622,0.1078 
+"78613","48491","Williamson TX","Cedar Park, TX",79657,0.8922 
+"78614","48177","Gonzales TX","Cost, TX",459,1 
+"78615","48453","Travis TX","Coupland, TX",895,0.5283 
+"78615","48491","Williamson TX","Coupland, TX",799,0.4717 
+"78616","48021","Bastrop TX","Dale, TX",3267,0.2815 
+"78616","48055","Caldwell TX","Dale, TX",8325,0.7174 
+"78616","48453","Travis TX","Dale, TX",13,0.0011 
+"78617","48021","Bastrop TX","Del Valle, TX",6289,0.2181 
+"78617","48453","Travis TX","Del Valle, TX",22543,0.7819 
+"78618","48171","Gillespie TX","Doss, TX",213,0.832 
+"78618","48319","Mason TX","Doss, TX",43,0.168 
+"78619","48209","Hays TX","Driftwood, TX",5819,1 
+"78620","48031","Blanco TX","Dripping Springs, TX",166,0.0081 
+"78620","48209","Hays TX","Dripping Springs, TX",17530,0.8554 
+"78620","48453","Travis TX","Dripping Springs, TX",2797,0.1365 
+"78621","48021","Bastrop TX","Elgin, TX",19273,0.7066 
+"78621","48287","Lee TX","Elgin, TX",612,0.0224 
+"78621","48453","Travis TX","Elgin, TX",6611,0.2424 
+"78621","48491","Williamson TX","Elgin, TX",779,0.0286 
+"78622","48055","Caldwell TX","Fentress, TX (PO boxes)",340,1 
+"78623","48091","Comal TX","Fischer, TX",1628,0.9749 
+"78623","48209","Hays TX","Fischer, TX",42,0.0251 
+"78624","48171","Gillespie TX","Fredericksburg, TX",22563,0.9776 
+"78624","48259","Kendall TX","Fredericksburg, TX",517,0.0224 
+"78626","48491","Williamson TX","Georgetown, TX",39935,1 
+"78628","48491","Williamson TX","Georgetown, TX",40378,1 
+"78629","48123","DeWitt TX","Gonzales, TX",45,0.0037 
+"78629","48177","Gonzales TX","Gonzales, TX",12001,0.9963 
+"78631","48171","Gillespie TX","Harper, TX",2115,0.7839 
+"78631","48265","Kerr TX","Harper, TX",210,0.0778 
+"78631","48267","Kimble TX","Harper, TX",373,0.1383 
+"78632","48055","Caldwell TX","Harwood, TX",420,0.4242 
+"78632","48177","Gonzales TX","Harwood, TX",570,0.5758 
+"78633","48491","Williamson TX","Georgetown, TX",27736,1 
+"78634","48453","Travis TX","Hutto, TX",582,0.0153 
+"78634","48491","Williamson TX","Hutto, TX",37369,0.9847 
+"78635","48031","Blanco TX","Hye, TX",110,1 
+"78636","48031","Blanco TX","Johnson City, TX",3894,1 
+"78638","48177","Gonzales TX","Kingsbury, TX",12,0.005 
+"78638","48187","Guadalupe TX","Kingsbury, TX",2369,0.995 
+"78639","48053","Burnet TX","Kingsland, TX",1012,0.121 
+"78639","48299","Llano TX","Kingsland, TX",7353,0.879 
+"78640","48055","Caldwell TX","Kyle, TX",1340,0.0208 
+"78640","48209","Hays TX","Kyle, TX",63128,0.9781 
+"78640","48453","Travis TX","Kyle, TX",71,0.0011 
+"78641","48453","Travis TX","Leander, TX",16471,0.1974 
+"78641","48491","Williamson TX","Leander, TX",66955,0.8026 
+"78642","48053","Burnet TX","Liberty Hill, TX",539,0.0264 
+"78642","48491","Williamson TX","Liberty Hill, TX",19846,0.9736 
+"78643","48299","Llano TX","Llano, TX",6453,1 
+"78644","48055","Caldwell TX","Lockhart, TX",20813,1 
+"78645","48453","Travis TX","Leander, TX",14051,1 
+"78648","48055","Caldwell TX","Luling, TX",7552,0.9247 
+"78648","48177","Gonzales TX","Luling, TX",130,0.0159 
+"78648","48187","Guadalupe TX","Luling, TX",485,0.0594 
+"78650","48021","Bastrop TX","Mc Dade, TX",1628,0.8488 
+"78650","48287","Lee TX","Mc Dade, TX",290,0.1512 
+"78652","48209","Hays TX","Manchaca, TX",1059,0.1816 
+"78652","48453","Travis TX","Manchaca, TX",4772,0.8184 
+"78653","48021","Bastrop TX","Manor, TX",104,0.0033 
+"78653","48453","Travis TX","Manor, TX",31063,0.9967 
+"78654","48053","Burnet TX","Marble Falls, TX",18961,0.9626 
+"78654","48453","Travis TX","Marble Falls, TX",737,0.0374 
+"78655","48055","Caldwell TX","Martindale, TX",2142,0.7361 
+"78655","48187","Guadalupe TX","Martindale, TX",768,0.2639 
+"78656","48055","Caldwell TX","Maxwell, TX",2501,0.9634 
+"78656","48209","Hays TX","Maxwell, TX",95,0.0366 
+"78657","48053","Burnet TX","Horseshoe Bay, TX",2424,0.3712 
+"78657","48299","Llano TX","Horseshoe Bay, TX",4107,0.6288 
+"78658","48177","Gonzales TX","Ottine, TX (PO boxes)",69,1 
+"78659","48021","Bastrop TX","Paige, TX",3501,0.8952 
+"78659","48287","Lee TX","Paige, TX",410,0.1048 
+"78660","48453","Travis TX","Pflugerville, TX",110955,1 
+"78661","48055","Caldwell TX","Prairie Lea, TX (PO boxes)",304,1 
+"78662","48021","Bastrop TX","Red Rock, TX",2526,0.874 
+"78662","48055","Caldwell TX","Red Rock, TX",364,0.126 
+"78663","48031","Blanco TX","Round Mountain, TX",701,0.8601 
+"78663","48053","Burnet TX","Round Mountain, TX",15,0.0184 
+"78663","48209","Hays TX","Round Mountain, TX",40,0.0491 
+"78663","48453","Travis TX","Round Mountain, TX",59,0.0724 
+"78664","48453","Travis TX","Round Rock, TX",7442,0.1234 
+"78664","48491","Williamson TX","Round Rock, TX",52845,0.8766 
+"78665","48491","Williamson TX","Round Rock, TX",61577,1 
+"78666","48055","Caldwell TX","San Marcos, TX",1179,0.0136 
+"78666","48091","Comal TX","San Marcos, TX",147,0.0017 
+"78666","48187","Guadalupe TX","San Marcos, TX",6089,0.0703 
+"78666","48209","Hays TX","San Marcos, TX",79169,0.9144 
+"78669","48031","Blanco TX","Spicewood, TX",208,0.0168 
+"78669","48053","Burnet TX","Spicewood, TX",2929,0.2359 
+"78669","48453","Travis TX","Spicewood, TX",9278,0.7473 
+"78670","48187","Guadalupe TX","Staples, TX (PO boxes)",106,1 
+"78671","48171","Gillespie TX","Stonewall, TX",624,1 
+"78672","48299","Llano TX","Tow, TX",984,1 
+"78674","48491","Williamson TX","Weir, TX (PO boxes)",287,1 
+"78675","48171","Gillespie TX","Willow City, TX",178,1 
+"78676","48031","Blanco TX","Wimberley, TX",103,0.007 
+"78676","48091","Comal TX","Wimberley, TX",66,0.0045 
+"78676","48209","Hays TX","Wimberley, TX",14544,0.9885 
+"78677","48177","Gonzales TX","Wrightsboro, TX",55,1 
+"78681","48491","Williamson TX","Round Rock, TX",57503,1 
+"78701","48453","Travis TX","Austin, TX",11625,1 
+"78702","48453","Travis TX","Austin, TX",25910,1 
+"78703","48453","Travis TX","Austin, TX",22194,1 
+"78704","48453","Travis TX","Austin, TX",49197,1 
+"78705","48453","Travis TX","Austin, TX",36535,1 
+"78712","48453","Travis TX","Austin, TX",351,1 
+"78717","48491","Williamson TX","Austin, TX",36987,1 
+"78719","48453","Travis TX","Austin, TX",2004,1 
+"78721","48453","Travis TX","Austin, TX",11316,1 
+"78722","48453","Travis TX","Austin, TX",6618,1 
+"78723","48453","Travis TX","Austin, TX",34522,1 
+"78724","48453","Travis TX","Austin, TX",29680,1 
+"78725","48453","Travis TX","Austin, TX",10301,1 
+"78726","48453","Travis TX","Austin, TX",15618,1 
+"78727","48453","Travis TX","Austin, TX",29901,0.9991 
+"78727","48491","Williamson TX","Austin, TX",27,0.0009 
+"78728","48453","Travis TX","Austin, TX",22637,0.8858 
+"78728","48491","Williamson TX","Austin, TX",2918,0.1142 
+"78729","48453","Travis TX","Austin, TX",2448,0.0769 
+"78729","48491","Williamson TX","Austin, TX",29381,0.9231 
+"78730","48453","Travis TX","Austin, TX",9403,1 
+"78731","48453","Travis TX","Austin, TX",27240,1 
+"78732","48453","Travis TX","Austin, TX",19128,1 
+"78733","48453","Travis TX","Austin, TX",9347,1 
+"78734","48453","Travis TX","Austin, TX",22963,1 
+"78735","48453","Travis TX","Austin, TX",20983,1 
+"78736","48209","Hays TX","Austin, TX",45,0.0044 
+"78736","48453","Travis TX","Austin, TX",10120,0.9956 
+"78737","48209","Hays TX","Austin, TX",16559,0.7887 
+"78737","48453","Travis TX","Austin, TX",4437,0.2113 
+"78738","48453","Travis TX","Austin, TX",29529,1 
+"78739","48209","Hays TX","Austin, TX",777,0.0356 
+"78739","48453","Travis TX","Austin, TX",21077,0.9644 
+"78741","48453","Travis TX","Austin, TX",49344,1 
+"78742","48453","Travis TX","Austin, TX",964,1 
+"78744","48453","Travis TX","Austin, TX",51048,1 
+"78745","48453","Travis TX","Austin, TX",59843,1 
+"78746","48453","Travis TX","Austin, TX",29106,1 
+"78747","48453","Travis TX","Austin, TX",21891,1 
+"78748","48453","Travis TX","Austin, TX",55226,1 
+"78749","48453","Travis TX","Austin, TX",35239,1 
+"78750","48453","Travis TX","Austin, TX",16016,0.565 
+"78750","48491","Williamson TX","Austin, TX",12332,0.435 
+"78751","48453","Travis TX","Austin, TX",17071,1 
+"78752","48453","Travis TX","Austin, TX",19289,1 
+"78753","48453","Travis TX","Austin, TX",58761,1 
+"78754","48453","Travis TX","Austin, TX",27020,1 
+"78756","48453","Travis TX","Austin, TX",8426,1 
+"78757","48453","Travis TX","Austin, TX",23847,1 
+"78758","48453","Travis TX","Austin, TX",49831,1 
+"78759","48453","Travis TX","Austin, TX",40995,0.9684 
+"78759","48491","Williamson TX","Austin, TX",1338,0.0316 
+"78801","48385","Real TX","Uvalde, TX",58,0.0028 
+"78801","48463","Uvalde TX","Uvalde, TX",20993,0.9972 
+"78827","48127","Dimmit TX","Asherton, TX",863,1 
+"78828","48137","Edwards TX","Barksdale, TX",115,0.7278 
+"78828","48385","Real TX","Barksdale, TX",43,0.2722 
+"78829","48507","Zavala TX","Batesville, TX",858,1 
+"78830","48127","Dimmit TX","Big Wells, TX",509,1 
+"78832","48271","Kinney TX","Brackettville, TX",3127,1 
+"78833","48137","Edwards TX","Camp Wood, TX",52,0.0636 
+"78833","48385","Real TX","Camp Wood, TX",760,0.9302 
+"78833","48463","Uvalde TX","Camp Wood, TX",5,0.0061 
+"78834","48127","Dimmit TX","Carrizo Springs, TX",7039,0.9969 
+"78834","48507","Zavala TX","Carrizo Springs, TX",22,0.0031 
+"78836","48127","Dimmit TX","Catarina, TX (PO boxes)",85,1 
+"78837","48465","Val Verde TX","Comstock, TX",216,1 
+"78838","48463","Uvalde TX","Concan, TX",264,1 
+"78839","48127","Dimmit TX","Crystal City, TX",69,0.0094 
+"78839","48507","Zavala TX","Crystal City, TX",7295,0.9906 
+"78840","48465","Val Verde TX","Del Rio, TX",47147,1 
+"78841","48465","Val Verde TX","Del Rio, TX (PO boxes)",1,1 
+"78843","48465","Val Verde TX","Laughlin AFB, TX",168,1 
+"78850","48325","Medina TX","D Hanis, TX",1075,1 
+"78851","48443","Terrell TX","Dryden, TX",33,1 
+"78852","48323","Maverick TX","Eagle Pass, TX",56712,1 
+"78860","48323","Maverick TX","El Indio, TX (PO boxes)",237,1 
+"78861","48325","Medina TX","Hondo, TX",13298,1 
+"78870","48463","Uvalde TX","Knippa, TX",868,1 
+"78871","48465","Val Verde TX","Langtry, TX (PO boxes)",23,1 
+"78872","48507","Zavala TX","La Pryor, TX (PO boxes)",1491,1 
+"78873","48385","Real TX","Leakey, TX",1559,1 
+"78877","48323","Maverick TX","Quemado, TX",936,1 
+"78879","48385","Real TX","Rio Frio, TX",257,0.8371 
+"78879","48463","Uvalde TX","Rio Frio, TX",50,0.1629 
+"78880","48137","Edwards TX","Rocksprings, TX",1219,0.9721 
+"78880","48385","Real TX","Rocksprings, TX",35,0.0279 
+"78881","48463","Uvalde TX","Sabinal, TX",1853,1 
+"78883","48019","Bandera TX","Tarpley, TX",257,1 
+"78884","48019","Bandera TX","Utopia, TX",422,0.4447 
+"78884","48325","Medina TX","Utopia, TX",21,0.0221 
+"78884","48463","Uvalde TX","Utopia, TX",506,0.5332 
+"78885","48019","Bandera TX","Vanderpool, TX",129,1 
+"78886","48325","Medina TX","Yancey, TX",463,1 
+"78931","48015","Austin TX","Bleiblerville, TX",231,1 
+"78932","48149","Fayette TX","Carmine, TX",517,0.5764 
+"78932","48477","Washington TX","Carmine, TX",380,0.4236 
+"78933","48015","Austin TX","Cat Spring, TX",775,0.5062 
+"78933","48089","Colorado TX","Cat Spring, TX",756,0.4938 
+"78934","48089","Colorado TX","Columbus, TX",6770,1 
+"78935","48089","Colorado TX","Alleyton, TX",922,1 
+"78938","48149","Fayette TX","Ellinger, TX",289,1 
+"78940","48015","Austin TX","Fayetteville, TX",151,0.0765 
+"78940","48089","Colorado TX","Fayetteville, TX",207,0.1049 
+"78940","48149","Fayette TX","Fayetteville, TX",1616,0.8186 
+"78941","48021","Bastrop TX","Flatonia, TX",120,0.0399 
+"78941","48149","Fayette TX","Flatonia, TX",2784,0.9261 
+"78941","48177","Gonzales TX","Flatonia, TX",88,0.0293 
+"78941","48285","Lavaca TX","Flatonia, TX",14,0.0047 
+"78942","48021","Bastrop TX","Giddings, TX",94,0.0105 
+"78942","48149","Fayette TX","Giddings, TX",165,0.0184 
+"78942","48287","Lee TX","Giddings, TX",8714,0.9711 
+"78943","48089","Colorado TX","Glidden, TX",439,1 
+"78944","48015","Austin TX","Industry, TX",532,1 
+"78945","48021","Bastrop TX","La Grange, TX",9,0.0009 
+"78945","48149","Fayette TX","La Grange, TX",10468,0.9986 
+"78945","48287","Lee TX","La Grange, TX",6,0.0006 
+"78946","48149","Fayette TX","Ledbetter, TX",320,0.2928 
+"78946","48287","Lee TX","Ledbetter, TX",590,0.5398 
+"78946","48477","Washington TX","Ledbetter, TX",183,0.1674 
+"78947","48287","Lee TX","Lexington, TX",4828,1 
+"78948","48287","Lee TX","Lincoln, TX",912,1 
+"78949","48149","Fayette TX","Muldoon, TX",529,1 
+"78950","48015","Austin TX","New Ulm, TX",1309,0.6086 
+"78950","48089","Colorado TX","New Ulm, TX",789,0.3668 
+"78950","48149","Fayette TX","New Ulm, TX",53,0.0246 
+"78951","48089","Colorado TX","Oakland, TX (PO boxes)",78,1 
+"78953","48021","Bastrop TX","Rosanky, TX",1105,0.8185 
+"78953","48055","Caldwell TX","Rosanky, TX",245,0.1815 
+"78954","48015","Austin TX","Round Top, TX",86,0.0752 
+"78954","48149","Fayette TX","Round Top, TX",1058,0.9248 
+"78956","48149","Fayette TX","Schulenburg, TX",4689,0.9085 
+"78956","48285","Lavaca TX","Schulenburg, TX",472,0.0915 
+"78957","48021","Bastrop TX","Smithville, TX",9874,0.9667 
+"78957","48149","Fayette TX","Smithville, TX",340,0.0333 
+"78959","48021","Bastrop TX","Waelder, TX",25,0.0145 
+"78959","48055","Caldwell TX","Waelder, TX",33,0.0192 
+"78959","48149","Fayette TX","Waelder, TX",183,0.1062 
+"78959","48177","Gonzales TX","Waelder, TX",1482,0.8601 
+"78962","48089","Colorado TX","Weimar, TX",4181,0.9056 
+"78962","48149","Fayette TX","Weimar, TX",436,0.0944 
+"78963","48149","Fayette TX","West Point, TX",988,1 
+"79001","48117","Deaf Smith TX","Adrian, TX",15,0.0688 
+"79001","48359","Oldham TX","Adrian, TX",203,0.9312 
+"79002","48179","Gray TX","Alanreed, TX (PO boxes)",26,1 
+"79003","48211","Hemphill TX","Allison, TX (PO boxes)",21,0.1265 
+"79003","48483","Wheeler TX","Allison, TX (PO boxes)",145,0.8735 
+"79005","48295","Lipscomb TX","Booker, TX",1580,0.9333 
+"79005","48357","Ochiltree TX","Booker, TX",113,0.0667 
+"79007","48233","Hutchinson TX","Borger, TX",13819,1 
+"79009","48369","Parmer TX","Bovina, TX",1931,1 
+"79010","48359","Oldham TX","Boys Ranch, TX (PO boxes)",230,0.4545 
+"79010","48375","Potter TX","Boys Ranch, TX (PO boxes)",276,0.5455 
+"79011","48211","Hemphill TX","Briscoe, TX",110,0.4348 
+"79011","48483","Wheeler TX","Briscoe, TX",143,0.5652 
+"79012","48381","Randall TX","Bushland, TX (PO boxes)",22,1 
+"79013","48341","Moore TX","Cactus, TX",2995,1 
+"79014","48211","Hemphill TX","Canadian, TX",3215,0.9799 
+"79014","48295","Lipscomb TX","Canadian, TX",61,0.0186 
+"79014","48393","Roberts TX","Canadian, TX",5,0.0015 
+"79015","48381","Randall TX","Canyon, TX",21710,1 
+"79016","48381","Randall TX","Canyon, TX",668,1 
+"79018","48205","Hartley TX","Channing, TX",390,0.7677 
+"79018","48341","Moore TX","Channing, TX",79,0.1555 
+"79018","48359","Oldham TX","Channing, TX",39,0.0768 
+"79019","48011","Armstrong TX","Claude, TX",1699,0.9918 
+"79019","48381","Randall TX","Claude, TX",14,0.0082 
+"79021","48189","Hale TX","Cotton Center, TX (PO boxes)",80,1 
+"79022","48111","Dallam TX","Dalhart, TX",6366,0.5875 
+"79022","48205","Hartley TX","Dalhart, TX",4469,0.4125 
+"79024","48295","Lipscomb TX","Darrouzett, TX (PO boxes)",388,1 
+"79025","48117","Deaf Smith TX","Dawn, TX (PO boxes)",73,1 
+"79027","48069","Castro TX","Dimmitt, TX",4869,0.9939 
+"79027","48279","Lamb TX","Dimmitt, TX",30,0.0061 
+"79029","48205","Hartley TX","Dumas, TX",4,0.0002 
+"79029","48341","Moore TX","Dumas, TX",16226,0.9998 
+"79031","48069","Castro TX","Earth, TX",9,0.0076 
+"79031","48279","Lamb TX","Earth, TX",1179,0.9924 
+"79032","48189","Hale TX","Edmonson, TX (PO boxes)",125,1 
+"79033","48357","Ochiltree TX","Farnsworth, TX (PO boxes)",97,1 
+"79034","48295","Lipscomb TX","Follett, TX",521,1 
+"79035","48117","Deaf Smith TX","Friona, TX",72,0.0137 
+"79035","48369","Parmer TX","Friona, TX",5194,0.9863 
+"79036","48065","Carson TX","Fritch, TX",539,0.1161 
+"79036","48233","Hutchinson TX","Fritch, TX",3953,0.8514 
+"79036","48341","Moore TX","Fritch, TX",149,0.0321 
+"79036","48375","Potter TX","Fritch, TX",2,0.0004 
+"79039","48011","Armstrong TX","Groom, TX",6,0.0078 
+"79039","48065","Carson TX","Groom, TX",683,0.8847 
+"79039","48129","Donley TX","Groom, TX",4,0.0052 
+"79039","48179","Gray TX","Groom, TX",79,0.1023 
+"79040","48195","Hansford TX","Gruver, TX",1508,0.895 
+"79040","48421","Sherman TX","Gruver, TX",177,0.105 
+"79041","48189","Hale TX","Hale Center, TX",2869,0.9962 
+"79041","48279","Lamb TX","Hale Center, TX",11,0.0038 
+"79042","48011","Armstrong TX","Happy, TX",38,0.0319 
+"79042","48069","Castro TX","Happy, TX",43,0.0361 
+"79042","48381","Randall TX","Happy, TX",445,0.3739 
+"79042","48437","Swisher TX","Happy, TX",664,0.558 
+"79043","48069","Castro TX","Hart, TX",1208,0.9452 
+"79043","48189","Hale TX","Hart, TX",13,0.0102 
+"79043","48279","Lamb TX","Hart, TX",57,0.0446 
+"79044","48205","Hartley TX","Hartley, TX",517,1 
+"79045","48069","Castro TX","Hereford, TX",447,0.024 
+"79045","48117","Deaf Smith TX","Hereford, TX",18174,0.976 
+"79046","48211","Hemphill TX","Higgins, TX",36,0.0798 
+"79046","48295","Lipscomb TX","Higgins, TX",415,0.9202 
+"79051","48111","Dallam TX","Kerrick, TX (PO boxes)",22,1 
+"79052","48069","Castro TX","Kress, TX",11,0.01 
+"79052","48189","Hale TX","Kress, TX",63,0.0572 
+"79052","48437","Swisher TX","Kress, TX",1028,0.9328 
+"79053","48369","Parmer TX","Lazbuddie, TX (PO boxes)",92,1 
+"79054","48179","Gray TX","Lefors, TX (PO boxes)",505,1 
+"79056","48295","Lipscomb TX","Lipscomb, TX",93,1 
+"79057","48087","Collingsworth TX","Mclean, TX",14,0.0145 
+"79057","48129","Donley TX","Mclean, TX",29,0.03 
+"79057","48179","Gray TX","Mclean, TX",862,0.8923 
+"79057","48483","Wheeler TX","Mclean, TX",61,0.0631 
+"79058","48341","Moore TX","Masterson, TX",15,0.2941 
+"79058","48375","Potter TX","Masterson, TX",36,0.7059 
+"79059","48179","Gray TX","Miami, TX",52,0.0681 
+"79059","48393","Roberts TX","Miami, TX",712,0.9319 
+"79061","48179","Gray TX","Mobeetie, TX",18,0.0655 
+"79061","48483","Wheeler TX","Mobeetie, TX",257,0.9345 
+"79062","48195","Hansford TX","Morse, TX",168,0.7401 
+"79062","48233","Hutchinson TX","Morse, TX",59,0.2599 
+"79063","48069","Castro TX","Nazareth, TX",667,1 
+"79064","48189","Hale TX","Olton, TX",89,0.0362 
+"79064","48279","Lamb TX","Olton, TX",2367,0.9638 
+"79065","48179","Gray TX","Pampa, TX",19665,0.9957 
+"79065","48393","Roberts TX","Pampa, TX",85,0.0043 
+"79066","48179","Gray TX","Pampa, TX (PO boxes)",5,1 
+"79068","48065","Carson TX","Panhandle, TX",3024,0.9902 
+"79068","48375","Potter TX","Panhandle, TX",30,0.0098 
+"79070","48295","Lipscomb TX","Perryton, TX",1,0.0001 
+"79070","48357","Ochiltree TX","Perryton, TX",9658,0.9987 
+"79070","48393","Roberts TX","Perryton, TX",12,0.0012 
+"79072","48189","Hale TX","Plainview, TX",25590,1 
+"79073","48189","Hale TX","Plainview, TX (PO boxes)",4,1 
+"79078","48233","Hutchinson TX","Sanford, TX (PO boxes)",333,1 
+"79079","48087","Collingsworth TX","Shamrock, TX",111,0.0451 
+"79079","48483","Wheeler TX","Shamrock, TX",2350,0.9549 
+"79080","48065","Carson TX","Skellytown, TX",408,0.7727 
+"79080","48233","Hutchinson TX","Skellytown, TX",120,0.2273 
+"79081","48195","Hansford TX","Spearman, TX",3609,0.9645 
+"79081","48233","Hutchinson TX","Spearman, TX",48,0.0128 
+"79081","48357","Ochiltree TX","Spearman, TX",77,0.0206 
+"79081","48393","Roberts TX","Spearman, TX",8,0.0021 
+"79082","48279","Lamb TX","Springlake, TX",342,1 
+"79083","48233","Hutchinson TX","Stinnett, TX",2254,0.9711 
+"79083","48341","Moore TX","Stinnett, TX",67,0.0289 
+"79084","48111","Dallam TX","Stratford, TX",7,0.0031 
+"79084","48421","Sherman TX","Stratford, TX",2229,0.9969 
+"79085","48069","Castro TX","Summerfield, TX",34,1 
+"79086","48341","Moore TX","Sunray, TX",1794,0.8454 
+"79086","48421","Sherman TX","Sunray, TX",328,0.1546 
+"79087","48111","Dallam TX","Texline, TX",720,1 
+"79088","48045","Briscoe TX","Tulia, TX",34,0.0064 
+"79088","48069","Castro TX","Tulia, TX",37,0.0069 
+"79088","48437","Swisher TX","Tulia, TX",5260,0.9867 
+"79091","48381","Randall TX","Umbarger, TX (PO boxes)",117,1 
+"79092","48117","Deaf Smith TX","Vega, TX",65,0.058 
+"79092","48359","Oldham TX","Vega, TX",1056,0.942 
+"79093","48357","Ochiltree TX","Waka, TX (PO boxes)",70,1 
+"79094","48011","Armstrong TX","Wayside, TX",25,1 
+"79095","48075","Childress TX","Wellington, TX",1,0.0004 
+"79095","48087","Collingsworth TX","Wellington, TX",2292,0.9996 
+"79096","48483","Wheeler TX","Wheeler, TX",2033,1 
+"79097","48065","Carson TX","White Deer, TX",1087,0.9945 
+"79097","48179","Gray TX","White Deer, TX",6,0.0055 
+"79098","48117","Deaf Smith TX","Wildorado, TX",180,0.3422 
+"79098","48359","Oldham TX","Wildorado, TX",221,0.4202 
+"79098","48375","Potter TX","Wildorado, TX",46,0.0875 
+"79098","48381","Randall TX","Wildorado, TX",79,0.1502 
+"79101","48375","Potter TX","Amarillo, TX",2307,1 
+"79102","48375","Potter TX","Amarillo, TX",9252,1 
+"79103","48375","Potter TX","Amarillo, TX",6369,0.6047 
+"79103","48381","Randall TX","Amarillo, TX",4163,0.3953 
+"79104","48375","Potter TX","Amarillo, TX",7166,1 
+"79106","48375","Potter TX","Amarillo, TX",23817,0.8601 
+"79106","48381","Randall TX","Amarillo, TX",3875,0.1399 
+"79107","48375","Potter TX","Amarillo, TX",37480,1 
+"79108","48065","Carson TX","Amarillo, TX",58,0.0048 
+"79108","48375","Potter TX","Amarillo, TX",12059,0.9952 
+"79109","48375","Potter TX","Amarillo, TX",6276,0.1476 
+"79109","48381","Randall TX","Amarillo, TX",36233,0.8524 
+"79110","48381","Randall TX","Amarillo, TX",18285,1 
+"79111","48375","Potter TX","Amarillo, TX",1612,1 
+"79118","48011","Armstrong TX","Amarillo, TX",2,0.0001 
+"79118","48375","Potter TX","Amarillo, TX",231,0.0084 
+"79118","48381","Randall TX","Amarillo, TX",27375,0.9916 
+"79119","48381","Randall TX","Amarillo, TX",21147,1 
+"79121","48375","Potter TX","Amarillo, TX",159,0.0241 
+"79121","48381","Randall TX","Amarillo, TX",6442,0.9759 
+"79124","48375","Potter TX","Amarillo, TX",11407,0.9846 
+"79124","48381","Randall TX","Amarillo, TX",178,0.0154 
+"79201","48075","Childress TX","Childress, TX",6606,0.9857 
+"79201","48101","Cottle TX","Childress, TX",52,0.0078 
+"79201","48191","Hall TX","Childress, TX",20,0.003 
+"79201","48345","Motley TX","Childress, TX",24,0.0036 
+"79220","48125","Dickens TX","Afton, TX",115,1 
+"79223","48101","Cottle TX","Cee Vee, TX",17,1 
+"79225","48197","Hardeman TX","Chillicothe, TX",714,0.9225 
+"79225","48487","Wilbarger TX","Chillicothe, TX",60,0.0775 
+"79226","48011","Armstrong TX","Clarendon, TX",78,0.0273 
+"79226","48045","Briscoe TX","Clarendon, TX",26,0.0091 
+"79226","48129","Donley TX","Clarendon, TX",2753,0.9633 
+"79226","48191","Hall TX","Clarendon, TX",1,0.0003 
+"79227","48155","Foard TX","Crowell, TX",1077,0.9423 
+"79227","48275","Knox TX","Crowell, TX",66,0.0577 
+"79229","48125","Dickens TX","Dickens, TX",361,1 
+"79230","48075","Childress TX","Dodson, TX",18,0.1208 
+"79230","48087","Collingsworth TX","Dodson, TX",131,0.8792 
+"79231","48153","Floyd TX","Dougherty, TX (PO boxes)",40,1 
+"79233","48191","Hall TX","Estelline, TX (PO boxes)",146,1 
+"79234","48153","Floyd TX","Flomot, TX",9,0.0938 
+"79234","48345","Motley TX","Flomot, TX",87,0.9063 
+"79235","48107","Crosby TX","Floydada, TX",25,0.0076 
+"79235","48153","Floyd TX","Floydada, TX",3265,0.9906 
+"79235","48345","Motley TX","Floydada, TX",6,0.0018 
+"79236","48269","King TX","Guthrie, TX (PO boxes)",202,1 
+"79237","48129","Donley TX","Hedley, TX",405,1 
+"79239","48191","Hall TX","Lakeview, TX",103,1 
+"79240","48129","Donley TX","Lelia Lake, TX",62,1 
+"79241","48153","Floyd TX","Lockney, TX",2002,0.994 
+"79241","48437","Swisher TX","Lockney, TX",12,0.006 
+"79243","48107","Crosby TX","Mcadoo, TX",10,0.1235 
+"79243","48125","Dickens TX","Mcadoo, TX",71,0.8765 
+"79244","48345","Motley TX","Matador, TX",649,1 
+"79245","48075","Childress TX","Memphis, TX",9,0.0041 
+"79245","48087","Collingsworth TX","Memphis, TX",29,0.0132 
+"79245","48129","Donley TX","Memphis, TX",5,0.0023 
+"79245","48191","Hall TX","Memphis, TX",2149,0.9804 
+"79247","48487","Wilbarger TX","Odell, TX",54,1 
+"79248","48101","Cottle TX","Paducah, TX",1296,0.9481 
+"79248","48125","Dickens TX","Paducah, TX",10,0.0073 
+"79248","48155","Foard TX","Paducah, TX",8,0.0059 
+"79248","48269","King TX","Paducah, TX",53,0.0388 
+"79250","48107","Crosby TX","Petersburg, TX",26,0.0203 
+"79250","48153","Floyd TX","Petersburg, TX",37,0.0289 
+"79250","48189","Hale TX","Petersburg, TX",1168,0.9118 
+"79250","48303","Lubbock TX","Petersburg, TX",50,0.039 
+"79251","48087","Collingsworth TX","Quail, TX",59,1 
+"79252","48101","Cottle TX","Quanah, TX",12,0.0042 
+"79252","48197","Hardeman TX","Quanah, TX",2835,0.9958 
+"79255","48045","Briscoe TX","Quitaque, TX",433,0.9078 
+"79255","48153","Floyd TX","Quitaque, TX",29,0.0608 
+"79255","48345","Motley TX","Quitaque, TX",15,0.0314 
+"79256","48125","Dickens TX","Roaring Springs, TX",11,0.0383 
+"79256","48345","Motley TX","Roaring Springs, TX",276,0.9617 
+"79257","48045","Briscoe TX","Silverton, TX",941,0.9926 
+"79257","48437","Swisher TX","Silverton, TX",7,0.0074 
+"79258","48153","Floyd TX","South Plains, TX (PO boxes)",20,1 
+"79259","48075","Childress TX","Tell, TX",30,0.625 
+"79259","48191","Hall TX","Tell, TX",18,0.375 
+"79261","48191","Hall TX","Turkey, TX",384,1 
+"79311","48189","Hale TX","Abernathy, TX",2518,0.7238 
+"79311","48303","Lubbock TX","Abernathy, TX",961,0.2762 
+"79312","48279","Lamb TX","Amherst, TX",934,1 
+"79313","48219","Hockley TX","Anton, TX",1207,0.8659 
+"79313","48279","Lamb TX","Anton, TX",127,0.0911 
+"79313","48303","Lubbock TX","Anton, TX",60,0.043 
+"79314","48079","Cochran TX","Bledsoe, TX (PO boxes)",61,1 
+"79316","48445","Terry TX","Brownfield, TX",10619,1 
+"79322","48107","Crosby TX","Crosbyton, TX",1720,1 
+"79323","48165","Gaines TX","Denver City, TX",872,0.1333 
+"79323","48501","Yoakum TX","Denver City, TX",5669,0.8667 
+"79324","48017","Bailey TX","Enochs, TX",50,1 
+"79325","48017","Bailey TX","Farwell, TX",42,0.0184 
+"79325","48369","Parmer TX","Farwell, TX",2241,0.9816 
+"79326","48279","Lamb TX","Fieldton, TX",22,1 
+"79329","48303","Lubbock TX","Idalou, TX",3214,1 
+"79330","48169","Garza TX","Justiceburg, TX",169,1 
+"79331","48033","Borden TX","Lamesa, TX",2,0.0002 
+"79331","48115","Dawson TX","Lamesa, TX",11760,0.9945 
+"79331","48165","Gaines TX","Lamesa, TX",13,0.0011 
+"79331","48317","Martin TX","Lamesa, TX",50,0.0042 
+"79336","48079","Cochran TX","Levelland, TX",7,0.0004 
+"79336","48219","Hockley TX","Levelland, TX",15946,0.9996 
+"79339","48219","Hockley TX","Littlefield, TX",150,0.0222 
+"79339","48279","Lamb TX","Littlefield, TX",6594,0.9778 
+"79342","48165","Gaines TX","Loop, TX",322,1 
+"79343","48107","Crosby TX","Lorenzo, TX",1139,0.8596 
+"79343","48303","Lubbock TX","Lorenzo, TX",186,0.1404 
+"79344","48017","Bailey TX","Maple, TX",2,1 
+"79345","48305","Lynn TX","Meadow, TX",37,0.0432 
+"79345","48445","Terry TX","Meadow, TX",820,0.9568 
+"79346","48017","Bailey TX","Morton, TX",66,0.0315 
+"79346","48079","Cochran TX","Morton, TX",2029,0.9685 
+"79347","48017","Bailey TX","Muleshoe, TX",6621,0.9236 
+"79347","48069","Castro TX","Muleshoe, TX",46,0.0064 
+"79347","48279","Lamb TX","Muleshoe, TX",91,0.0127 
+"79347","48369","Parmer TX","Muleshoe, TX",411,0.0573 
+"79350","48303","Lubbock TX","New Deal, TX (PO boxes)",341,1 
+"79351","48033","Borden TX","Odonnell, TX",93,0.0877 
+"79351","48115","Dawson TX","Odonnell, TX",171,0.1612 
+"79351","48305","Lynn TX","Odonnell, TX",797,0.7512 
+"79353","48219","Hockley TX","Pep, TX",38,1 
+"79355","48501","Yoakum TX","Plains, TX",1867,1 
+"79356","48107","Crosby TX","Post, TX",44,0.0077 
+"79356","48169","Garza TX","Post, TX",5556,0.9756 
+"79356","48305","Lynn TX","Post, TX",95,0.0167 
+"79357","48107","Crosby TX","Ralls, TX",1972,1 
+"79358","48219","Hockley TX","Ropesville, TX",1173,0.8787 
+"79358","48303","Lubbock TX","Ropesville, TX",142,0.1064 
+"79358","48445","Terry TX","Ropesville, TX",20,0.015 
+"79359","48165","Gaines TX","Seagraves, TX",2588,0.9243 
+"79359","48445","Terry TX","Seagraves, TX",95,0.0339 
+"79359","48501","Yoakum TX","Seagraves, TX",117,0.0418 
+"79360","48165","Gaines TX","Seminole, TX",17803,1 
+"79363","48219","Hockley TX","Shallowater, TX",62,0.0099 
+"79363","48303","Lubbock TX","Shallowater, TX",6197,0.9901 
+"79364","48107","Crosby TX","Slaton, TX",8,0.001 
+"79364","48169","Garza TX","Slaton, TX",75,0.0094 
+"79364","48303","Lubbock TX","Slaton, TX",7772,0.9733 
+"79364","48305","Lynn TX","Slaton, TX",130,0.0163 
+"79366","48303","Lubbock TX","Ransom Canyon, TX",1189,1 
+"79367","48219","Hockley TX","Smyer, TX (PO boxes)",594,1 
+"79369","48279","Lamb TX","Spade, TX (PO boxes)",83,1 
+"79370","48107","Crosby TX","Spur, TX",183,0.1291 
+"79370","48125","Dickens TX","Spur, TX",1202,0.8483 
+"79370","48169","Garza TX","Spur, TX",16,0.0113 
+"79370","48263","Kent TX","Spur, TX",16,0.0113 
+"79371","48017","Bailey TX","Sudan, TX",123,0.0924 
+"79371","48279","Lamb TX","Sudan, TX",1208,0.9076 
+"79372","48219","Hockley TX","Sundown, TX (PO boxes)",1247,1 
+"79373","48305","Lynn TX","Tahoka, TX",3068,1 
+"79376","48445","Terry TX","Tokio, TX",34,0.5313 
+"79376","48501","Yoakum TX","Tokio, TX",30,0.4688 
+"79377","48115","Dawson TX","Welch, TX",276,1 
+"79378","48445","Terry TX","Wellman, TX (PO boxes)",241,1 
+"79379","48079","Cochran TX","Whiteface, TX (PO boxes)",448,1 
+"79380","48219","Hockley TX","Whitharral, TX (PO boxes)",119,1 
+"79381","48305","Lynn TX","Wilson, TX",1297,1 
+"79382","48219","Hockley TX","Wolfforth, TX",16,0.0019 
+"79382","48303","Lubbock TX","Wolfforth, TX",8433,0.9981 
+"79383","48305","Lynn TX","New Home, TX (PO boxes)",75,1 
+"79401","48303","Lubbock TX","Lubbock, TX",8775,1 
+"79403","48303","Lubbock TX","Lubbock, TX",15604,1 
+"79404","48303","Lubbock TX","Lubbock, TX",9956,1 
+"79406","48303","Lubbock TX","Lubbock, TX",6848,1 
+"79407","48219","Hockley TX","Lubbock, TX",985,0.0424 
+"79407","48303","Lubbock TX","Lubbock, TX",22223,0.9576 
+"79410","48303","Lubbock TX","Lubbock, TX",8615,1 
+"79411","48303","Lubbock TX","Lubbock, TX",7297,1 
+"79412","48303","Lubbock TX","Lubbock, TX",14834,1 
+"79413","48303","Lubbock TX","Lubbock, TX",20962,1 
+"79414","48303","Lubbock TX","Lubbock, TX",17537,1 
+"79415","48303","Lubbock TX","Lubbock, TX",17499,1 
+"79416","48303","Lubbock TX","Lubbock, TX",36251,1 
+"79423","48303","Lubbock TX","Lubbock, TX",42214,0.9977 
+"79423","48305","Lynn TX","Lubbock, TX",97,0.0023 
+"79424","48303","Lubbock TX","Lubbock, TX",53479,1 
+"79501","48253","Jones TX","Anson, TX",3594,1 
+"79502","48433","Stonewall TX","Aspermont, TX",1087,1 
+"79503","48207","Haskell TX","Avoca, TX",10,0.0446 
+"79503","48253","Jones TX","Avoca, TX",214,0.9554 
+"79504","48059","Callahan TX","Baird, TX",2964,0.9946 
+"79504","48417","Shackelford TX","Baird, TX",16,0.0054 
+"79505","48275","Knox TX","Benjamin, TX",223,1 
+"79506","48081","Coke TX","Blackwell, TX",284,0.4349 
+"79506","48353","Nolan TX","Blackwell, TX",369,0.5651 
+"79508","48441","Taylor TX","Buffalo Gap, TX",1256,1 
+"79510","48059","Callahan TX","Clyde, TX",7947,0.9952 
+"79510","48083","Coleman TX","Clyde, TX",38,0.0048 
+"79511","48033","Borden TX","Coahoma, TX",56,0.0474 
+"79511","48227","Howard TX","Coahoma, TX",1126,0.9526 
+"79512","48335","Mitchell TX","Colorado City, TX",7960,0.9982 
+"79512","48415","Scurry TX","Colorado City, TX",14,0.0018 
+"79517","48033","Borden TX","Fluvanna, TX",80,0.3774 
+"79517","48415","Scurry TX","Fluvanna, TX",132,0.6226 
+"79518","48263","Kent TX","Girard, TX",107,1 
+"79519","48083","Coleman TX","Goldsboro, TX",37,0.5286 
+"79519","48399","Runnels TX","Goldsboro, TX",27,0.3857 
+"79519","48441","Taylor TX","Goldsboro, TX",6,0.0857 
+"79520","48151","Fisher TX","Hamlin, TX",61,0.0281 
+"79520","48253","Jones TX","Hamlin, TX",2102,0.9691 
+"79520","48433","Stonewall TX","Hamlin, TX",6,0.0028 
+"79521","48207","Haskell TX","Haskell, TX",3672,1 
+"79525","48253","Jones TX","Hawley, TX",2902,1 
+"79526","48151","Fisher TX","Hermleigh, TX",41,0.0383 
+"79526","48415","Scurry TX","Hermleigh, TX",1030,0.9617 
+"79527","48033","Borden TX","Ira, TX",34,0.0944 
+"79527","48415","Scurry TX","Ira, TX",326,0.9056 
+"79528","48263","Kent TX","Jayton, TX",572,0.9613 
+"79528","48433","Stonewall TX","Jayton, TX",23,0.0387 
+"79529","48207","Haskell TX","Knox City, TX",6,0.0047 
+"79529","48275","Knox TX","Knox City, TX",1266,0.9953 
+"79530","48399","Runnels TX","Lawn, TX",29,0.0494 
+"79530","48441","Taylor TX","Lawn, TX",558,0.9506 
+"79532","48335","Mitchell TX","Loraine, TX",771,0.9686 
+"79532","48353","Nolan TX","Loraine, TX",20,0.0251 
+"79532","48415","Scurry TX","Loraine, TX",5,0.0063 
+"79533","48207","Haskell TX","Lueders, TX",7,0.0168 
+"79533","48253","Jones TX","Lueders, TX",337,0.8082 
+"79533","48417","Shackelford TX","Lueders, TX",72,0.1727 
+"79533","48447","Throckmorton TX","Lueders, TX",1,0.0024 
+"79534","48151","Fisher TX","Mc Caulley, TX",208,1 
+"79535","48353","Nolan TX","Maryneal, TX",165,1 
+"79536","48253","Jones TX","Merkel, TX",833,0.1623 
+"79536","48353","Nolan TX","Merkel, TX",1,0.0002 
+"79536","48441","Taylor TX","Merkel, TX",4299,0.8375 
+"79537","48353","Nolan TX","Nolan, TX",69,1 
+"79538","48083","Coleman TX","Novice, TX",197,0.8107 
+"79538","48399","Runnels TX","Novice, TX",46,0.1893 
+"79539","48207","Haskell TX","O Brien, TX",151,1 
+"79540","48433","Stonewall TX","Old Glory, TX",101,1 
+"79541","48059","Callahan TX","Ovalo, TX",34,0.0361 
+"79541","48441","Taylor TX","Ovalo, TX",909,0.9639 
+"79543","48151","Fisher TX","Roby, TX",1005,1 
+"79544","48207","Haskell TX","Rochester, TX",434,1 
+"79545","48151","Fisher TX","Roscoe, TX",18,0.0102 
+"79545","48353","Nolan TX","Roscoe, TX",1737,0.9802 
+"79545","48415","Scurry TX","Roscoe, TX",17,0.0096 
+"79546","48151","Fisher TX","Rotan, TX",1755,0.9761 
+"79546","48415","Scurry TX","Rotan, TX",15,0.0083 
+"79546","48433","Stonewall TX","Rotan, TX",28,0.0156 
+"79547","48207","Haskell TX","Rule, TX",666,1 
+"79548","48207","Haskell TX","Rule, TX",165,1 
+"79549","48033","Borden TX","Snyder, TX",5,0.0003 
+"79549","48263","Kent TX","Snyder, TX",58,0.0038 
+"79549","48415","Scurry TX","Snyder, TX",15393,0.9959 
+"79553","48207","Haskell TX","Stamford, TX",93,0.029 
+"79553","48253","Jones TX","Stamford, TX",3109,0.971 
+"79556","48151","Fisher TX","Sweetwater, TX",412,0.0326 
+"79556","48353","Nolan TX","Sweetwater, TX",12232,0.9674 
+"79560","48151","Fisher TX","Sylvester, TX",138,0.965 
+"79560","48253","Jones TX","Sylvester, TX",5,0.035 
+"79561","48151","Fisher TX","Trent, TX",34,0.0504 
+"79561","48253","Jones TX","Trent, TX",35,0.0519 
+"79561","48353","Nolan TX","Trent, TX",135,0.2003 
+"79561","48441","Taylor TX","Trent, TX",470,0.6973 
+"79562","48441","Taylor TX","Tuscola, TX",5264,1 
+"79563","48441","Taylor TX","Tye, TX",1152,1 
+"79565","48335","Mitchell TX","Westbrook, TX",252,1 
+"79566","48353","Nolan TX","Wingate, TX",10,0.0408 
+"79566","48399","Runnels TX","Wingate, TX",105,0.4286 
+"79566","48441","Taylor TX","Wingate, TX",130,0.5306 
+"79567","48399","Runnels TX","Winters, TX",3071,0.9865 
+"79567","48441","Taylor TX","Winters, TX",42,0.0135 
+"79601","48059","Callahan TX","Abilene, TX",463,0.0175 
+"79601","48253","Jones TX","Abilene, TX",6532,0.2464 
+"79601","48417","Shackelford TX","Abilene, TX",267,0.0101 
+"79601","48441","Taylor TX","Abilene, TX",19253,0.7261 
+"79602","48059","Callahan TX","Abilene, TX",475,0.0187 
+"79602","48441","Taylor TX","Abilene, TX",24914,0.9813 
+"79603","48441","Taylor TX","Abilene, TX",23746,1 
+"79605","48441","Taylor TX","Abilene, TX",30239,1 
+"79606","48441","Taylor TX","Abilene, TX",27818,1 
+"79607","48441","Taylor TX","Dyess AFB, TX",2983,1 
+"79699","48441","Taylor TX","Abilene, TX",169,1 
+"79701","48329","Midland TX","Midland, TX",29748,1 
+"79703","48329","Midland TX","Midland, TX",21205,1 
+"79705","48317","Martin TX","Midland, TX",70,0.0016 
+"79705","48329","Midland TX","Midland, TX",44068,0.9984 
+"79706","48173","Glasscock TX","Midland, TX",32,0.001 
+"79706","48329","Midland TX","Midland, TX",31727,0.9975 
+"79706","48461","Upton TX","Midland, TX",46,0.0014 
+"79707","48329","Midland TX","Midland, TX",37632,1 
+"79713","48033","Borden TX","Ackerly, TX",30,0.0507 
+"79713","48115","Dawson TX","Ackerly, TX",249,0.4206 
+"79713","48227","Howard TX","Ackerly, TX",67,0.1132 
+"79713","48317","Martin TX","Ackerly, TX",246,0.4155 
+"79714","48003","Andrews TX","Andrews, TX",18588,1 
+"79718","48389","Reeves TX","Balmorhea, TX",668,1 
+"79719","48475","Ward TX","Barstow, TX (PO boxes)",300,1 
+"79720","48033","Borden TX","Big Spring, TX",35,0.0011 
+"79720","48173","Glasscock TX","Big Spring, TX",194,0.0061 
+"79720","48227","Howard TX","Big Spring, TX",31707,0.9925 
+"79720","48317","Martin TX","Big Spring, TX",12,0.0004 
+"79721","48227","Howard TX","Big Spring, TX (PO boxes)",1660,1 
+"79730","48371","Pecos TX","Coyanosa, TX (PO boxes)",218,1 
+"79731","48103","Crane TX","Crane, TX",4496,1 
+"79733","48227","Howard TX","Forsan, TX (PO boxes)",225,1 
+"79734","48243","Jeff Davis TX","Fort Davis, TX",1811,1 
+"79735","48371","Pecos TX","Fort Stockton, TX",13088,1 
+"79738","48033","Borden TX","Gail, TX",295,1 
+"79739","48173","Glasscock TX","Garden City, TX",858,0.9695 
+"79739","48383","Reagan TX","Garden City, TX",27,0.0305 
+"79741","48135","Ector TX","Goldsmith, TX",298,1 
+"79742","48475","Ward TX","Grandfalls, TX (PO boxes)",457,1 
+"79743","48371","Pecos TX","Imperial, TX (PO boxes)",324,1 
+"79744","48105","Crockett TX","Iraan, TX (PO boxes)",37,0.0318 
+"79744","48371","Pecos TX","Iraan, TX (PO boxes)",1127,0.9682 
+"79745","48495","Winkler TX","Kermit, TX",6857,1 
+"79748","48227","Howard TX","Knott, TX",69,0.6699 
+"79748","48317","Martin TX","Knott, TX",34,0.3301 
+"79749","48317","Martin TX","Lenorah, TX",379,1 
+"79752","48371","Pecos TX","Mc Camey, TX",13,0.0058 
+"79752","48461","Upton TX","Mc Camey, TX",2213,0.9942 
+"79754","48301","Loving TX","Mentone, TX (PO boxes)",57,1 
+"79755","48329","Midland TX","Midkiff, TX",7,0.0437 
+"79755","48461","Upton TX","Midkiff, TX",153,0.9562 
+"79756","48475","Ward TX","Monahans, TX",10318,1 
+"79758","48135","Ector TX","Gardendale, TX",2898,1 
+"79759","48135","Ector TX","Notrees, TX (PO boxes)",81,1 
+"79761","48135","Ector TX","Odessa, TX",30187,1 
+"79762","48135","Ector TX","Odessa, TX",40253,1 
+"79763","48135","Ector TX","Odessa, TX",39767,1 
+"79764","48135","Ector TX","Odessa, TX",26271,1 
+"79765","48135","Ector TX","Odessa, TX",16494,0.7794 
+"79765","48329","Midland TX","Odessa, TX",4669,0.2206 
+"79766","48103","Crane TX","Odessa, TX",179,0.0185 
+"79766","48135","Ector TX","Odessa, TX",8898,0.9185 
+"79766","48329","Midland TX","Odessa, TX",611,0.0631 
+"79769","48135","Ector TX","Odessa, TX (PO boxes)",13,1 
+"79770","48389","Reeves TX","Orla, TX (PO boxes)",38,1 
+"79772","48389","Reeves TX","Pecos, TX",13843,0.9983 
+"79772","48475","Ward TX","Pecos, TX",24,0.0017 
+"79776","48135","Ector TX","Penwell, TX (PO boxes)",3,1 
+"79777","48475","Ward TX","Pyote, TX (PO boxes)",105,1 
+"79778","48461","Upton TX","Rankin, TX (PO boxes)",892,1 
+"79780","48389","Reeves TX","Saragosa, TX (PO boxes)",101,1 
+"79781","48105","Crockett TX","Sheffield, TX (PO boxes)",13,0.0586 
+"79781","48371","Pecos TX","Sheffield, TX (PO boxes)",192,0.8649 
+"79781","48443","Terrell TX","Sheffield, TX (PO boxes)",17,0.0766 
+"79782","48173","Glasscock TX","Stanton, TX",21,0.0045 
+"79782","48317","Martin TX","Stanton, TX",4304,0.9274 
+"79782","48329","Midland TX","Stanton, TX",316,0.0681 
+"79783","48317","Martin TX","Tarzan, TX",142,1 
+"79785","48389","Reeves TX","Toyah, TX (PO boxes)",68,1 
+"79788","48475","Ward TX","Wickett, TX (PO boxes)",438,1 
+"79789","48495","Winkler TX","Wink, TX (PO boxes)",927,1 
+"79821","48141","El Paso TX","Anthony, TX",6416,1 
+"79830","48043","Brewster TX","Alpine, TX",7621,1 
+"79832","48043","Brewster TX","Alpine, TX",471,1 
+"79834","48043","Brewster TX","Big Bend National Park, TX (PO boxes)",150,1 
+"79835","48141","El Paso TX","Canutillo, TX",12412,1 
+"79836","48141","El Paso TX","Clint, TX",7217,1 
+"79837","48229","Hudspeth TX","Dell City, TX (PO boxes)",352,1 
+"79838","48141","El Paso TX","Fabens, TX (PO boxes)",7895,1 
+"79839","48229","Hudspeth TX","Fort Hancock, TX",1113,1 
+"79842","48043","Brewster TX","Marathon, TX (PO boxes)",445,1 
+"79843","48377","Presidio TX","Marfa, TX",2275,1 
+"79845","48377","Presidio TX","Presidio, TX (PO boxes)",3717,1 
+"79846","48377","Presidio TX","Redford, TX (PO boxes)",49,1 
+"79847","48109","Culberson TX","Salt Flat, TX",36,0.2384 
+"79847","48229","Hudspeth TX","Salt Flat, TX",115,0.7616 
+"79848","48443","Terrell TX","Sanderson, TX (PO boxes)",696,1 
+"79849","48141","El Paso TX","San Elizario, TX",14310,1 
+"79851","48229","Hudspeth TX","Sierra Blanca, TX (PO boxes)",1339,1 
+"79852","48043","Brewster TX","Terlingua, TX",712,1 
+"79853","48141","El Paso TX","Tornillo, TX (PO boxes)",3638,1 
+"79854","48243","Jeff Davis TX","Valentine, TX",145,0.8896 
+"79854","48377","Presidio TX","Valentine, TX",18,0.1104 
+"79855","48109","Culberson TX","Van Horn, TX (PO boxes)",2067,0.9981 
+"79855","48229","Hudspeth TX","Van Horn, TX (PO boxes)",4,0.0019 
+"79901","48141","El Paso TX","El Paso, TX",10027,1 
+"79902","48141","El Paso TX","El Paso, TX",20071,1 
+"79903","48141","El Paso TX","El Paso, TX",16425,1 
+"79904","48141","El Paso TX","El Paso, TX",31491,1 
+"79905","48141","El Paso TX","El Paso, TX",22483,1 
+"79906","48141","El Paso TX","El Paso, TX",5336,1 
+"79907","48141","El Paso TX","El Paso, TX",50971,1 
+"79908","48141","El Paso TX","El Paso, TX",3583,1 
+"79911","48141","El Paso TX","El Paso, TX",8023,1 
+"79912","48141","El Paso TX","El Paso, TX",78652,1 
+"79915","48141","El Paso TX","El Paso, TX",35234,1 
+"79916","48141","El Paso TX","Fort Bliss, TX",3800,1 
+"79918","48141","El Paso TX","Fort Bliss, TX",362,1 
+"79920","48141","El Paso TX","El Paso, TX (PO boxes)",51,1 
+"79922","48141","El Paso TX","El Paso, TX",8120,1 
+"79924","48141","El Paso TX","El Paso, TX",58721,1 
+"79925","48141","El Paso TX","El Paso, TX",38422,1 
+"79927","48141","El Paso TX","El Paso, TX",40290,1 
+"79928","48141","El Paso TX","El Paso, TX",78971,1 
+"79930","48141","El Paso TX","El Paso, TX",24553,1 
+"79932","48141","El Paso TX","El Paso, TX",29996,1 
+"79934","48141","El Paso TX","El Paso, TX",29386,1 
+"79935","48141","El Paso TX","El Paso, TX",17534,1 
+"79936","48141","El Paso TX","El Paso, TX",105150,1 
+"79938","48141","El Paso TX","El Paso, TX",96117,0.9976 
+"79938","48229","Hudspeth TX","El Paso, TX",236,0.0024 
+"88430","48359","Oldham TX","Nara Visa, NM",2,1 

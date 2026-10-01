@@ -1,0 +1,9 @@
+"variable","n","mean","sd","median"
+"lbw_pct",119,8.644,1.601,8.6
+"pfas_hazard_index_popwt",119,0.057,0.186,0
+"pfas_hi_log",119,0.046,0.125,0
+"median_hh_income",119,71823.078,17110.026,67369.848
+"poverty_rate",119,14.796,5.02,14.71
+"pct_bachelors_plus",119,23.785,9.643,21.373
+"pct_hispanic",119,34.513,21.652,26.467
+"pct_nh_black",119,8.594,6.763,7.087

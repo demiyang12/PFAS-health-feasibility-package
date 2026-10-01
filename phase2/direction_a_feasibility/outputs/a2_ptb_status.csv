@@ -1,0 +1,2 @@
+"status","reason","what_would_be_needed"
+"NOT RUN","No Texas DSHS county-level static table found for preterm birth; CDC WONDER D149 API mechanism identified but a working query was not completed within this pilot's scope (see 04_a2_read_birth_outcomes.R).","Either (a) resolve the exact WONDER D149 measure/value codes for gestational age <37 weeks and complete a scripted POST query, grouped by Texas county, or (b) a direct TX DSHS source for preterm birth by county (not found in this pass)."
