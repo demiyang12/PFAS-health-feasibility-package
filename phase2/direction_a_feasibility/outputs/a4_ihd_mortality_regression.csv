@@ -1,0 +1,2 @@
+"model","pfas_log_irr","irr_ci_lo","irr_ci_hi","z_value","p_value","n_counties","n_suppressed_excluded"
+"A4: IHD mortality (Negative Binomial, offset=log(pop))",0.998,0.9636,1.0336,-0.112,0.9106,224,12

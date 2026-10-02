@@ -1,0 +1,4 @@
+"subset","n_counties","std_beta","t_value"
+"All counties",197,-0.0767,-3.054
+"Excl. top 3 highest-exposure counties",194,-0.0718,-2.283
+"Excl. top 8 highest-exposure counties",189,-0.0972,-2.321

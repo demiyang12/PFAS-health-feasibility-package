@@ -1,0 +1,4 @@
+"model","morans_i","p_value"
+"No county FE",0.2781,"3.42e-83"
+"+ county fixed effects",0.0318,"7.52e-13"
+"+ county random effect (lme4)",0.0547,"8.27e-05"

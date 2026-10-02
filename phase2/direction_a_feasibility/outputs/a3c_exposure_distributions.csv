@@ -1,0 +1,4 @@
+"exposure","n","mean","median","iqr","max"
+"pfas_hazard_index_phase1 (baseline)",1223,0.065,0,0.0127,1.8822
+"pfas_hazard_index_popwt (A3a equal-split)",1223,0.0618,0,0.017,1.8822
+"pfas_hazard_index_hybrid (A3c TWDB polygon)",1212,0.0647,0,0.0187,1.8822

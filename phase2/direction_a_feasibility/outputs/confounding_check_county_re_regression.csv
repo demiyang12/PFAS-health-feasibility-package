@@ -1,0 +1,2 @@
+"model","pfas_beta","pfas_se_hc1","pfas_std_beta","pfas_p","r2","adj_r2","n","n_params","icc_pct"
+"A1 adjusted, county RANDOM effect (lme4)",-1.4742,0.5192,-0.0517,NA,NA,NA,1223,NA,25.7

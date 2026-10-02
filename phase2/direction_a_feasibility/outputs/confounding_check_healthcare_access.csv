@@ -1,0 +1,3 @@
+"model","pfas_beta","pfas_se_hc1","pfas_std_beta","pfas_p","r2","uninsured_beta","uninsured_p","n"
+"A1 adjusted (same sample, P1_COV only)",-2.707,0.4905,-0.09504,0.00000003395,0.7196,NA,NA,1223
+"A1 adjusted + uninsured rate",-2.67,0.4876,-0.09372,0.00000004355,0.735,0.7689,0.000000003734,1223

@@ -1,0 +1,6 @@
+"source_variable","pearson","spearman"
+"n_pfas_tri_within_10km",-0.006,0.078
+"n_pfas_tri_within_20km",0.001,0.087
+"pfas_tri_release_lb_within_20km",0.008,0.153
+"npl_within_10km",-0.002,0.077
+"n_npdes_within_10km",0.032,0.377

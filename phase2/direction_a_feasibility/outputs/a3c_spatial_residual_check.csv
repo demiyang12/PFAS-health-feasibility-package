@@ -1,0 +1,3 @@
+"model","morans_i","p_value"
+"A3c adjusted (TWDB polygon alone)",0.282,"1.15e-84"
+"A3c + combined (geography + source)",0.272,"9.67e-81"

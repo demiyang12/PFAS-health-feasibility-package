@@ -1,0 +1,5 @@
+"exposure","model","morans_i","p_value"
+"A1 baseline","crude",0.427,"3.14e-185"
+"A1 baseline","adjusted",0.278,"3.42e-83"
+"A3a alternative","crude",0.429,"1.43e-186"
+"A3a alternative","adjusted",0.28,"3.1e-84"

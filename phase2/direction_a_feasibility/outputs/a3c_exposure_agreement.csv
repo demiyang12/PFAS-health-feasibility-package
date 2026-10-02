@@ -1,0 +1,4 @@
+"comparison","pearson","spearman"
+"Phase1 vs A3a (equal-split)",0.979,0.997
+"Phase1 vs A3c (TWDB polygon)",0.944,0.937
+"A3a vs A3c",0.958,0.94
