@@ -88,10 +88,31 @@ as a comparison between a "some PFAS detected" group of 73 counties and a
 unchanged (std β: −0.077 → −0.072 → −0.098; still significant each time;
 `outputs` from the interactive session), so this is **not an outlier-driven
 artifact** — it is a real, if coarse, group-level contrast. Notably, the
-highest-exposure counties (Jones, Taylor, Martin, Ector, Midland, Howard,
-Callahan, Calhoun) cluster in the **Permian Basin oil/gas region** of West
-Texas — a specific industrial geography that plausibly differs from the
-rest of the state on many dimensions besides PFAS.
+highest-exposure counties are geographically mixed rather than one clean
+cluster. Of the top eight by this variable (Jones, Taylor, Martin, Calhoun,
+Ector, Callahan, Midland, Howard), four are in the **Permian Basin oil/gas
+region** (Martin, Ector, Midland, Howard), three are in the Abilene /
+West-Central area (Jones, Taylor, Callahan), and one is on the Gulf Coast
+(Calhoun). Under A2's population-weighted county measure
+(`a2_county_exposure_table.csv`), the top 15 include seven Permian counties
+(Howard, Glasscock, Midland, Ector, Crane, Martin, Borden), but the four
+highest (Shackelford, Jones, Taylor, Callahan) are in the Abilene area.
+Coverage matters here: Shackelford, Crane, Martin, Borden and Glasscock rest
+on only 3–21% of residents having any UCMR5-linked exposure (Shackelford's
+own three ZCTAs have none; its value comes from 267 residents), so those
+rankings are unreliable. The well-covered high-exposure counties (94–100%
+coverage) are Taylor, Midland, Ector, Howard and Tom Green. The Abilene-area
+values are also largely one source rather than four: the City of Abilene
+surface-water system (HI 1.88) and neighbouring systems that appear to buy
+its water (Hawley WSC in Jones; Potosi WSC, Tye and Dyess AFB in Taylor; Eula
+WSC and Clyde in Callahan; HI 0.4–1.7). Dyess AFB's own system is classified
+as purchased surface water with HI 1.60, so its tap-water value cannot be
+read as a base-specific AFFF signal. Source-water type is itself a dominant
+correlate of detection statewide (any-detect 85% in surface-water and
+purchased-surface-water systems vs 12% in groundwater systems). An
+oil/gas-related geography is therefore a plausible but only partly supported
+reading; other sources (AFFF at installations or airports, upstream
+wastewater) are not excluded.
 
 ## Test 4 — CDC PLACES's own methodology confirms the county-random-effect mechanism
 

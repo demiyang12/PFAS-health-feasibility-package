@@ -162,8 +162,8 @@ strong corroborating evidence that the PLACES-based between-county pattern is su
 product of PLACES's own estimation methodology rather than a real PFAS–cardiometabolic
 relationship in this dataset. (A supporting robustness check also confirmed the between-county
 PLACES effect is not an artifact of a few outlier counties — removing the top 3–8
-highest-exposure counties, which cluster in the Permian Basin oil/gas region, left it materially
-unchanged — so the PLACES-side finding was real and robust on its own terms; it simply does not
+highest-exposure counties, a geographically mixed set that includes Permian Basin oil/gas
+counties but is not limited to them, left it materially unchanged — so the PLACES-side finding was real and robust on its own terms; it simply does not
 replicate with an independent outcome.)
 
 ## 8. Final conclusion
@@ -218,8 +218,9 @@ Consistent with the task scope, no advanced model is proposed here.
 3. The most literature-consistent remaining path, raised but not yet tested in this branch, is
    narrowing from a statewide ecological design to a **hotspot/matched-comparison design**
    centered on known concentrated PFAS sources (e.g., AFFF-associated military/airport sites,
-   or the Permian Basin oil/gas counties identified in §6) against demographically similar
-   non-industrial counties — closer in spirit to the point-source studies (e.g., the C8 Science
+   or Permian Basin oil/gas counties, which make up only part of the highest-exposure set
+   described in §6 — the Abilene area and others rank as high or higher) against
+   demographically similar non-industrial counties — closer in spirit to the point-source studies (e.g., the C8 Science
    Panel) where ecological PFAS health effects have actually been detected historically.
 4. The 420 ZCTAs where UCMR5 and source-pressure evidence disagree
    (`outputs/a3b_hotspot_overlap.csv`) and the 1,120/34 eligibility split from A3c
